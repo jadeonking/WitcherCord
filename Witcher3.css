@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.5"}*//{}//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.5"}*//{}
+//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.0"}*//{}//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.0"}*//{}
 
 /*
                      _                _                                   _ 
@@ -282,13 +282,19 @@ textarea {
 .private-channels .search-result.selected,
 .private-channels .search-result:hover {
 	background:rgba(25,25,25,1) !important;
+    width:96%
 }
 
 .guild-channels ul .channel:not(.selected):hover,
 .private-channels .channel:not(.selected):hover {
-	background:rgba(35,35,35,.75) !important;
+	background:rgba(25,25,25,.75) !important;
 }
-
+.guild-channels ul .channel-voice:not(.selected) {
+    width:85%
+}
+.guild-channels ul .channel-text:not(.selected):hover {
+    width:96%
+}
 .guild-channels ul .channel:not(.selected):before,
 .guild-channels ul .channel.selected:before,
 .guild-channels ul .channel.selected:hover:before,
@@ -297,7 +303,7 @@ textarea {
 .private-channels .channel.selected:hover:before,
 .private-channels .search-result.selected:before,
 .private-channels .search-result:hover:before {
-	border-left:4px solid #990000 !important;
+	border-left:6px solid #990000 !important;
 }
 
 .private-channels .channel .icon-friends {
@@ -868,6 +874,9 @@ textarea {
     margin:10px 0 0 0;
     color:#cccccc
 }
+.channel-textarea {
+    margin:23
+}
 
 .channel-textarea-guard button {
 	background:#666666 !important;
@@ -877,8 +886,8 @@ textarea {
 	background:#666666 !important;
 }
 
-.typing {
-	font-size:11px;
+.theme-dark .chat form .typing {
+	margin:0px 0px -7px 8px;
 }
 
 .spoiler span {display:none;}
@@ -1002,12 +1011,16 @@ input:focus {
 }
 
 .channel-members .invite-btn:hover {
-	background:#990000;
+    background:#990000;
+}    
+.theme-dark .channel-members .member.popout-open {
+    background:#232323;
+    width:90%
 }
 
 .channel-members .member:hover {
 	background:rgba(35,35,35,0.75) !important;
-}
+}	width:50% 
 
 .channel-members .member .member-username {
 	font-size:14px;
