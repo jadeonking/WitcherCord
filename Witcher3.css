@@ -288,12 +288,13 @@ textarea {
 .guild-channels ul .channel:not(.selected):hover,
 .private-channels .channel:not(.selected):hover {
 	background:rgba(25,25,25,.75) !important;
+    width:96%
 }
 .guild-channels ul .channel-voice:not(.selected) {
-    width:85%
+    width:85% !important;
 }
 .guild-channels ul .channel-text:not(.selected):hover {
-    width:96%
+    width:96% !important;
 }
 .guild-channels ul .channel:not(.selected):before,
 .guild-channels ul .channel.selected:before,
