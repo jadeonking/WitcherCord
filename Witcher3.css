@@ -168,7 +168,8 @@ textarea {
 }
 
 .guild-channels header h2,.guild-channels ul .channel a {
-	color:rgba(255,255,255,1);
+	color:#cccccc;
+    opacity:.8
 }
 
 .guilds {
@@ -342,9 +343,6 @@ textarea {
 .private-channels .channel .channel-name {
     color:#e5e5e5;
     opacity:1;
-}
-.private-channels .channel .channel-activity {
-    color:#b2b2b2;
 }
 
 /*
@@ -1013,10 +1011,28 @@ input:focus {
 
 .channel-members .invite-btn:hover {
     background:#990000;
-}    
+}
+
 .theme-dark .channel-members .member.popout-open {
     background:#232323;
     width:90%
+}
+.channel-members .member .member-activity {
+	color:#b2b2b2;
+}
+
+.channel-members .member .member-activity strong {
+    color:#cccccc;
+    font-style:italic;
+    font-weight:600;
+}
+.private-channels .channel .channel-activity strong {
+    color:#cccccc;
+    font-style:italic;
+    font-weight:600;
+}
+.private-channels .channel .channel-activity {
+    color:#b2b2b2
 }
 
 .channel-members .member:hover {
