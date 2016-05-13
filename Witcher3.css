@@ -179,6 +179,7 @@ textarea {
 .guilds-add {
 	font-size:30px;
 	background:#000;
+    border-radius:0px
 }
 
 .guilds .friends-online {
@@ -186,11 +187,11 @@ textarea {
 }
 
 .guilds li .guild-inner {
-	background:#232323 !important;
+	background:transparent !important;
 }
 
 .guilds li.active .guild-inner {
-	background:#232323 !important;
+	background:transparent !important;
 	animation: colorPuls 0s infinite alternate;
 }
 
@@ -200,18 +201,22 @@ textarea {
 }
 
 .guilds li .guild-inner:hover {
-	background:#191919 !important;
+	background:transparent !important;
 }
 
 .guilds li .guild-inner a, .guilds li, .guilds li .avatar-small {
 	width:40px;
 	height:40px;
 }
+.guilds li .guild-inner {
+    border-radius:0px !important
+}
 
 .guilds li .avatar-small {
 	width:40px;
 	height:40px;
 	background-size: 40px 40px;
+    border-radius:0px !important
 }
 
 .guilds li .guild-inner {
@@ -255,7 +260,7 @@ textarea {
     height: 20px;
     border-radius: 25px;
     overflow: hidden;
-    background:#232323;
+    background:transparent;
 }
 
 .guilds-error {
@@ -283,19 +288,26 @@ textarea {
 .private-channels .search-result.selected,
 .private-channels .search-result:hover {
 	background:rgba(25,25,25,1) !important;
-    width:96%
+    width:90%;
+    border-radius:20px;
+    padding-right:10px
 }
 
 .guild-channels ul .channel:not(.selected):hover,
 .private-channels .channel:not(.selected):hover {
 	background:rgba(25,25,25,.75) !important;
-    width:96%
+    width:90%;
+    border-radius:20px;
+    padding-right:10px
 }
 .guild-channels ul .channel-voice:not(.selected) {
-    width:85% !important;
+    width:78% !important;
+    border-radius:10px !important;
+    padding-right:18px !important
 }
 .guild-channels ul .channel-text:not(.selected):hover {
-    width:96% !important;
+    width:90% !important;
+    padding-right:10px !important;
 }
 .guild-channels ul .channel:not(.selected):before,
 .guild-channels ul .channel.selected:before,
@@ -305,14 +317,19 @@ textarea {
 .private-channels .channel.selected:hover:before,
 .private-channels .search-result.selected:before,
 .private-channels .search-result:hover:before {
-	border-left:6px solid #990000 !important;
+	border-left:0px solid #990000 !important;
+}
+.private-channels .search-result.selected,
+.private-channels .search-result:hover {
+    width:80% !important
+}
+.private-channels .channel .icon-friends {
+	background-color:transparent !important;
+    border-radius:0px;
 }
 
-.private-channels .channel .icon-friends {
-	background-color:rgba(25,25,25,1) !important;
-}
 .private-channels .channel.selected .icon-friends {
-	background-color:#e5e5e5 !important;
+	background-color:transparent !important;
 }
 
 .guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
@@ -769,6 +786,12 @@ textarea {
     background-color:rgba(60,60,60,1) !important;
     color:#e5e5e5 !important;
 }
+.message-group .comment .markup {
+    color:#cccccc;
+}
+.message-group h2 .timestamp {
+    color:#cccccc;
+}
 
 .messages .message-group {
 	border-bottom:none !important;
@@ -933,11 +956,14 @@ textarea {
 
 */
 
-#friends .btn,
-.add-friend-popout .btn,
-.private-channels .channel.selected .icon-friends {
-	background-color:#232323 !important;
-    color:#e5e5e5
+#friends .btn {
+    background-color:#232323 !important;
+    color:#e5e5e5;
+}
+
+.add-friend-popout .btn
+	background-color:#232323 !important; {
+	color:#e5e5e5
 }
 
 .add-friend-popout .btn:disabled {
@@ -953,7 +979,7 @@ input:focus {
 }
 
 .private-channels .channel:hover:not(.selected) .icon-friends {
-	background-color:#232323 !important;
+	background-color:transparent !important;
 }
 
 .private-channels .channel.btn-friends .badge {
@@ -996,6 +1022,27 @@ input:focus {
 	background:rgba(35,35,35,0.65) !important;
 }
 
+#friends 
+.friends-table 
+.friends-row 
+.friends-column-actions .friends-action.friends-action-red {
+    background:#232323;
+    color:#cccccc
+}
+
+#friends 
+.friends-table 
+.friends-row 
+.friends-column-actions .friends-action.friends-action-red:hover {
+    background:#990000;
+    color:#e5e5e5;
+}
+
+
+
+
+
+
 /*
                        _ _     _                   _   _             
  _   _ ___  ___ _ __  | (_)___| |_   ___  ___  ___| |_(_) ___  _ __  
@@ -1015,7 +1062,9 @@ input:focus {
 
 .theme-dark .channel-members .member.popout-open {
     background:#232323;
-    width:90%
+    width:72%;
+    border-radius:15px;
+    padding-right:20px
 }
 .channel-members .member .member-activity {
 	color:#b2b2b2;
@@ -1037,7 +1086,13 @@ input:focus {
 
 .channel-members .member:hover {
 	background:rgba(35,35,35,0.75) !important;
-}	width:50% 
+    width:72%;
+    border-radius:20px;
+    padding-right:20px
+}
+.channel-members .bot-tag {
+    margin-right:15px !important
+}
 
 .channel-members .member .member-username {
 	font-size:14px;
@@ -1056,10 +1111,26 @@ input:focus {
     border-top:0px solid #000;
     padding-top: 5px;
     padding-bottom: 5px;
+    color:#b2b2b2 !important;
 }
 
 .channel-members h2:first-of-type {
 	margin-top:0px !important;
+}
+.avatar-small {
+    border-radius:0px;
+}
+.avatar-popout {
+    border-radius:0px;
+}
+.avatar-large {
+    border-radius:0px;
+}
+.avatar-medium {
+    border-radius:0px;
+}
+.avatar-xsmall {
+    border-radius:0px;
 }
 
 .channel-members .member.member-status-offline .avatar-small {
@@ -1084,6 +1155,7 @@ input:focus {
     -webkit-transform: translateZ(0px);
     transform: translateZ(0px);
 }
+
 /*
                        _        __                                       _   
  _   _ ___  ___ _ __  (_)_ __  / _| ___    _ __   ___  _ __   ___  _   _| |_ 
@@ -1155,6 +1227,10 @@ input:focus {
 
 .user-popout .username-wrapper.has-nickname .username {
 	color:#cccccc;
+}
+.bot-tag.bot-tag-invert {
+    background:#990000;
+    color:#e5e5e5 !important;
 }
 
 .popout header,
@@ -1459,6 +1535,7 @@ input#help-query {
 
 .avatar-uploader a {
 	color:#b2b2b2;
+    border-radius:0px
 }
 .markdown-modal, .form
 .form-inner, .form .formheader, .form .form-actions,
@@ -1549,9 +1626,11 @@ button:first-of-type:before {
 .avatar-uploader a:hover {
 	color:#e5e5e5;
 }
-
 .avatar-uploader .avatar-uploader-inner {
-	border: 5px solid #191919;
+    border-radius:0px;
+    border:5px solid #191919;
+    background:#232323;
+
 }
 .form .control-group label a {
 	color:#b2b2b2
@@ -1710,13 +1789,12 @@ div.control-group .shortcut-recorder input[type=text] {
 .tab-bar.SIDE .tab-bar-item.selected {
 	background:#191919 !important;
 }
-
-.tab-bar.SIDE .tab-bar-item.selected:before {
-	border-color:#e5e5e5;
+.tab-bar.SIDE .tab-bar-item.selected {
+    background:#191919 !important;
 }
 
 .tab-bar.SIDE .tab-bar-item:before {
-	border-color:#cccccc;
+	border:hidden;
 }
 
 .popout header,
@@ -1836,10 +1914,6 @@ div.control-group .shortcut-recorder input[type=text] {
     color:#e5e5e5;
 }
 
-.avatar-uploader .avatar-uploader-inner {
-    background-color:#232323;
-}
-
 .create-guild-container .action.join:hover .btn {
     background-color:#990000 !important;
 }
@@ -1930,11 +2004,11 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 #settings-roles .roles li:hover:before {
-	background:#cccccc;
+	background:none;
 }
 
 #settings-roles .roles li:hover:not(.selected) {
-	background:#323232!important;
+	background:rgba(35,35,35,.50)!important;
 }
 
 #settings-roles .roles li.selected {
@@ -1942,7 +2016,7 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 #settings-roles .roles li.selected:before {
-	background:#e5e5e5;
+	background:none;
 }
 
 .btn-help {
@@ -2233,6 +2307,7 @@ input[type=checkbox]:checked+span:after {
 #user-profile-modal .avatar-profile {
 	border:hidden;
 	background-color:rgba(0,0,0,0);
+    border-radius:0px
 }
 
 #bd-customcss-attach-controls {
@@ -2291,14 +2366,14 @@ input[type=checkbox]:checked+span:after {
     color:#b2b2b2;
 }
 #voice-debug-modal #users-section .user-list li:not(.selected):hover {
-	background:#323232;
+	background:rgba(35,35,35,.50);
     color:#e5e5e5;
 }
 #voice-debug-modal #users-section .user-list li.selected:before {
-    background-color:#e5e5e5;
+    background:none;
 }
 #voice-debug-modal #users-section .user-list li:hover:not(.selected):before {
-    background:#323232;
+    background:none;
 }
 #voice-debug-modal #users-section .user-list li:not(.selected):before {
     background:#191919;
