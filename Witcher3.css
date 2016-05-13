@@ -192,12 +192,12 @@ textarea {
 
 .guilds li.active .guild-inner {
 	background:transparent !important;
-	animation: colorPuls 0s infinite alternate;
+	animation:colorPuls 0s infinite alternate;
 }
 
 @-webkit-keyframes colorPuls {
-      100% {background: #232323;}
-    0% {background: #fff;}
+      100% {background:#232323;}
+    0% {background:#fff;}
 }
 
 .guilds li .guild-inner:hover {
@@ -1038,11 +1038,6 @@ input:focus {
     color:#e5e5e5;
 }
 
-
-
-
-
-
 /*
                        _ _     _                   _   _             
  _   _ ___  ___ _ __  | (_)___| |_   ___  ___  ___| |_(_) ___  _ __  
@@ -1207,7 +1202,7 @@ input:focus {
 }
 
 .user-popout .footer .update-notice .protip {
-    color:#e5e5e5
+    color:#e5e5e5;
 }
 
 .user-popout .username-wrapper .username {
@@ -1217,8 +1212,14 @@ input:focus {
     color:#e5e5e5;
 }
 
+.user-popout .username-wrapper .activity strong {
+    color:#cccccc;
+    font-style:italic;
+    font-weight:600;
+}
 .user-popout .username-wrapper .activity {
     color:#b2b2b2;
+    
 }
 
 .user-popout .username-wrapper.has-nickname .discriminator {
