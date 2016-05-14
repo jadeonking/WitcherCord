@@ -289,7 +289,7 @@ textarea {
 .private-channels .search-result:hover {
 	background:rgba(25,25,25,1) !important;
     width:90%;
-    border-radius:20px;
+    border-radius:10px;
     padding-right:10px
 }
 
@@ -297,7 +297,7 @@ textarea {
 .private-channels .channel:not(.selected):hover {
 	background:rgba(25,25,25,.75) !important;
     width:90%;
-    border-radius:20px;
+    border-radius:10px;
     padding-right:10px
 }
 .guild-channels ul .channel-voice:not(.selected) {
@@ -946,6 +946,11 @@ textarea {
 .message-group.compact .message .markup .user-name {
     margin-right: 10px;
 }
+.guild-channels ul 
+.channel-text.unread:not(.selected):not(.channel-muted):before {
+    left:-8px;
+    top:11px
+}
 
 /*
   __      _                _       _ _     _   
@@ -1058,7 +1063,7 @@ input:focus {
 .theme-dark .channel-members .member.popout-open {
     background:#232323;
     width:72%;
-    border-radius:15px;
+    border-radius:10px;
     padding-right:20px
 }
 .channel-members .member .member-activity {
@@ -1082,7 +1087,7 @@ input:focus {
 .channel-members .member:hover {
 	background:rgba(35,35,35,0.75) !important;
     width:72%;
-    border-radius:20px;
+    border-radius:10px;
     padding-right:20px
 }
 .channel-members .bot-tag {
