@@ -890,6 +890,15 @@ textarea {
 .messages h2 span {
 	color:#cccccc !important;
 }
+.chat .welcome-message h1 {
+    color:#e5e5e5;
+}
+.chat .welcome-message strong {
+    color:#cccccc;
+}
+.chat .welcome-message p {
+    color:#b2b2b2
+}
 
 .messages .markup pre {
 	background:transparent !important;
