@@ -482,7 +482,7 @@ textarea {
 }
 
 .highlight {
-	color:#232323;
+	color:#e5e5e5;
 }
 
 .emoji-picker {
@@ -783,18 +783,69 @@ textarea {
 }
 
 .messages .message-group .markup .highlight:hover {
-    background-color:rgba(60,60,60,1) !important;
+    background-color:rgba(35,35,35,1) !important;
     color:#e5e5e5 !important;
 }
 .message-group .comment .markup {
     color:#cccccc;
+    background:#191919;
+    
 }
 .message-group h2 .timestamp {
     color:#cccccc;
+
+}
+
+.messages h2 .user-name {
+}
+
+.embed {
+    border:none;
+    text-align:center !important;
+}
+
+.embed .embed-provider {
+    text-align:center;
+}
+
+.embed .embed-author {
+    text-align:center;
+}
+
+.embed .embed-title {
+    text-align:center;
+}
+
+.embed .embed-description {
+    display:none;
+}
+.embed.embed-link .embed-thumbnail {
+    display:none
 }
 
 .messages .message-group {
 	border-bottom:none !important;
+}
+.delete-message-modal .form-inner .message-group .comment .markup pre {
+    background:none;
+    border:none;
+}
+.delete-message-modal 
+.form-inner .message-group .comment .markup pre code {
+    background:#232323;
+    line-height:1.5;
+}
+.delete-message-modal .form-inner .message-group .highlight {
+	background:#232323;
+}
+.delete-message-modal 
+.form-inner .message-group .comment .markup code.inline {
+	background:#232323 !important;
+    line-height:2
+}
+
+.messages .markup {
+    background:none !important
 }
 
 .friends-table .messages .message-group .message-send-failed .markup,
@@ -815,6 +866,10 @@ textarea {
 	border:none !important;
 	background:none !important;
 }
+.message-group .mentioned .message-text:after {
+    border:none;
+    background:none;
+}
 
 .messages a {
 	color:#25ACE8 !important;
@@ -826,7 +881,8 @@ textarea {
 }
 
 .messages .comment .markup pre {
-	border-radius:0 !important;
+	border-radius:0px !important;
+    border:none
 }
 
 .messages h2 .user-name {
@@ -843,15 +899,15 @@ textarea {
 }
 
 .messages .markup pre code.hljs {
-    background:rgba(255,255,255,0.1) !important;
-    color:rgba(255,255,255,0.7) !important;
+    background:rgba(35,35,35,0.75) !important;
+    color:#b2b2b2 !important;
     padding:1em !important;
 }
 
 .modal-content .markup code.inline,
 .messages .markup code.inline {
-	background:rgba(102,102,102,0.3) !important;
-    color:rgba(230,230,230,0.75) !important;
+	background:rgba(35,35,35,0.75) !important;
+    color:#b2b2b2 !important;
 	padding:0.3em 0.6em !important;
 	border-radius:0 !important;
 }
@@ -859,7 +915,8 @@ textarea {
 .channel-textarea-upload {
 	border:hidden !important;
 }
-.theme-dark .channel-textarea.has-results .channel-textarea-inner {
+.theme-dark 
+.channel-textarea.has-results .channel-textarea-inner {
     border:hidden
 
 }
