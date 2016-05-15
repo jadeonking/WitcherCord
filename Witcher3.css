@@ -789,11 +789,9 @@ textarea {
 .message-group .comment .markup {
     color:#cccccc;
     background:#191919;
-    
 }
 .message-group h2 .timestamp {
     color:#cccccc;
-
 }
 
 .messages h2 .user-name {
@@ -1022,15 +1020,18 @@ textarea {
     background-color:#232323 !important;
     color:#e5e5e5;
 }
+.add-friend-popout {
+    border-radius:10px
+}
 
 .add-friend-popout .btn
 	background-color:#232323 !important; {
-	color:#e5e5e5
+	color:#e5e5e5;
 }
 
 .add-friend-popout .btn:disabled {
-	background-color:#990000 !important;
-	opacity:0.5;
+	background-color:#232323 !important;
+	opacity:1;
     color:#e5e5e5;
 }
 .add-friend-popout header
@@ -1039,6 +1040,11 @@ input:focus {
     color:#fff;
     border:solid 0px #191919
 }
+.add-friend-popout header input:not(focused) {
+    border:hidden;
+    background:#191919;
+}
+
 
 .private-channels .channel:hover:not(.selected) .icon-friends {
 	background-color:transparent !important;
