@@ -179,7 +179,7 @@ textarea {
 .guilds-add {
 	font-size:30px;
 	background:#000;
-    border-radius:0px
+    border-radius:8px
 }
 
 .guilds .friends-online {
@@ -209,14 +209,14 @@ textarea {
 	height:40px;
 }
 .guilds li .guild-inner {
-    border-radius:0px !important
+    border-radius:8px !important
 }
 
 .guilds li .avatar-small {
 	width:40px;
 	height:40px;
 	background-size: 40px 40px;
-    border-radius:0px !important
+    border-radius:8px !important
 }
 
 .guilds li .guild-inner {
@@ -258,7 +258,7 @@ textarea {
     line-height: 20px;
     width: 55px;
     height: 20px;
-    border-radius: 25px;
+    border-radius: 8px;
     overflow: hidden;
     background:transparent;
 }
@@ -289,7 +289,7 @@ textarea {
 .private-channels .search-result:hover {
 	background:rgba(25,25,25,1) !important;
     width:90%;
-    border-radius:10px;
+    border-radius:8px;
     padding-right:10px
 }
 
@@ -297,12 +297,12 @@ textarea {
 .private-channels .channel:not(.selected):hover {
 	background:rgba(25,25,25,.75) !important;
     width:90%;
-    border-radius:10px;
+    border-radius:8px;
     padding-right:10px
 }
 .guild-channels ul .channel-voice:not(.selected) {
     width:78% !important;
-    border-radius:10px !important;
+    border-radius:8px !important;
     padding-right:18px !important
 }
 .guild-channels ul .channel-text:not(.selected):hover {
@@ -741,11 +741,11 @@ textarea {
 }
 
 .chat .divider>span {
-	background:rgba(35,35,35,00.75) !important;
+	background:rgba(35,35,35,0.75) !important;
 	font-size:12px;
 	text-transform:uppercase;
 	margin:10px 0px;
-	border-radius: 25px;
+	border-radius: 8px;
 	opacity: 1;
     padding: 5px 15px;
     width: 100%;
@@ -755,7 +755,9 @@ textarea {
 
 .chat .divider.divider-red>span {
 	background: rgba(25,25,25,.75) !important;
-    color:#e5e5e5 !important;
+    color:#cccccc !important;
+    border-radius:8px;
+    opacity:1 !important;
 }
 
 .chat .divider:not(.divider-red)>span {
@@ -779,7 +781,7 @@ textarea {
     background-color:rgba(35,35,35,1) !important;
     color:#cccccc !important;
 	padding: 1px 4px;
-    border-radius: 0;
+    border-radius: 8px;
 }
 
 .messages .message-group .markup .highlight:hover {
@@ -839,7 +841,8 @@ textarea {
 .delete-message-modal 
 .form-inner .message-group .comment .markup code.inline {
 	background:#232323 !important;
-    line-height:2
+    line-height:2;
+    border-radius:8px
 }
 
 .messages .markup {
@@ -909,6 +912,7 @@ textarea {
     background:rgba(35,35,35,0.75) !important;
     color:#b2b2b2 !important;
     padding:1em !important;
+    border-radius:8px
 }
 
 .modal-content .markup code.inline,
@@ -916,7 +920,7 @@ textarea {
 	background:rgba(35,35,35,0.75) !important;
     color:#b2b2b2 !important;
 	padding:0.3em 0.6em !important;
-	border-radius:0 !important;
+	border-radius:8px !important;
 }
 
 .channel-textarea-upload {
@@ -1135,7 +1139,7 @@ input:focus {
 .theme-dark .channel-members .member.popout-open {
     background:#232323;
     width:72%;
-    border-radius:10px;
+    border-radius:8px;
     padding-right:20px
 }
 .channel-members .member .member-activity {
@@ -1159,7 +1163,7 @@ input:focus {
 .channel-members .member:hover {
 	background:rgba(35,35,35,0.75) !important;
     width:72%;
-    border-radius:10px;
+    border-radius:8px;
     padding-right:20px
 }
 .channel-members .bot-tag {
@@ -1190,19 +1194,19 @@ input:focus {
 	margin-top:0px !important;
 }
 .avatar-small {
-    border-radius:0px;
+    border-radius:8px;
 }
 .avatar-popout {
-    border-radius:0px;
+    border-radius:8px;
 }
 .avatar-large {
-    border-radius:0px;
+    border-radius:8px;
 }
 .avatar-medium {
-    border-radius:0px;
+    border-radius:8px;
 }
 .avatar-xsmall {
-    border-radius:0px;
+    border-radius:8px;
 }
 
 .channel-members .member.member-status-offline .avatar-small {
@@ -1239,6 +1243,7 @@ input:focus {
 
 .user-popout .header {
 	background:rgba(35,35,35,1) !important;
+    border-top-radius:8px !important;
 }
 
 .user-popout .avatar-wrapper .avatar-popout {
@@ -1252,13 +1257,13 @@ input:focus {
 	border-right:0px solid rgba(153,0,0,1);
     border-top:6px solid rgba(153,0,0,1);
 }
+
 .user-popout .body .section .label {
 	color:#e5e5e5;
 }
+
 .user-popout .body .notes textarea {
 	color:#cccccc;
-
-
 }
 
 .user-popout .footer {
@@ -1267,7 +1272,9 @@ input:focus {
     border-left:0px solid rgba(153,0,0,1);
 	border-right:0px solid rgba(153,0,0,1);
 	border-bottom:0px solid rgba(153,0,0,1);
+    border-bottom-radius:8px
 }
+
 .user-popout .footer .quick-message-wrapper .input {
     background:#232323;
     border:hidden;
@@ -2385,7 +2392,7 @@ input[type=checkbox]:checked+span:after {
 #user-profile-modal .avatar-profile {
 	border:hidden;
 	background-color:rgba(0,0,0,0);
-    border-radius:0px
+    border-radius:8px
 }
 
 #bd-customcss-attach-controls {
