@@ -176,21 +176,20 @@ textarea {
 	padding:18px 20px 85px 20px;
 }
 
-.guilds-add {
+.guilds-wrapper .guilds-add {
 	font-size:30px;
 	background:#000;
-    border-radius:8px
+    border-radius:8px;
+    width:40px !important;
+    height:40px !important;
+    margin-left:4px;
 }
 
-.guilds .friends-online {
-	margin-left:-5px;
-}
-
-.guilds li .guild-inner {
+.guilds .guild-inner {
 	background:transparent !important;
 }
 
-.guilds li.active .guild-inner {
+.guilds .active .guild-inner {
 	background:transparent !important;
 	animation:colorPuls 0s infinite alternate;
 }
@@ -200,27 +199,19 @@ textarea {
     0% {background:#fff;}
 }
 
-.guilds li .guild-inner:hover {
-	background:transparent !important;
+.guilds .guild-inner:hover {
+	background:transparen !important;
 }
 
-.guilds li .guild-inner a, .guilds li, .guilds li .avatar-small {
-	width:40px;
-	height:40px;
-}
-.guilds li .guild-inner {
-    border-radius:8px !important
+.guilds-wrapper .guilds .guild .guild-inner {
+    border-radius:20px !important;
+    line-height:40px;
 }
 
-.guilds li .avatar-small {
-	width:40px;
-	height:40px;
+.guilds-wrapper .guilds .guild .guild-inner a {
+    width:50px;
+	height:50px;
 	background-size: 40px 40px;
-    border-radius:8px !important
-}
-
-.guilds li .guild-inner {
-	line-height:40px;
 }
 
 .guilds .friends-icon {
@@ -234,11 +225,11 @@ textarea {
 	background-color:rgba(0,0,0,0.8);
 }
 
-.guilds-separator:after {
+.guilds-wrapper .guild-separator:after {
 	background:#e5e5e5;
 }
 
-.guilds li .guild-inner:before {
+.guilds .guild-inner:before {
 	left:-24px;
 }
 
@@ -246,12 +237,15 @@ textarea {
 .guild-channels ul .channel-text.unread:not(.selected):not(.channel-muted):before {
 	background:#e5e5e5;
 }
+.guilds-wrapper .guilds .guild.unread:before {
+    background:#e5e5e5;
+}
 
 .guilds li.active .guild-inner:before {
 	background:#fff !important;
 }
 
-.guilds .friends-online {
+.guilds-wrapper .guilds .friends-online {
 	color:#e5e5e5;
     font-size: 9.5px;
     margin-left: -7px;
@@ -261,6 +255,7 @@ textarea {
     border-radius: 8px;
     overflow: hidden;
     background:transparent;
+    margin-left:-3px;
 }
 
 .guilds-error {
@@ -1129,7 +1124,7 @@ input:focus {
 */
 
 .channel-members .invite-btn {
-	background:#666666;
+	background:rgba(35,35,35,.75);
 }
 
 .channel-members .invite-btn:hover {
@@ -1394,15 +1389,15 @@ input:focus {
 }
 
 .tooltip.tooltip-right:after {
-    border-right-color:#990000;
+    border-right-color:#e5e5e5;
 }
 
 .tooltip.tooltip-top:after {
-    border-top-color:#990000;
+    border-top-color:#e5e5e5;
 }
 
 .tooltip.tooltip-bottom:after {
-    border-bottom-color:#990000;
+    border-bottom-color:#e5e5e5;
 }
 
 /*
@@ -1618,9 +1613,9 @@ input#help-query {
     border-top:6px solid #990000
 }
 
-.avatar-uploader a {
+.avatar-uploader .avatar-uploader-inner {
 	color:#b2b2b2;
-    border-radius:0px
+    border-radius:8px
 }
 .markdown-modal, .form
 .form-inner, .form .formheader, .form .form-actions,
@@ -1722,6 +1717,22 @@ button:first-of-type:before {
 }
 .form .control-group .help-text {
     color:#cccccc !important;
+
+}
+
+.protip .label {
+    color:#cccccc;
+}
+
+.protip {
+    color:#b2b2b2;
+}
+.user-settings-appearance 
+.protip .tip, .user-settings-streamer-mode .protip .tip {
+    color:#b2b2b2;
+}
+.streamer-mode-enabled {
+    background:#191919
 }
 
 .settings .settings-header {
