@@ -1197,6 +1197,9 @@ input:focus {
 .avatar-large {
     border-radius:8px;
 }
+.avatar-xxlarge {
+    border-radius:8px
+}
 .avatar-medium {
     border-radius:8px;
 }
@@ -1565,20 +1568,24 @@ input:focus {
 .context-menu {
     background:#191919 !important;
 }
+
 .context-menu .item.danger {
     color:#cccccc !important;
 }
+
 .context-menu .item.danger:hover {
-    color:#e5e5e5 !important;
+ 	color:#e5e5e5 !important;
 }
 
 .context-menu .item:hover,
 .context-menu .item-subMenu {
-	background-color:#232323 !important;
+	background-color:#191919 !important;
 }
+
 .change-nickname-warning {
     background:#232323;
 }
+
 .need-help-modal .header {
     background:rgba(35,35,35,1);
     border-bottom:6px solid #990000
@@ -1596,6 +1603,7 @@ input:focus {
     box-radius:0px;
     box-sizing:border-box;
 }
+
 input#help-query {
     background:#191919 !important;
 }
@@ -1617,6 +1625,7 @@ input#help-query {
 	color:#b2b2b2;
     border-radius:8px
 }
+
 .markdown-modal, .form
 .form-inner, .form .formheader, .form .form-actions,
 .need-help-modal .footer, .markdown-modal .markdown-modal-footer {
@@ -1626,50 +1635,62 @@ input#help-query {
 .form .control-group label a:hover {
     color:#e5e5e5
 }
+
 .form .control-group input {
     background-color:#232323;
     border-radius:0px;
     line-height:34px;
     
 }
+
 .clipboard-input-inner button.copy {
     background-color:#232323;
     border-radius:0px;
     border:0px
 }
+
 .clipboard-input-inner {
     border:0px;
     border-radius:0px;
 }
+
 .clipboard-input-inner button.tweet {
     background-color:#232323;
     border:hidden
 }
+
 .clipboard-input-inner input {
     color:#cccccc;
     border-radius:0px;
     background:#232323
 }
+
 .clipboard-input-inner 
 button:first-of-type:before {
     width:0px;
 }
+
 .instant-invite-popout a {
     color:#cccccc;
 }
+
 .instant-invite-popout a:hover {
     color:#e5e5e5;
 }
+
 .instant-invite-popout hr {
     border:4px solid #990000;
 }
+
 .instant-invite-popout .actions .countdown {
     color:#e5e5e5;
 }
+
 .Select-menu-outer {
     background:#232323;
     border:0px;   
 }
+
 .has-value>.Select-control>.Select-value {
     background-color:#232323;
     padding:8px 52px 10px 10px;
@@ -1685,6 +1706,7 @@ button:first-of-type:before {
     border:0px solid #191919;
     background-color:#232323;
 }
+
 .Select-control {
     border-radius:0px;
 }    
@@ -1703,18 +1725,25 @@ button:first-of-type:before {
     color:#e5e5e5;
 }
 
+.avatar-uploader a {
+    color:#cccccc;
+}
+
 .avatar-uploader a:hover {
 	color:#e5e5e5;
 }
+
 .avatar-uploader .avatar-uploader-inner {
-    border-radius:0px;
+    border-radius:8px;
     border:5px solid #191919;
     background:#232323;
 
 }
+
 .form .control-group label a {
 	color:#b2b2b2
 }
+
 .form .control-group .help-text {
     color:#cccccc !important;
 
@@ -1727,10 +1756,12 @@ button:first-of-type:before {
 .protip {
     color:#b2b2b2;
 }
+
 .user-settings-appearance 
 .protip .tip, .user-settings-streamer-mode .protip .tip {
     color:#b2b2b2;
 }
+
 .streamer-mode-enabled {
     background:#191919
 }
@@ -1738,13 +1769,16 @@ button:first-of-type:before {
 .settings .settings-header {
 	background:#e5e5e5 !important;
 }
+
 .settings .settings-inner .settings-panel-header {
     color:#e5e5e5;
     
 }
+
 .instant-invites .instant-invites-list .instant-invite {
     color:#cccccc;
 }
+
 .instant-invites .instant-invites-list .instant-invite+.instant-invite {
     border-top:0px
 }
@@ -1752,28 +1786,35 @@ button:first-of-type:before {
 .instant-invites .instant-invites-list .instant-invite .countdown {
     color:#e5e5e5;
 }
+
 .instant-invites .instant-invites-list .instant-invite .countdown.countdown-never {
     color:#e5e5e5;
 }
+
 .instant-invites .instant-invites-list .instant-invite .show-channel .member {
     color:#cccccc;
 }
+
 .instant-invites .instant-invites-list .instant-invite .show-channel .channel {
     color:#cccccc;
 }
+
 .instant-invites .instant-invites-list .instant-invite .member {
     color:#cccccc;
 }
+
 div.control-group .shortcut-recorder input[type=text] {
     color:#e5e5e5;
     text-shadow:0 0 0 #000;
     font-weight:normal;
 }
+
 .instant-invites .instant-invite-buttons .btn.btn-danger {
     background:#232323;
     border:hidden;
     color:#e5e5e5;
 }
+
 .instant-invites .instant-invite-buttons .btn.btn-danger:hover {
     background:#990000;
     color:#fff;
@@ -1783,6 +1824,7 @@ div.control-group .shortcut-recorder input[type=text] {
     background-color:#232323;
     border:0px;
 }
+
 .form .btn.red:hover {
     background:#990000;
 }
@@ -1791,7 +1833,19 @@ div.control-group .shortcut-recorder input[type=text] {
     background-color:#232323;
     color:#cccccc;
     border:0px;
+    margin-top:4px;
 }
+
+.guild-settings-modal-overview a {
+    color:#cccccc;
+}
+
+.guild-settings-modal-overview 
+.settings-panel .verification-level-select 
+.radio-group li .criteria {
+    color:#cccccc;
+}
+
 .guild-settings-modal-members .member-buttons .btn+.btn:hover {
     background-color:#990000;
 }
@@ -1801,13 +1855,16 @@ div.control-group .shortcut-recorder input[type=text] {
     border:0px;
     color:#cccccc;
 }
+
 .guild-settings-modal-members .member-buttons .btn:hover {
     background-color:#990000;
 }
+
 .guild-settings-modal-integrations 
 .guild-settings-modal-integrations-header {
     color:#e5e5e5;
 }
+
 .guild-settings-modal-integrations 
 .guild-settings-modal-integrations-body.no-integrations p {
     color:#b2b2b2;
@@ -1818,32 +1875,39 @@ div.control-group .shortcut-recorder input[type=text] {
     color:#990000
     
 }
+
 .guild-settings-modal-integrations
 .guild-settings-modal-integrations-body.no-integrations p a:hover {
     color:#e5e5e5;
 }
+
 .guild-settings-modal-members h6 {
     color:#e5e5e5;
 }
+
 .guild-settings-modal-members
 .guild-settings-modal-members-header 
 .form .Select .Select-value {
     color:#e5e5e5;
 }
+
 .guild-settings-modal-members
 .guild-settings-modal-members-footer .help-text strong {
     color:#e5e5e5;
 }
+
 .guild-settings-modal-members
 .guild-settings-modal-members-footer .help-text {
     color:#cccccc
 }
+
 .search-bar.search-bar-light input {
     background:#232323;
     border-radius:0px !important;
     height:34px;
     color:#e5e5e5;
 }
+
 .search-bar-clear.active {
     background:#232323;
 }
@@ -2089,6 +2153,36 @@ div.control-group .shortcut-recorder input[type=text] {
 .form .control-group input[type=text]:disabled,
 .form .control-group textarea:disabled {
 	background:rgba(255,255,255,0.3) !important;
+}
+.alert.form.has-icon:before { 
+    display:none;
+}
+
+.alert.form .form-inner h4 {
+    color:#e5e5e5;
+    margin-top:-40px;
+    margin-bottom:20px
+}
+
+.alert.form .form-inner p {
+    color:#cccccc;
+    margin-bottom:10px
+}
+
+.alert.form .form-inner .cancel {
+    background:#232323;
+    border:none;
+    color:#e5e5e5
+}
+
+.alert.form .form-inner .cancel:hover {
+    background:#990000;
+    color:#fff;
+}
+
+.alert.form .form-inner .btn {
+    border:none;
+    color:#e5e5e5
 }
 
 .guild-settings-modal-members {
@@ -2360,6 +2454,9 @@ input[type=checkbox]:checked+span:after {
 
 #permissions .permission-actions span {
 	color:#cccccc !important;
+}
+#permissions .permission-actions {
+    color:#cccccc
 }
 
 #autocomplete-popout .empty h4 {
