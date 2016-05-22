@@ -488,6 +488,14 @@ textarea {
 	background:#191919 !important;
     border:0px
 }
+.emote-menu-inner {
+    background:#191919
+}
+#bda-qem-favourite-container 
+.scroller-wrap, #bda-qem-twitch-container .scroller-wrap {
+    background:#191919;
+    margin-top:-0.6px
+}
 
 #bda-qem {
     background:#232323
@@ -495,7 +503,8 @@ textarea {
 
 #bda-qem button.active {
     background-color:#191919;
-    color:#e5e5e5
+    color:#e5e5e5;
+    margin-right:-0.8px
 }
 
 #bda-qem button {
@@ -503,11 +512,14 @@ textarea {
     box-shadow:none;
     border-left:0px;
     border-right:0px;
+    margin-bottom:-0.6px;
+    margin-right:-0.8px
 }
 
 #bda-qem button:hover {
     background-color:#191919;
     color:#fff;
+    margin-right:-0.8px
 }
 
 .emoji-picker .search-bar input {
@@ -538,7 +550,8 @@ textarea {
 }
 
 .emoji-picker .header {
-    border-bottom:6px solid #990000
+    border-bottom:6px solid #990000;
+    
 }
 
 .title-wrap {-webkit-box-shadow:inset 10px 0px 5px -6px #000;
