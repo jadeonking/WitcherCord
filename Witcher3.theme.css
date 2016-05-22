@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.2"}*//{}//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.2"}*//{}
+//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.3"}*//{}//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.3"}*//{}
 
 /*
                      _                _                                   _ 
@@ -10,10 +10,14 @@
 */
 
 /* Main background and settings background */
-.app,
-.callout-backdrop {
+.app {
 	background:url(https://i.imgur.com/ClQq6Pf.png) !important;
 	background-size:cover !important;
+}
+.callout-backdrop {
+    background:url(https://i.imgur.com/mQDJWFb.png) !important;
+    background-size:cover !important;
+    opacity:.95 !important
 }
 
 /*
@@ -1691,7 +1695,17 @@ button:first-of-type:before {
 
 .Select-menu-outer {
     background:#232323;
-    border:0px;   
+    border:0px;
+    color:#e5e5e5 !important;
+}
+
+.Select-option {
+    color:#cccccc !important;
+    
+}
+
+.Select-option:hover {
+    background:#232323 !important
 }
 
 .has-value>.Select-control>.Select-value {
@@ -2353,17 +2367,20 @@ div.control-group .shortcut-recorder input[type=text] {
 .now-playing.no-detection {
 	background:#232323;
 }
+.now-playing.no-detection {
+    border:0px;
+}
 
 .now-playing {
     background:#232323;
     animation:colorpulse 3s infinite;
-    border:1px solid
+    border:1px solid;
+    animation-direction:alternate
 }
 
 @-webkit-keyframes colorpulse {
-      100% {border-color: #e5e5e5;}
-    0% {border-color: #191919;}
-
+    100%{border-color:#e5e5e5;}
+    50%{border-color:#191919;}
 }
 
 .now-playing-add {
@@ -2371,7 +2388,7 @@ div.control-group .shortcut-recorder input[type=text] {
 }
 
 .now-playing-add .link {
-color:#cccccc
+	color:#cccccc
 }
 
 div.now-playing-add span.link:hover {
