@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.0"}*//{}//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.0"}*//{}
+//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.2"}*//{}//META{"name":"Witcher3","description":"A Dark Theme of The Witcher 3","author":"Jadeonking","version":"1.2"}*//{}
 
 /*
                      _                _                                   _ 
@@ -801,14 +801,17 @@ textarea {
 
 .embed .embed-provider {
     text-align:center;
+    display:none;
 }
 
 .embed .embed-author {
     text-align:center;
+    display:none
 }
 
 .embed .embed-title {
     text-align:center;
+    display:none
 }
 
 .embed .embed-description {
