@@ -1033,10 +1033,10 @@ textarea {
 .message-group.compact .message .markup .user-name {
     margin-right: 10px;
 }
-.guild-channels ul 
+.guild-channels 
 .channel-text.unread:not(.selected):not(.channel-muted):before {
     left:-8px;
-    top:11px
+    top:11px;
 }
 
 /*
@@ -1717,12 +1717,11 @@ button:first-of-type:before {
 }
 
 .Select-option {
-    color:#cccccc !important;
-    
+    color:#cccccc !important;    
 }
 
 .Select-option:hover {
-    background:#232323 !important
+    background:none !important
 }
 
 .has-value>.Select-control>.Select-value {
