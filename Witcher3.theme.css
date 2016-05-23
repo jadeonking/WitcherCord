@@ -11,7 +11,7 @@
 
 /* Main background and settings background */
 .app {
-	background:url(https://i.imgur.com/ClQq6Pf.png) !important;
+	background:url(https://i.imgur.com/8w70muJ.png) !important;
 	background-size:cover !important;
 }
 .callout-backdrop {
@@ -385,7 +385,7 @@ textarea {
     margin-left:0px;
 	padding:0 0px !important;
 	background:rgba(25,25,25,1);
-	height:77px;
+	height:100px;
 	box-sizing:border-box;
     color:#990000;
     position:relative
@@ -410,7 +410,7 @@ textarea {
 
 .account .btn-deafen,
 .account .btn-mute {
-    border-right:1px solid #000;/*1px solid #101010;*/
+    border-right:0px solid #000;/*1px solid #101010;*/
 }
 
 #voice-connection {
@@ -418,12 +418,13 @@ textarea {
 	border-top:none !important;
 	/*width:285px;
     margin-left:-83px;*/
-	padding:0px 20px 60px 20px !important;
+	padding:5px 10px 5px 10px !important;
 }
 
 #voice-connection .btn {
 	background:transparent; #000;
 	box-shadow:none !important;
+    border:none
 }
 
 .account .btn-deafen, .account .btn-settings {
@@ -434,6 +435,7 @@ textarea {
 	border:none;
     position:absolute;
     right:72px;
+    top:60px
 }
 
 #voice-connection .btn-group {
@@ -441,11 +443,13 @@ textarea {
 }
 
 .account .avatar-small {
-    opacity:0;
+    opacity:1;
+    right:-105px;
+    top:-25px
 }
 
 .account .account-details .username {
-    opacity:0;
+    display:none;
 }
 
 .account .account-details .discriminator {
@@ -453,7 +457,7 @@ textarea {
     color:#e5e5e5;
     text-indent:57px;
     font-style:italic;
-    padding-top:15px;
+    padding-top:10px;
     opacity:1;
 }
 
