@@ -195,12 +195,7 @@ textarea {
 
 .guilds .active .guild-inner {
 	background:transparent !important;
-	animation:colorPuls 0s infinite alternate;
-}
-
-@-webkit-keyframes colorPuls {
-      100% {background:#232323;}
-    0% {background:#fff;}
+	
 }
 
 .guilds .guild-inner:hover {
@@ -644,6 +639,15 @@ textarea {
     background:#990000;
     color:#e5e5e5;
 }
+#user-profile-modal footer .btn.reject-friend {
+    background:#232323;
+}
+#user-profile-modal footer .btn.reject-friend:hover {
+    background:#990000;
+}
+#user-profile-modal footer .pending p {
+    color:#cccccc;
+}
 #user-profile-modal footer {
     border:hidden;
 }
@@ -987,18 +991,21 @@ textarea {
 .theme-dark .messages-wrapper 
 .messages .message-group .edit-message .edit-operation {
     margin:10px 0 0 0;
-    color:#cccccc
+    color:#cccccc;
 }
 .channel-textarea {
-    margin:23
+    margin:23;
 }
 
 .channel-textarea-guard button {
-	background:#666666 !important;
+	background:#232323 !important;
 }
 
 .channel-textarea-guard button:hover {
-	background:#666666 !important;
+	background:#990000 !important;
+}
+.channel-textarea-guard div {
+    color:#cccccc;
 }
 
 .theme-dark .chat form .typing {
@@ -1058,8 +1065,14 @@ textarea {
     background-color:#232323 !important;
     color:#e5e5e5;
 }
+.add-friend-popout header {
+    background:#191919
+}
+.add-friend-popout section {
+    border-top:6px solid #990000;
+}
 .add-friend-popout {
-    border-radius:10px
+    border-radius:10px;
 }
 
 .add-friend-popout .btn
@@ -1074,22 +1087,41 @@ textarea {
 }
 .add-friend-popout header
 input:focus {
-    background:#191919;
+    background:#232323;
     color:#fff;
     border:solid 0px #191919
 }
 .add-friend-popout header input:not(focused) {
     border:hidden;
-    background:#191919;
+    background:#232323;
 }
-
 
 .private-channels .channel:hover:not(.selected) .icon-friends {
 	background-color:transparent !important;
 }
-
-.private-channels .channel.btn-friends .badge {
+.private-channels .channel.btn-friends:not(.selected):hover .badge {
 	margin-right:10px;
+    background:#990000;
+    color:#e5e5e5;
+    border-radius:0px
+}
+.private-channels .channel.btn-friends:not(.selected) .badge {
+	margin-right:33px;
+    background:#990000;
+    color:#e5e5e5;
+    border-radius:0px
+}
+.private-channels .channel.btn-friends.selected .badge {
+	margin-right:10px;
+    background:#990000;
+    color:#e5e5e5;
+    border-radius:0px
+}
+.badge {
+    background:#990000 !important;
+    color:#e5e5e5 !important;
+    border-radius:0px !important;
+    
 }
 
 .private-channels .channel .close {
@@ -1142,6 +1174,31 @@ input:focus {
 .friends-column-actions .friends-action.friends-action-red:hover {
     background:#990000;
     color:#e5e5e5;
+}
+#friends 
+.friends-table 
+.friends-row 
+.friends-column-actions .friends-action.friends-action-green {
+    background:#232323;
+}
+#friends 
+.friends-table 
+.friends-row 
+.friends-column-actions .friends-action.friends-action-green:hover {
+    background:#990000;
+}
+#friends 
+.friends-table 
+.friends-row .friends-column-actions .friends-action+div {
+    background:#232323;
+}
+#friends 
+.friends-table 
+.friends-row .friends-column-actions .friends-action+div:hover {
+    background:#990000;
+}
+.theme-dark #friends .friends-empty p {
+    color:#cccccc;
 }
 
 /*
@@ -1355,7 +1412,6 @@ input:focus {
     color:#e5e5e5 !important;
 }
 
-.popout header,
 .slider-bar-fill {
 	background-color:#232323;
 	border:1px solid #990000;
@@ -1376,9 +1432,7 @@ input:focus {
 }
 
 .popout.popout-bottom header:before {
-	border-bottom-color:#666666;
-    border-bottom:1px solid #
-
+	border-bottom-color:#232323;
 }
 
 #autocomplete-popout .row.selected {
@@ -1903,6 +1957,13 @@ div.control-group .shortcut-recorder input[type=text] {
     border:0px;
     color:#cccccc;
 }
+.guild-settings-modal-members .member-buttons .btn.btn-danger {
+    border:none;
+    color:#e5e5e5;
+}
+.guild-settings-modal-members .member-buttons .btn.btn-danger:hover {
+    background:#990000;
+}
 
 .guild-settings-modal-members .member-buttons .btn:hover {
     background-color:#990000;
@@ -1911,6 +1972,10 @@ div.control-group .shortcut-recorder input[type=text] {
 .guild-settings-modal-integrations 
 .guild-settings-modal-integrations-header {
     color:#e5e5e5;
+}
+.guild-settings-modal-members 
+.guild-settings-modal-list .member .member-username {
+    color:#e5e5e5
 }
 
 .guild-settings-modal-integrations 
