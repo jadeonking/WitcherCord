@@ -2454,6 +2454,13 @@ div.control-group .shortcut-recorder input[type=text] {
 .user-settings-modal-games .games-table .games-row .item-game .last-played {
 	color:#cccccc;
 }
+
+.user-settings-modal-connections 
+.user-settings-modal-accounts-list 
+.connect-container .count {
+    color:#b2b2b2;
+}
+
 .user-settings-modal-connections 
 .user-settings-modal-accounts-list 
 .connect-container.disabled .count {
