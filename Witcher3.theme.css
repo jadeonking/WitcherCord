@@ -648,7 +648,13 @@ textarea {
     border:hidden;
 }
 #user-profile-modal .header .activity {
+    visibility:collapse;
+    font-size:0px;
     color:#b2b2b2;
+}
+#user-profile-modal .header .activity strong {
+    visibility:visible;
+    font-size:14px;
 }
 #user-profile-modal .header .discord-tag .discriminator, 
 #user-profile-modal .header .discord-tag {
@@ -1161,22 +1167,29 @@ input:focus {
     border-radius:8px;
     padding-right:20px
 }
+
 .channel-members .member .member-activity {
-	color:#b2b2b2;
+    visibility:collapse;
+    font-size:0px;
 }
 
 .channel-members .member .member-activity strong {
+    visibility:visible;
+    font-size:11px;
     color:#cccccc;
     font-style:italic;
     font-weight:600;
 }
 .private-channels .channel .channel-activity strong {
+    visibility:visible;
+    font-size:11px;
     color:#cccccc;
     font-style:italic;
     font-weight:600;
 }
 .private-channels .channel .channel-activity {
-    color:#b2b2b2
+    visibility:collapse;
+    font-size:0px;
 }
 
 .channel-members .member:hover {
@@ -1319,13 +1332,15 @@ input:focus {
 }
 
 .user-popout .username-wrapper .activity strong {
+    visibility:visible;
+    font-size:15px;
     color:#cccccc;
     font-style:italic;
     font-weight:600;
 }
 .user-popout .username-wrapper .activity {
-    color:#b2b2b2;
-    
+    visibility:collapse;
+    font-size:0px;
 }
 
 .user-popout .username-wrapper.has-nickname .discriminator {
@@ -1555,13 +1570,13 @@ input:focus {
 
 /* ACCOUNT BAR */
 .bd-minimal #voice-connection {
-	width:176px;
-    margin-left:-46px;
+	width:150px;
+    margin-left:0px;
 }
 
 .bd-minimal .account {
-	width:206px;
-    margin-left:-46px;
+	width:159px;
+    margin-left:0px;
 }
 
 .bd-minimal .account .avatar-small {
@@ -1573,7 +1588,7 @@ input:focus {
 }
 
 .bd-minimal .account .btn-group {
-	margin-left:10px;
+	margin-left:-10px;
 }
 
 .bd-minimal .account .btn-group .btn {
@@ -2453,7 +2468,7 @@ input[type=checkbox]:checked+span:after {
 }
 
 #bd-pane .scroller-wrap div[style*="background:#2E3136; color:#ADADAD; height:30px; position:absolute; bottom:0; left:0; right:0;"] {
-	background:rgba(0,0,0,0.95) !important;
+	background:#191919 !important;
 }
 
 .CodeMirror {
@@ -2551,7 +2566,36 @@ input[type=checkbox]:checked+span:after {
 	margin-right:8px;
 	margin-left:7px;        
 }
-
+.bda-slist li {
+    background:#191919;
+    border:none;
+}
+.bda-slist li:nth-child(odd) {
+    background:#191919;
+    border:none;
+}
+.bda-slist .bda-description {
+    border:none;
+    color:#b2b2b2
+}
+.bda-slist .bda-name {
+    color:#e5e5e5;
+}
+.bda-slist .checkbox:before {
+    color:#b2b2b2
+}
+.bda-slist .bda-right .bda-plugin-reload {
+    background:#232323;
+}
+.bda-slist .bda-right .bda-plugin-settings {
+    background:#232323;
+}
+.bda-slist .bda-right .bda-plugin-settings:hover {
+    background:#990000;
+}
+.bda-slist .bda-right .bda-plugin-reload:hover {
+    background:#990000;
+}
 
 /*
 
@@ -2636,25 +2680,51 @@ input[type=checkbox]:checked+span:after {
 
 #slist,
 #pubs-container {
-	background-color:rgba(0,0,0,0.7) !important;
+	background-color:#191919 !important;
 	border-radius:5px 5px 0 0;
+    border:hidden
 }
 
 #pubs-header {
 	padding:10px;
-	background-color:#666666 !important;
+	background-color:#232323 !important;
 	border-radius:5px 5px 0 0;
+    border:none
 }
 
 #pubs-header input {
 	padding-left:10px;
+    background:#191919;
+}
+#pubs-header button {
+    background:#191919;
+    border-right:3px solid #232323
+}
+#pubs-searchbtn {
+    background:#191919 !important;
+    border-left:3px solid #232323;
+    font-size:14px
+}
+#pubs-searchbtn:hover {
+    background:#990000 !important;
+    color:#cccccc
+}
+.bd-dropdown-list ul li {
+    background:#232323 !important;
+    color:#e5e5e5
 }
 
 #pubs-footer {
 	padding:10px;
     font-size:12px;
-	background:rgba(0,0,0,0.8) !important;
+	background:#232323 !important;
 	border-radius:0 0 5px 5px;
+}
+.server-name span {
+    color:#cccccc;
+}
+.server-tags {
+    color:#b2b2b2 !important;
 }
 
 .server-icon {
@@ -2670,9 +2740,12 @@ input[type=checkbox]:checked+span:after {
 .server-info {
 	line-height:50px;
 }
+.server-info span {
+    color:#cccccc;
+}
 
 .server-info button {
-	background-color:#666666 !important;
+	background-color:#232323 !important;
 	width:70px;
     height:40px;
     margin-top:4px;
@@ -2684,13 +2757,14 @@ input[type=checkbox]:checked+span:after {
 }
 
 #slist span {
-	color:white !important;
+	color:#cccccc !important;
 }
 
 .server-row:nth-child(2n+1) {
-	background-color:rgba(255,255,255,0.06) !important;
+	background-color:#191919 !important;
+    border:none
 }
 
 .server-row:nth-child(2n+2) {
-	background-color:rgba(0,0,0,0) !important;
+	background-color:#191919 !important;
 }
