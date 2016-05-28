@@ -964,7 +964,7 @@ textarea {
 .channel-textarea-inner {
 	border:hidden !important;
 	background:rgba(35,35,35,.75) !important;
-    margin:0px 0px -15px
+    margin:0px 0px -5px
 }
 
 .channel-textarea-autocomplete-inner {
@@ -990,7 +990,7 @@ textarea {
 .edit-message .edit-operation, 
 .theme-dark .messages-wrapper 
 .messages .message-group .edit-message .edit-operation {
-    margin:10px 0 0 0;
+    margin:0;
     color:#cccccc;
 }
 .channel-textarea {
@@ -1009,7 +1009,7 @@ textarea {
 }
 
 .theme-dark .chat form .typing {
-	margin:0px 0px -7px 8px;
+	margin:0px 0px -2px 8px;
 }
 
 .spoiler span {display:none;}
