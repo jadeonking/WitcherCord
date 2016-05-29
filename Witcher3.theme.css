@@ -1411,10 +1411,14 @@ input:focus {
     background:#990000;
     color:#e5e5e5 !important;
 }
-
+.popout header,
 .slider-bar-fill {
 	background-color:#232323;
 	border:1px solid #990000;
+}
+.popout.popout-invert.popout-top-right header:before, 
+.popout.popout-invert.popout-top header:before {
+    border-top-color:#e5e5e5
 }
 
 .user-popout .user-popout-options .btn {
