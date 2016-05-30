@@ -7,5 +7,5 @@ Gist of the css if you prefer http://bit.ly/witcher3discordgist
 
 Custom icon images will be coming sometime hopefully by July
 
-album is slightly outdated but still relevant if anything significant changes I will update it
+The Witcher 3 theme album get a more indepth look!
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/Y5cg2"><a href="//imgur.com/a/Y5cg2">Witcher 3 Theme Album</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
