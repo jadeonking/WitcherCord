@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.3"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.4"}*//{}
 
 /*
                      _                _                                   _ 
@@ -2367,6 +2367,58 @@ background-color:#900
 background-color:#900
 }
 
+.form .btn.green {
+color:#e5e5e5;
+background:#232323
+}
+
+.form .btn.green:hover {
+background:#900;
+color:#e5e5e5
+}
+
+.user-settings-security .btn-ghost {
+color:#e5e5e5;
+background:#232323;
+border:none
+}
+
+.user-settings-security .mfa-group .mfa-active {
+color:#e5e5e5
+}
+
+.user-settings-security .mfa-group .lock-icon {
+display:none
+}
+
+.user-settings-security .btn-ghost:hover {
+background:#900
+}
+
+.user-settings-security p {
+color:#ccc
+}
+
+.user-settings-security .backup-codes p {
+color:#ccc
+}
+
+.user-settings-security .backup-codes p strong {
+color:#ccc
+}
+
+.user-settings-security .backup-codes .code {
+color:#b2b2b2
+}
+
+.user-settings-modal .link-button {
+color:#b2b2b2
+}
+
+.user-settings-modal .link-button:hover {
+color:#ccc
+}
+
 .radio .radio-inner span:after {
 background:#666;
 border-radius:5px
@@ -2376,6 +2428,18 @@ border-radius:5px
 background:#232323;
 border-radius:10px;
 border:0
+}
+
+.radio-theme input[type=radio]:checked~label {
+border:4px solid #666;
+}
+
+.radio-theme.dark label:not(.selected) {
+border:none
+}
+
+.radio-theme.light label:not(.selected) {
+border:none
 }
 
 .user-settings-modal .voice-settings .reset-voice-settings {
