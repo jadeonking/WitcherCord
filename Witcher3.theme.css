@@ -1082,7 +1082,7 @@ color:#e5e5e5
 }
 
 .add-friend-popout header {
-background:#191919
+background:#191919 !important
 }
 
 .add-friend-popout section {
@@ -1260,10 +1260,6 @@ visibility:collapse;
 font-size:0
 }
 
-.user-popout .header.streaming .activity strong {
-margin-left:-66px
-}
-
 .channel-members .member:hover {
 background:rgba(35,35,35,0.75)!important;
 width:72%;
@@ -1356,7 +1352,8 @@ transform:translateZ(0px)
 */
 .user-popout .header {
 background:rgba(35,35,35,1)!important;
-border-top-radius:8px!important
+border-top-radius:8px!important;
+border-bottom:6px solid #900!important
 }
 
 .user-popout .avatar-wrapper .avatar-popout {
@@ -1368,7 +1365,20 @@ background-color:rgba(0,0,0,0.9)
 background:rgba(25,25,25,1);
 border-left:0 solid rgba(153,0,0,1);
 border-right:0 solid rgba(153,0,0,1);
-border-top:6px solid rgba(153,0,0,1)
+}
+
+.user-popout .header.streaming {
+border-bottom:none !important
+}
+
+.user-popout .header.streaming .activity strong {
+margin-left:-66px
+}
+
+.user-popout .header.streaming .live-on-twitch {
+border-top:6px solid #900;
+border-bottom:0px solid #900;
+background:#191919
 }
 
 .user-popout .body .section .label {
@@ -1436,9 +1446,33 @@ background:#900;
 color:#e5e5e5!important
 }
 
-.popout header,.slider-bar-fill {
+.popout header {
 background-color:#232323;
 border:1px solid #900
+}
+
+.slider-bar {
+background:#232323!important
+}
+
+.slider-bar-fill {
+background:#900
+}
+
+.sensitivity .slider .slider-bar {
+background:#900!important
+}
+
+.sensitivity .slider .slider-bar-auto {
+background:#232323!important
+}
+
+.sensitivity .slider .slider-bar-auto.speaking {
+background:#900!important
+}
+
+.sensitivity .slider .slider-bar.microphone .grow {
+background:#232323
 }
 
 .popout.popout-invert.popout-top-right header:before,.popout.popout-invert.popout-top header:before {
