@@ -1260,6 +1260,10 @@ visibility:collapse;
 font-size:0
 }
 
+.user-popout .header.streaming .activity strong {
+margin-left:-66px
+}
+
 .channel-members .member:hover {
 background:rgba(35,35,35,0.75)!important;
 width:72%;
@@ -2280,7 +2284,7 @@ box-shadow:none
 }
 
 .form .control-group input[type=email]:disabled,.form .control-group input[type=password]:disabled,.form .control-group input[type=text]:disabled,.form .control-group textarea:disabled {
-background:rgba(255,255,255,0.3)!important
+background:#666!important
 }
 
 .alert.form.has-icon:before {
@@ -2557,13 +2561,14 @@ border:0
 }
 
 .now-playing {
-background:#232323;
-animation:colorpulse 3s infinite;
+background-color:#232323;
 border:1px solid;
+animation-name:pulse;
+animation-duration:1.5s;
 animation-direction:alternate
 }
 
-@-webkit-keyframes colorpulse {
+@keyframes pulse {
 100%{border-color:#e5e5e5}
 50%{border-color:#191919}
 }
