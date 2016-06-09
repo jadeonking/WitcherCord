@@ -1849,7 +1849,7 @@ color:#e5e5e5
 
 .Select-menu-outer {
 background:#232323;
-border:0;
+border:none;
 color:#e5e5e5!important
 }
 
@@ -1858,7 +1858,10 @@ color:#ccc!important
 }
 
 .Select-option:hover {
-background:none!important
+background:none!important;
+border-left:6px solid #900;
+position:relative;
+padding-left:4px
 }
 
 .has-value>.Select-control>.Select-value {
@@ -1873,12 +1876,24 @@ border-radius:0
 .form .Select-placeholder {
 color:#e5e5e5!important;
 border-radius:0;
-border:0 solid #191919;
+border:none;
 background-color:#232323
 }
 
 .Select-control {
 border-radius:0
+}
+
+.user-settings-locale .select-item .primary {
+color:#e5e5e5!important
+}
+
+.user-settings-locale .select-item .localized {
+color:#e5e5e5
+}
+
+.user-settings-locale .select-item.option-value {
+color:#ccc!important
 }
 
 .form .voice-settings
