@@ -2737,6 +2737,30 @@ border:none!important
 color:#b2b2b2!important
 }
 
+.CodeMirror > ::-webkit-scrollbar-thumb {
+background-color:#666;
+background-clip:padding-box;
+border:2px solid #191919;
+border-radius:6px
+}
+
+.CodeMirror > ::-webkit-scrollbar,
+.CodeMirror > ::-webkit-scrollbar-track {
+background:#191919;
+width:14px
+}
+
+.CodeMirror > ::-webkit-scrollbar-track-piece {
+background-color:#191919;
+background-clip:padding-box;
+border:2px solid #191919;
+border-radius:0px
+}
+
+.CodeMirror-scrollbar-filler {
+background:#191919
+}
+
 .cm-s-neat span.cm-builtin {
 color:#ff6666
 }
