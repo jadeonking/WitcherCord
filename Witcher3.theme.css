@@ -2723,43 +2723,76 @@ div.now-playing-add span.link:hover {
 color:#e5e5e5!important
 }
 
-.checkbox .checkbox-inner 
-input[type=checkbox]:checked:disabled+span {
-background:#666!important;
-border-color:#666
+.checkbox .checkbox-inner span {
+background:rgba(35,35,35,.5)!important;
+transition:.2s linear all!important
+}
+
+.checkbox .checkbox-inner.alt input[type=checkbox]+span {
+background:transparent!important;
+border-color:#191919!important
+}
+
+.checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
+border-color:#191919!important
+}
+
+.checkbox .checkbox-inner+span {
+color:#e5e5e5!important
 }
 
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
-border:0 solid;
-background-color:#232323
+background-color:#900!important;
+border-color:#000!important;
+transition:.2s ease-in-out all!important
 }
 
-.checkbox .checkbox-inner input[type=checkbox]:disabled+span {
-background-color:#666;
-border-color:#666
+.checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
+border-color:#191919!important
 }
 
-.checkbox .checkbox-inner
-input[type=checkbox]:checked+span:after {
-top:2px;
-left:6px
+.checkbox .checkbox-inner {
+width:40px!important;
+height:20px!important;
+background-color:#232323!important;
+border-radius:0px!important
 }
 
 .checkbox .checkbox-inner span {
-position:absolute;
-border:0;
-background:#232323;
-border-radius:5px
+border-radius:0px!important;
+transition:0s!important
 }
 
-.checkbox .checkbox-inner.alt
-input[type=checkbox]+span {
-background:#191919
+.checkbox .checkbox-inner input:checked + span {
+background-color:#232323!important;
+border:2px solid #000!important
 }
 
-.checkbox .checkbox-inner.alt
-input[type=checkbox]:checked+span:after {
-border-color:#fff
+.checkbox .checkbox-inner input + span {
+border:2px solid rgba(0,0,0,0)!important
+}
+
+.checkbox .checkbox-inner input:checked + span:after {
+border-radius:0px!important;
+display:block!important;
+background-color:#e5e5e5!important;
+width:18px!important;
+height:18px!important;
+left:19px!important;
+top:-1px!important;
+border:none!important;
+transform:rotate(0deg)!important
+}
+
+.checkbox .checkbox-inner:before {
+border-radius:0%!important;
+display:block!important;
+background-color:#e5e5e5!important;
+width:18px!important;
+height:18px!important;
+position:relative;
+top:1px;
+left:0px
 }
 
 .bd-g-table tbody tr,.bd-g-table thead th,.bd-g-table tbody tr:nth-child(odd) {
