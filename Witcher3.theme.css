@@ -35,13 +35,18 @@ background:transparent!important
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-border:0 solid rgba(255,255,255,1)!important;
-background-color:rgba(25,25,25,.75)!important
+border:1px solid #232323!important;
+background-color:#232323!important;
+border-radius:0px
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-border:0 solid rgba(255,255,255,0)!important;
-background-color:rgba(0,0,0,0)!important
+border:none!important;
+background:none!important;
+}
+
+div.scroller.settings-wrapper.settings-panel {
+overflow-y:hidden
 }
 
 /*
@@ -2378,7 +2383,8 @@ box-shadow:none
 }
 
 .form .control-group input[type=email]:disabled,.form .control-group input[type=password]:disabled,.form .control-group input[type=text]:disabled,.form .control-group textarea:disabled {
-background:#666!important
+background:#666!important;
+opacity:.25
 }
 
 .alert.form.has-icon:before {
@@ -2416,8 +2422,16 @@ color:#e5e5e5
 background:none!important
 }
 
+#settings-roles .roles li.draggable {
+margin-left:6px
+}
+
+#settings-roles .roles li {
+margin-left:6px
+}
+
 #settings-roles .roles {
-border-right:0 solid rgba(255,255,255,0.2)
+border-right:none
 }
 
 #settings-roles .roles li:hover:before {
@@ -2425,11 +2439,15 @@ background:none
 }
 
 #settings-roles .roles li:hover:not(.selected) {
-background:rgba(35,35,35,.50)!important
+background:rgba(35,35,35,.50)!important;
+width:105px;
+margin-left:6px
 }
 
 #settings-roles .roles li.selected {
-background:#232323!important
+background:#232323!important;
+width:105px;
+margin-left:6px
 }
 
 #settings-roles .roles li.selected:before {
@@ -2487,6 +2505,14 @@ color:#e5e5e5
 
 .user-settings-security .mfa-group .lock-icon {
 display:none
+}
+
+.user-settings-security.show-art {
+background:none
+}
+
+.guild-settings-modal-security {
+background:none
 }
 
 .user-settings-security .btn-ghost:hover {
@@ -2679,9 +2705,20 @@ div.now-playing-add span.link:hover {
 color:#e5e5e5!important
 }
 
+.checkbox .checkbox-inner 
+input[type=checkbox]:checked:disabled+span {
+background:#666!important;
+border-color:#666
+}
+
 .checkbox .checkbox-inner input[type=checkbox]:checked+span {
 border:0 solid;
 background-color:#232323
+}
+
+.checkbox .checkbox-inner input[type=checkbox]:disabled+span {
+background-color:#666;
+border-color:#666
 }
 
 .checkbox .checkbox-inner
@@ -2740,8 +2777,8 @@ color:#b2b2b2!important
 .CodeMirror > ::-webkit-scrollbar-thumb {
 background-color:#666;
 background-clip:padding-box;
-border:2px solid #191919;
-border-radius:6px
+border:1px solid #191919;
+border-radius:0px
 }
 
 .CodeMirror > ::-webkit-scrollbar,
@@ -2963,22 +3000,25 @@ border-right:none
 
 #voice-debug-modal #users-section .selected-user {
 color:#e5e5e5;
-border-left:0 solid!important
+border-left:none!important
 }
 
 #voice-debug-modal #users-section .user-list li.selected {
 background:#232323;
-color:#e5e5e5
+color:#e5e5e5;
+margin-left:6px
 }
 
 #voice-debug-modal #users-section .user-list li {
 background:#191919;
-color:#b2b2b2
+color:#b2b2b2;
+margin-left:6px
 }
 
 #voice-debug-modal #users-section .user-list li:not(.selected):hover {
 background:rgba(35,35,35,.50);
-color:#e5e5e5
+color:#e5e5e5;
+margin-left:6px
 }
 
 #voice-debug-modal #users-section .user-list li.selected:before {
