@@ -35,8 +35,8 @@ background:transparent!important
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-border:1px solid #232323!important;
-background-color:#232323!important;
+border:1px solid rgba(35,35,35,.75)!important;
+background-color:rgba(35,35,35,.75)!important;
 border-radius:0px
 }
 
@@ -737,15 +737,22 @@ color:rgba(255,255,255,0.7)
 }
 
 .chat .new-messages-bar {
-background-color:rgba(25,25,25,.75)
+background-color:rgba(35,35,35,.75)
 }
 
 .chat .new-messages-bar:hover {
-background-color:rgba(35,35,35,1)
+background-color:rgba(25,25,25,.75)
 }
 
 .chat .new-messages-bar button:last-child {
 color:#ccc
+}
+
+.theme-dark .chat .empty-message {
+border:none;
+background:none;
+position:relative;
+top:-15px
 }
 
 .chat-empty {
@@ -775,12 +782,13 @@ background:#232323
 }
 
 .markdown-modal .highlight,.chat .title-wrap .topic .highlight {
-background-color:rgba(255,255,255,.1)!important
+background-color:rgba(35,35,35,.75)!important
+
 }
 
 .markdown-modal .highlight:hover,.chat .title-wrap .topic .highlight:hover {
-background-color:rgba(255,255,255,.2)!important;
-color:#900!important
+background-color:rgba(25,25,25,.75)!important;
+color:#e5e5e5!important
 }
 
 .upload-modal {
@@ -833,7 +841,7 @@ background:rgba(255,255,255,0.2)!important
 }
 
 .chat .divider>span {
-background:rgba(35,35,35,0.75)!important;
+background:rgba(35,35,35,.75)!important;
 font-size:12px;
 text-transform:uppercase;
 margin:10px 0;
@@ -845,7 +853,7 @@ text-align:center
 }
 
 .chat .divider.divider-red>span {
-background:rgba(25,25,25,.75)!important;
+background:rgba(35,35,35,.75)!important;
 color:#ccc!important;
 border-radius:8px;
 opacity:1!important
@@ -861,7 +869,8 @@ display:none
 }
 
 .chat form {
-border-top:none!important
+border-top:none!important;
+box-shadow:none
 }
 
 .messages .message-group:not(.has-divider) {
@@ -869,7 +878,7 @@ border-bottom-color:hsla(0,0%,100%,.04)!important
 }
 
 .messages .message-group .markup .highlight {
-background-color:rgba(35,35,35,1)!important;
+background-color:rgba(35,35,35,.75)!important;
 color:#ccc!important;
 padding:1px 4px;
 border-radius:8px
@@ -887,9 +896,6 @@ background:#191919
 
 .message-group h2 .timestamp {
 color:#ccc
-}
-
-.messages h2 .user-name {
 }
 
 .embed {
@@ -1040,7 +1046,8 @@ margin-left:-20px
 .channel-textarea-autocomplete-inner {
 border:hidden!important;
 background:rgba(25,25,25,1)!important;
-color:#e5e5e5
+color:#e5e5e5;
+bottom:1px
 }
 
 .channel-textarea-autocomplete-inner header {
@@ -1282,11 +1289,15 @@ background:#900
 
 .theme-dark .channel-members .member.popout-open {
 background:#191919;
-width:72%;
+width:73%;
 border-radius:8px;
-padding-right:20px
+padding-right:20px;
+margin-left:5px
 }
 
+.channel-members .member {
+margin-left:5px
+}
 .channel-members .member .member-activity {
 visibility:collapse;
 font-size:0
@@ -1315,9 +1326,10 @@ font-size:0
 
 .channel-members .member:hover {
 background:#232323!important;
-width:72%;
+width:73%;
 border-radius:8px;
-padding-right:20px
+padding-right:20px;
+margin-left:5px
 }
 
 .channel-members .bot-tag {
@@ -1337,11 +1349,11 @@ border-color:#191919!important
 }
 
 .channel-members h2 {
-border-bottom:0 solid #000;
-border-top:0 solid #000;
+border:none;
 padding-top:5px;
 padding-bottom:5px;
-color:#b2b2b2!important
+color:#b2b2b2!important;
+margin-left:5px
 }
 
 .channel-members h2:first-of-type {
@@ -2169,11 +2181,16 @@ background:transparent!important
 opacity:0.55
 }
 
+.tab-bar.SIDE .tab-bar-header {
+box-shadow:none
+}
+
 .tab-bar.SIDE {
 margin-right:0;
-background:rgba(35,35,35,1);
+background-color:rgba(35,35,35,1);
 overflow-y:hidden;
-border-right:6px solid #900
+border-right:6px solid #900;
+border-radius:0px
 }
 
 .tab-bar.SIDE .tab-bar-item {
@@ -2197,7 +2214,7 @@ border:none!important
 }
 
 .settings .settings-header {
-background:rgba(0,0,0,.88)!important
+background:rgba(35,35,35,1)!important
 }
 
 #settings-roles h1 {
@@ -2649,7 +2666,8 @@ background:none
 
 .user-settings-modal-games {
 background:#191919!important;
-border:solid #900 0!important
+border:solid #900 0!important;
+box-shadow:none
 }
 
 .user-settings-modal-games .games-table .games-row .item-game,.user-settings-modal-games .games-table .games-row .item-overlay {
@@ -2775,7 +2793,7 @@ color:#b2b2b2!important
 }
 
 .CodeMirror > ::-webkit-scrollbar-thumb {
-background-color:#666;
+background-color:#232323;
 background-clip:padding-box;
 border:1px solid #191919;
 border-radius:0px
