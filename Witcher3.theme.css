@@ -1349,11 +1349,13 @@ border-color:#191919!important
 }
 
 .channel-members h2 {
-border:none;
 padding-top:5px;
 padding-bottom:5px;
-color:#b2b2b2!important;
-margin-left:5px
+color:#ccc!important;
+font-weight:bold;
+text-align:center;
+font-size:13px;
+opacity:.90
 }
 
 .channel-members h2:first-of-type {
