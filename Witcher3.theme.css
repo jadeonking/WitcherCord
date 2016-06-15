@@ -1087,6 +1087,10 @@ color:#ccc
 margin:0 10px -3px 20px
 }
 
+.channel-textarea-emoji>.sprite-item {
+backgroundimage:url("")!important
+}
+
 .spoiler span {
 display:none
 }
@@ -2982,7 +2986,8 @@ background:#191919
 
 .bda-slist li {
 background:#191919;
-border:none
+border:none;
+margin-bottom:35px!important
 }
 
 .bda-slist li:nth-child(odd) {
@@ -3003,8 +3008,16 @@ color:#e5e5e5
 color:#b2b2b2
 }
 
+.bda-slist .bda-right {
+margin-top:-100px
+}
+
 .bda-slist .bda-right .bda-plugin-reload {
 background:#232323
+}
+
+#bd-themes-pane .bda-plugin-reload {
+margin-top:35px
 }
 
 .bda-slist .bda-right .bda-plugin-settings {
