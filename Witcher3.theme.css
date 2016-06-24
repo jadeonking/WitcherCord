@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.5.3"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.5.5"}*//{}
 
 /*
                      _                _                                   _ 
@@ -2870,7 +2870,7 @@ div.now-playing-add span.link:hover {
 color:#e5e5e5!important
 }
 
-.checkbox .checkbox-inner input[type=checkbox]:checked+span:after{
+.checkbox .checkbox-inner input[type=checkbox]:checked+span:after {
 background:#e5e5e5;
 top:-1px;
 border-right:0px;
@@ -2879,7 +2879,7 @@ transform:translate(10px,0px);
 box-shadow:0px 2px 3px rgba(0,0,0,0.4)
 }
 
-.checkbox .checkbox-inner input[type=checkbox]:checked+span{
+.checkbox .checkbox-inner input[type=checkbox]:checked+span {
 background:#900;
 border:0px;
 height:14px;
@@ -2887,10 +2887,17 @@ width:30px;
 top:0px;
 border-radius:0px;
 margin-left:0px!important
-    
 }
 
-.checkbox .checkbox-inner span{
+.checkbox .checkbox-inner input[type=checkbox]:checked:disabled+span {
+background:#333
+}
+
+.checkbox .checkbox-inner:disabled+span {
+background:#333
+}
+
+.checkbox .checkbox-inner span {
 top:0px;
 height:14px;
 width:30px;
@@ -2900,11 +2907,11 @@ background:#232323;
 margin-left:0px!important
 }
 
-.checkbox .checkbox-inner+span{
+.checkbox .checkbox-inner+span {
 margin-left:18px!important
 }
 
-.checkbox .checkbox-inner span:after{
+.checkbox .checkbox-inner span:after {
 content:"";
 position:absolute;
 background:#666;
