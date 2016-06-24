@@ -1699,6 +1699,65 @@ background:rgba(153,0,0,1);
 border:none!important
 }
 
+/* PINNED MESSAGES */
+.theme-dark .channel-pins-wrap {
+background:#191919;
+border:none
+}
+
+.theme-dark .channel-pins-wrap .header {
+background:#191919;
+border-bottom:6px solid #900
+}
+
+.theme-dark .channel-pins-wrap .header .title {
+color:#e5e5e5
+}
+
+.theme-dark .channel-pins-wrap .channel-pins .message-group {
+background:#232323;
+border:none;
+box-shadow:0px 2.5px 10px #000;
+border-radius:0px
+}
+
+.theme-dark .channel-pins-wrap .channel-pins .message-group .comment .markup code.inline {
+background:rgba(25,25,25,.50)
+}
+
+.theme-dark .channel-pins-wrap .channel-pins .message-group .comment .markup {
+background:#232323
+}
+
+.channel-pins .message-group .action-buttons {
+border:none!important;
+background:none!important;
+box-shadow:none!important;
+right:2px!important
+}
+
+.theme-dark .channel-pins-wrap .channel-pins .message-group .action-buttons .jump-button {
+background:#333333;
+color:#e5e5e5;
+}
+
+.theme-dark .channel-pins-wrap .channel-pins .empty-placeholder .body {
+color:#e5e5e5
+}
+
+.theme-dark .channel-pins-wrap .footer {
+background:#191919;
+border-top:6px solid #900
+}
+
+.protip.popout-footer .label, .protip.popout-footer .tip {
+color:#e5e5e5
+}
+
+.protip.popout-footer .tip {
+color:#b2b2b2
+}
+
 /*
  _              _ _   _           
 | |_ ___   ___ | | |_(_)_ __  ___ 
