@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.5.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.5.6"}*//{}
 
 /*
                      _                _                                   _ 
@@ -879,6 +879,24 @@ display:none
 .chat form {
 border-top:none!important;
 box-shadow:none
+}
+
+.theme-dark .chat .jump-to-present-bar {
+background:rgba(35,35,35,.75);
+}
+
+.theme-dark .chat .jump-to-present-bar:hover {
+background:rgba(25,25,25,.75)
+}
+
+.chat .jump-to-present-bar button:last-child {
+background:none;
+color:#e5e5e5
+}
+
+.chat .jump-to-present-bar button:first-child {
+background:none;
+color:#e5e5e5
 }
 
 .messages .message-group:not(.has-divider) {
