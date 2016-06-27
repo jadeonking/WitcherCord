@@ -1,6 +1,6 @@
 # Witcher-3-Theme-for-Discord
  I used cosmicsalad's Dark Matter theme as a template to this CSS, with help from Kilanna (big thanks) in helping me fix portions of CSS I botched; I'm new to this, and CSS is a nightmare. The background is from Witcher 3, and belongs to CD Projekt RED.
-![Screenshot](http://bit.ly/28Zqb5E)
+[![Screenshot](http://bit.ly/28ZstSe)](https://gfycat.com/ImpossibleFewGoat)
 To use this theme you need [__BetterDiscord__](https://betterdiscord.net/home/)
 
 Gist of the css if you prefer http://bit.ly/witcher3discordgist
