@@ -1060,6 +1060,14 @@ border:none;
 background:none
 }
 
+.message-group .edit-message.edit-first-message {
+margin-left:-86px;
+margin-top:-6px
+}
+
+.message-group .edit-message .channel-textarea-inner {
+margin-left:0px
+}
 .comment > div[style^="border-radius: 2px;"] {
 background-color:transparent!important;
 }
