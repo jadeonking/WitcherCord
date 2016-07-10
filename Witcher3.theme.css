@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.6.1"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.6.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -976,7 +976,8 @@ box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
 border-radius:0;
 margin-left:6px;
-margin-bottom:8px
+margin-bottom:8px;
+background-color:#232323
 }
 
 .message-group h2 .timestamp {
@@ -1631,7 +1632,8 @@ border-radius:0
 border:none;
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
-border-radius:0
+border-radius:0;
+background-color:#232323
 }
 
 .user-popout .body {
