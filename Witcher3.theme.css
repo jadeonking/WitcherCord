@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.6.3"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -664,6 +664,14 @@ color:#fff!important;
 background:#900
 }
 
+.form .form-inner .mentioned .highlight {
+background:rgba(35,35,35,.75)!important
+}
+
+.form .form-inner .highlight {
+background:rgba(35,35,35,.75)
+}
+
 .form .form-header {
 color:#e5e5e5!important;
 background:#191919;
@@ -957,7 +965,7 @@ border-bottom-color:hsla(0,0%,100%,.04)!important
 .messages .message-group .markup .highlight {
 background-color:rgba(35,35,35,.75)!important;
 color:#ccc!important;
-padding:1px 4px;
+padding:0.51px 4px;
 border-radius:0
 }
 
@@ -966,9 +974,25 @@ background-color:rgba(35,35,35,1)!important;
 color:#e5e5e5!important
 }
 
-.message-group .comment .markup {
+.form-inner .message-group .comment .markup {
 color:#ccc;
 background:#191919
+}
+
+.form-inner .message-group .comment .markup pre {
+background:rgba(35,35,35,.75);
+border:none;
+border-radius:0;
+margin-top:4px;
+padding:1px
+}
+
+.form-inner .message-group .comment .markup pre code {
+background:rgba(35,35,35,.75)
+}
+
+.form-inner .message-group .comment .markup code.inline {
+padding:0.19em!important
 }
 
 .message-group .avatar-large {
@@ -1128,14 +1152,14 @@ border-color:rgba(255,255,255,0.1)!important
 .messages .markup pre code.hljs {
 background:rgba(35,35,35,0.75)!important;
 color:#b2b2b2!important;
-padding:1em!important;
+padding:0.85em!important;
 border-radius:0
 }
 
 .modal-content .markup code.inline,.messages .markup code.inline {
 background:rgba(35,35,35,0.75)!important;
 color:#b2b2b2!important;
-padding:.3em .6em!important;
+padding:.2em .6em!important;
 border-radius:0!important
 }
 
@@ -1826,62 +1850,117 @@ border:none!important
 }
 
 /* PINNED MESSAGES */
-.theme-dark .channel-pins-wrap {
+.theme-dark .messages-popout-wrap {
 background:#191919;
 border:none
 }
 
-.theme-dark .channel-pins-wrap .header {
+.theme-dark .messages-popout-wrap .header {
 background:#191919;
 border-bottom:6px solid #900
 }
 
-.theme-dark .channel-pins-wrap .header .title {
+.theme-dark .messages-popout-wrap .header .title {
 color:#e5e5e5
 }
 
-.theme-dark .channel-pins-wrap .channel-pins .message-group {
+.theme-dark .messages-popout-wrap .messages-popout .message-group {
 background:#232323;
 border:none;
 box-shadow:0px 2.5px 10px #000;
 border-radius:0
 }
 
-.theme-dark .channel-pins-wrap .channel-pins .message-group .comment .markup code.inline {
-background:rgba(25,25,25,.50)
+.theme-dark .messages-popout-wrap .messages-popout .message-group .comment .markup code.inline {
+background:rgba(25,25,25,.50);
+border-radius:0
 }
 
-.theme-dark .channel-pins-wrap .channel-pins .message-group .comment .markup {
+.theme-dark .messages-popout-wrap .messages-popout .message-group .comment .markup {
 background:#232323
 }
 
-.channel-pins .message-group .action-buttons {
+.theme-dark .messages-popout-wrap .messages-popout .message-group .comment .markup pre {
+background:rgba(25,25,25,.50)!important;
+border:none;
+border-radius:0;
+margin-top:4px
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .comment .markup pre code {
+background:rgba(25,25,25,.50)!important;
+overflow-y:hidden;
+color:#ccc
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .comment .markup .highlight {
+background:rgba(25,25,25,.50)!important
+}
+
+.messages-popout .message-group .action-buttons {
 border:none!important;
 background:none!important;
 box-shadow:none!important;
 right:2px!important
 }
 
-.theme-dark .channel-pins-wrap .channel-pins .message-group .action-buttons .jump-button {
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .jump-button {
 background:#333333;
 color:#e5e5e5;
 }
 
-.theme-dark .channel-pins-wrap .channel-pins .empty-placeholder .body {
+.theme-dark .messages-popout-wrap .messages-popout .empty-placeholder .body {
 color:#e5e5e5
 }
 
-.theme-dark .channel-pins-wrap .footer {
+.theme-dark .messages-popout-wrap .footer {
 background:#191919;
 border-top:6px solid #900
 }
 
-.protip.popout-footer .label, .protip.popout-footer .tip {
+.protip.popout-footer .label {
 color:#e5e5e5
 }
 
 .protip.popout-footer .tip {
 color:#b2b2b2
+}
+
+/* RECENT MESSAGES */
+.recent-mentions-popout .header .tab-bar-item.selected {
+border:none
+}
+
+.recent-mentions-popout .header .tab-bar-item:hover {
+border:none
+}
+
+.context-menu.recent-mentions-filter-popout {
+box-shadow:0px 2.5px 10px #000;
+background:#232323!important;
+border-radius:0
+}
+
+.context-menu.recent-mentions-filter-popout .item {
+color:#ccc
+}
+
+.context-menu.recent-mentions-filter-popout .item:hover {
+background:none!important
+}
+
+.theme-dark .recent-mentions-popout .mention-filter .label {
+color:#ccc
+}
+
+.theme-dark .recent-mentions-popout .messages-popout .message-group .comment .markup .highlight {
+background:rgba(25,25,25,.50)
+}
+
+.theme-dark .recent-mentions-popout .messages-popout .message-group .comment .markup pre {
+background:rgba(25,25,25,.50)!important;
+border:none;
+margin-top:5px
 }
 
 /*
