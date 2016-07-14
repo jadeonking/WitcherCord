@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -568,7 +568,7 @@ border:2px solid #191919
 background-color:#900;
 width:15px;
 height:15px;
-border-radius:4px
+border-radius:25px
 }
 
 .chat .has-more button {
@@ -584,7 +584,7 @@ color:#e5e5e5
 
 .emoji-picker {
 background:#191919!important;
-border:0
+border:none
 }
 
 .emote-menu-inner {
@@ -3005,19 +3005,52 @@ background-size:auto
 }
 
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
-color:#ccc
+color:#ccc!important;
+background:#232323;
+box-shadow:0px 2.5px 10px #000
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .btn {
+box-shadow:0px 2.5px 10px #000
 }
 
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
-border-color:#191919!important
+border:none!important
 }
 
 .user-settings-modal-connections .user-settings-modal-connections-list {
-box-shadow:0 0 #191919
+box-shadow:none!important
 }
 
 .user-settings-modal-connections .user-settings-modal-connections-header label {
 color:#e5e5e5
+}
+
+.settings-connections-wrapper .authed-app {
+background:#232323;
+border:none;
+box-shadow:0px 2.5px 10px #000
+}
+
+.settings-connections-wrapper .authed-app .header .header-actions .action-btn {
+background:#900;
+box-shadow:0px 2.5px 10px #000
+}
+
+.settings-connections-wrapper .authed-app .header .app-name {
+color:#e5e5e5
+}
+
+.settings-connections-wrapper .authed-app .details .header {
+color:#ccc
+}
+
+.settings-connections-wrapper .authed-app .details .body {
+color:#b2b2b2
+}
+
+.settings-connections-wrapper .authed-app .details .body li {
+color:#b2b2b2
 }
 
 .user-settings-modal-keybinds
@@ -3047,11 +3080,11 @@ color:#b2b2b2
 
 .tab-bar.TOP .tab-bar-item:hover {
 color:#ccc;
-border-color:#ccc
+border:none
 }
 
 .tab-bar.TOP .tab-bar-item.selected {
-border-color:#e5e5e5;
+border:none;
 color:#e5e5e5
 }
 
