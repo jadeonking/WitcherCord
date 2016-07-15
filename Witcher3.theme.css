@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7.5"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -713,10 +713,6 @@ color:#e5e5e5
 color:#e5e5e2
 }
 
-.markdown-modal .markdown-modal-header {
-color:#e5e5e5
-}
-
 .channel-notification-settings {
 border:hidden
 }
@@ -726,7 +722,8 @@ color:#ccc
 }
 
 .markdown-modal .markdown-modal-header {
-border-bottom:4px solid #900
+border-bottom:6px solid #900;
+color:#e5e5e5
 }
 
 .markdown-modal .scroller-wrap .scroller {
@@ -2205,7 +2202,10 @@ box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
 border:none!important;
 background:#232323;
-top:8px
+top:8px;
+background-repeat:no-repeat;
+width:50%;
+height:128px;
 }
 
 .avatar-uploader .avatar-uploader-inner:hover {
@@ -2214,7 +2214,11 @@ border-radius:0px!important;
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
 border:none!important;
-opacity:.85
+opacity:.85;
+}
+
+.avatar-uploader .avatar-uploader-inner .avatar-uploader-hint {
+margin-left:4px
 }
 
 .markdown-modal,.form
@@ -2334,7 +2338,8 @@ color:#e5e5e5
 }
 
 .avatar-uploader a {
-color:#ccc
+color:#ccc;
+margin-left:5px
 }
 
 .avatar-uploader a:hover {
@@ -3086,6 +3091,27 @@ border:none
 .tab-bar.TOP .tab-bar-item.selected {
 border:none;
 color:#e5e5e5
+}
+
+.markdown-modal .markdown-modal-footer {
+border-top:6px solid #900;
+color:#ccc
+}
+
+.markdown-modal ul li {
+color:#b2b2b2
+}
+
+.markdown-modal strong {
+color:#ccc
+}
+
+.change-log-button-container:before {
+display:none
+}
+
+.change-log-button-container .change-log-button {
+margin-top:-15px
 }
 
 #overlay-explanation {
