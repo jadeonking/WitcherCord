@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7.6"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -1481,7 +1481,7 @@ font-size:0
 
 .channel-members .member:hover {
 background:none!important;
-width:73%;
+width:100%;
 padding-right:20px;
 margin-left:0px;
 border-left:4px solid #900
