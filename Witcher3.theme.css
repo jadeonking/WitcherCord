@@ -1854,9 +1854,13 @@ z-index:1!important
 }
 
 .chat.flex-vertical.flex-spacer.private>.content.flex-spacer.flex-horizontal>.flex-spacer.flex-vertical {
-margin-right:-150px!important;
+margin-right:0px!important;
 z-index:1!important;
 box-shadow:inset 10px 10px 5px -6px rgba(0,0,0,1)!important
+}
+
+div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
+margin-left:-150px
 }
 
 /*-------------------made by Beard Design-------------------------*/
