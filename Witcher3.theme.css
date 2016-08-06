@@ -621,18 +621,24 @@ color:#fff;
 margin-right:-.8px
 }
 
+.emoji-picker .search-bar .search-bar-inner {
+border:none
+}
+
 .emoji-picker .search-bar input {
 color:#e5e5e5;
 background-color:#232323;
-border:0
+border:none
 }
 
 .emoji-picker .search-bar {
-background:#191919
+background:#191919;
+border:none
 }
 
 .emoji-picker .search-bar-clear {
-background:#191919
+background:#191919;
+border:none
 }
 
 .emoji-picker .sticky-header {
