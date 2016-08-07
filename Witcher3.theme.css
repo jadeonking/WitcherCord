@@ -622,7 +622,8 @@ margin-right:-.8px
 }
 
 .emoji-picker .search-bar .search-bar-inner {
-border:none
+border:none!important;
+background:none
 }
 
 .emoji-picker .search-bar input {
@@ -1436,7 +1437,8 @@ color:#ccc
 }
 
 .search-bar .search-bar-inner {
-border:none
+border:none;
+background:none
 }
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action-grey {
