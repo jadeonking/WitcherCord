@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.7.8"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.8.0"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -186,10 +186,11 @@ padding:18px 20px 85px
 .guilds-wrapper .guilds-add {
 font-size:30px;
 background:transparent;
-border-radius:8px;
+border-radius:0px;
 width:40px!important;
 height:40px!important;
 margin-left:5px;
+margin-top:18px!important
 }
 
 .guilds .guild-inner {
@@ -287,6 +288,10 @@ opacity:1
 background:rgba(0,0,0,0)!important
 }
 
+.search-bar input::-webkit-input-placeholder {
+color:#e5e5e5
+}
+
 .private-channels .search-bar input {
 background:#232323!important;
 color:#e5e5e5
@@ -320,7 +325,7 @@ padding-right:18px!important
 }
 
 .guild-channels .channel-text:not(.selected):hover {
-width:90%!important;
+width:100%!important;
 padding-right:10px!important
 }
 
@@ -440,13 +445,14 @@ display:none!important
 display:none!important
 }
 
-/*If you want the channel hover buttons back change none to inline block */
+/*----------------------------------------------------------------------*/
 
 .guild-channels .channel-voice.drop-target {
 background:rgba(35,35,35,.50);
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
-width:176px!important
+padding:8px 6px 10px 20px;
+width:82!important
 }
 
 .guild-channels .channel.sorting:after {
@@ -630,6 +636,10 @@ background:none
 color:#e5e5e5;
 background-color:#232323;
 border:none
+}
+
+.emoji-picker .search-bar input::-webkit-input-placeholder {
+color:#e5e5e5
 }
 
 .emoji-picker .search-bar {
@@ -1183,6 +1193,10 @@ margin-left:-20px;
 border-radius:0
 }
 
+.channel-textarea-inner textarea::-webkit-input-placeholder {
+color:#e5e5e5!important
+}
+
 .channel-textarea-autocomplete-inner {
 border:hidden!important;
 background:rgba(25,25,25,1)!important;
@@ -1197,7 +1211,7 @@ border:none!important
 }
 
 .channel-textarea-autocomplete-inner header {
-border:none!important;
+border-bottom:6px solid #900!important;
 background:rgba(35,35,35,1)!important;
 color:#e5e5e5!important
 }
@@ -1303,8 +1317,8 @@ border-top:none
 border-radius:10px
 }
 
-.add-friend-popout .btn
-background-color:#232323 !important; {
+.add-friend-popout .btn {
+background-color:#232323 !important;
 color:#e5e5e5
 }
 
@@ -1873,7 +1887,7 @@ div.chat.flex-vertical.flex-spacer.private .channel-members-wrap {
 margin-left:-150px
 }
 
-/*-------------------made by Beard Design-------------------------*/
+/*-------------------------------------------------------------------*/
 
 /*
                        _        __                                       _   
@@ -1891,7 +1905,7 @@ left:-18px
 background:#191919!important;
 border-top-radius:8px!important;
 border-bottom:6px solid #900!important;
-box-shadow:0px 1px 8px rgba(0,0,0,1)
+box-shadow:none
 }
 
 .user-popout .avatar-wrapper .avatar-hint {
@@ -1913,7 +1927,8 @@ border-right:0 solid rgba(153,0,0,1);
 }
 
 .user-popout .header.streaming {
-border-bottom:none !important
+border-bottom:none !important;
+box-shadow:none!important
 }
 
 .user-popout .header.streaming .activity strong {
@@ -1922,7 +1937,7 @@ margin-left:-66px
 
 .user-popout .header.streaming .live-on-twitch {
 border-top:6px solid #900;
-border-bottom:0px solid #900;
+border-bottom:none;
 background:#191919
 }
 
@@ -2019,6 +2034,11 @@ background:#900!important
 
 .sensitivity .slider .slider-bar.microphone .grow {
 background:#232323
+}
+
+.popout.popout-invert header {
+border-top:6px solid #900!important;
+border-bottom:none!important
 }
 
 .popout.popout-invert.popout-top-right header:before,.popout.popout-invert.popout-top header:before {
@@ -2416,19 +2436,11 @@ border-bottom:6px solid #900
 }
 
 .need-help-modal .header input[type=text] {
+box-shadow:none
+}
+
+.need-help-modal .header input[type=text]::-webkit-input-placeholder {
 color:#e5e5e5
-}
-
-.need-help-modal .header input[type=text] {
-color:#e5e5e5;
-background:#232323;
-box-shadow:none;
-box-radius:0;
-box-sizing:border-box
-}
-
-input#help-query {
-background:#232323!important
 }
 
 .need-help-modal a {
@@ -2534,7 +2546,8 @@ color:#e5e5e5
 .Select-menu-outer {
 background:#232323;
 border:none;
-color:#e5e5e5!important
+color:#e5e5e5!important;
+border-radius:0!important
 }
 
 .Select-option {
@@ -2545,7 +2558,8 @@ color:#ccc!important
 background:none!important;
 border-left:6px solid #900;
 position:relative;
-padding-left:4px
+padding-left:4px;
+border-radius:0!important
 }
 
 .has-value>.Select-control>.Select-value {
@@ -2786,6 +2800,10 @@ background:#232323;
 border-radius:0!important;
 height:34px;
 color:#e5e5e5
+}
+
+.search-bar.search-bar-light input::-webkit-input-placeholder {
+color:#e5e5e5!important
 }
 
 .search-bar.search-bar-light .search-bar-inner {
@@ -3277,11 +3295,11 @@ background-size:auto
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations.no-integrations {
 color:#ccc!important;
 background:#232323;
-box-shadow:0px 2.5px 10px #000
+box-shadow:none
 }
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .btn {
-box-shadow:0px 2.5px 10px #000
+box-shadow:none
 }
 
 .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-integrations {
@@ -3299,12 +3317,11 @@ color:#e5e5e5
 .settings-connections-wrapper .authed-app {
 background:#232323;
 border:none;
-box-shadow:0px 2.5px 10px #000
+box-shadow:none
 }
 
 .settings-connections-wrapper .authed-app .header .header-actions .action-btn {
-background:#900;
-box-shadow:0px 2.5px 10px #000
+background:#900
 }
 
 .settings-connections-wrapper .authed-app .header .app-name {
@@ -3519,7 +3536,8 @@ transition:all 200ms ease;
 box-shadow:0px 2px 3px rgba(0,0,0,0.3)
 }
 
-/*----------MADE BY BEARD DESIGN----------*/
+/*-------------------------------------------*/
+
 .bd-g-table tbody tr,.bd-g-table thead th,.bd-g-table tbody tr:nth-child(odd) {
 background:#232323!important
 }
