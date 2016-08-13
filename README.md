@@ -7,7 +7,7 @@ Witcher 3
 
 DuskCord
 
-[![Screenshot](http://bit.ly/2aN0Aho)](https://gfycat.com/DefensiveGracefulAntarcticfurseal "Click Me!")
+[![Screenshot](http://bit.ly/2aT06pQ)](https://gfycat.com/JoyfulFamousAfricanaugurbuzzard "Click Me!")
 
 Click [HERE!](https://github.com/jadeonking/Witcher-3-Theme-for-Discord/tree/Non-Transparent) to grab DuskCord
 
