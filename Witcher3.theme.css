@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"1.8.0"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -115,10 +115,6 @@ background:rgba(25,25,25,0)
 .create-guild-container .create-or-join .actions .or {
 -webkit-filter:opacity(0.0) invert();
 color:#000
-}
-
-.create-guild-container .action.create .action-icon,.create-guild-container .action.join .action-icon {
--webkit-filter:invert() hue-rotate(150deg)
 }
 
 .create-guild-container .action.create .action-header {
@@ -1024,21 +1020,21 @@ color:#ccc
 
 .embed {
 border:none;
-text-align:center!important
+text-align:left!important
 }
 
 .embed .embed-provider {
-text-align:center;
+text-align:left;
 display:none
 }
 
 .embed .embed-author {
-text-align:center;
+text-align:left;
 display:none
 }
 
 .embed .embed-title {
-text-align:center;
+text-align:left;
 display:none
 }
 
@@ -1523,26 +1519,31 @@ border-radius:8px
 }
 
 .private-channel-call .btn-text.btn-danger {
-background:#900;
+background:#232323;
 border-radius:0px
 }
 
 .private-channel-call .btn-text {
-border-radius:0
+border-radius:0;
+background:#232323
 }
 
 .private-channel-call .btn-text:hover {
-opacity:.75
+background:#900
+}
+
+.private-channel-call .btn-text:hover {
+opacity:1
 }
 
 .private-channel-call .btn-text.btn-danger:hover {
 background:#900;
-opacity:.75
+opacity:1
 }
 
 .theme-dark .chat .private-channel-call .btn-icon {
 border-radius:0;
-background-color:#232323
+background-color:transparent!important
 }
 
 .theme-dark .chat .private-channel-call .btn-icon:hover {
@@ -3970,4 +3971,358 @@ border:none
 
 .server-row:nth-child(2n+2) {
 background-color:#191919!important
+}
+
+/*
+  _____                    
+ |_   _|                   
+   | |  ___ ___  _ __  ___ 
+   | | / __/ _ \| '_ \/ __|
+  _| || (_| (_) | | | \__ \
+ |_____\___\___/|_| |_|___/
+
+*/
+
+.account .btn-settings:after {
+background-image:url(https://i.imgur.com/rI8942r.png)!important;
+opacity:.5!important
+}
+
+.account .btn-settings:hover:after {
+opacity:1!important
+}
+
+.account .btn-mute:after {
+background-image:url(https://i.imgur.com/ovju27H.png)!important;
+opacity:.5
+}
+
+.account .btn-mute:hover:after {
+opacity:1!important
+}
+
+.account .btn-deafen:after {
+background-image:url(https://i.imgur.com/8aFq0nd.png)!important;
+opacity:.5
+}
+
+.account .btn-deafen:hover:after {
+opacity:1
+}
+
+#voice-connection .btn-info:after {
+background-image:url(https://i.imgur.com/XrnhT3o.png);
+background-size:22px 22px
+}
+
+#voice-connection .btn-disconnect:after {
+background-image:url(https://i.imgur.com/Q0yl9MW.png);
+background-size:25px 25px
+}
+
+#voice-connection-popout .secured:before {
+background-image:url(https://i.imgur.com/CgPGTlg.png);
+background-size:11px 11px
+}
+
+.message-group .btn-option.popout-open, .message-group .comment>div:hover .btn-option {
+background-image:url(https://i.imgur.com/rI8942r.png)!important;
+background-size:16px 16px!important;
+opacity:.5!important;
+}
+
+.header-toolbar button span[style*='background-image: url("/assets/093cd423e728025709a8fc032bb43df0.svg");'] {
+background-image:url(https://i.imgur.com/Q0yl9MW.png)!important;
+transform:rotate(225deg)!important
+}
+
+.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCIgeG1sbnM6eGxpbms9Imh0dHA6Ly93d3cudzMub3JnLzE5OTkveGxpbmsiPgogIDxkZWZzPgogICAgPHBhdGggaWQ9ImEiIGQ9Ik04IDJWMEgxLjc3Nzc3Nzc4Qy43OTU5MzgyMiAwIDAgLjc5NTkzODIyIDAgMS43Nzc3Nzc3OFYxNC4yMjIyMjIyQzAgMTUuMjA0MDYxOC43OTU5MzgyMiAxNiAxLjc3Nzc3Nzc4IDE2SDE0LjIyMjIyMjJDMTUuMiAxNiAxNiAxNS4yMDg4ODg5IDE2IDE0LjIyMjIyMjJWOGgtMnY2SDJWMmg2eiIvPgogICAgPG1hc2sgaWQ9ImIiIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiIgeD0iMCIgeT0iMCIgZmlsbD0iI2ZmZiI+CiAgICAgIDx1c2UgeGxpbms6aHJlZj0iI2EiLz4KICAgIDwvbWFzaz4KICA8L2RlZnM+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMHoiLz4KICAgIDxnIHRyYW5zZm9ybT0idHJhbnNsYXRlKDQgNCkiPgogICAgICA8dXNlIHN0cm9rZT0iI0ZGRiIgc3Ryb2tlLXdpZHRoPSIyIiBtYXNrPSJ1cmwoI2IpIiB4bGluazpocmVmPSIjYSIvPgogICAgICA8cGF0aCBmaWxsPSIjRkZGIiBkPSJNNiA4LjE1NDk0ODVsNS40Mjc2NzU4LTUuNDI3Njc1NzcgMS44NDUwNTE1IDEuODQ1MDUxNUw3Ljg0NTA1MTUgMTBINlY4LjE1NDk0ODV6bTkuODYwMDMxMS02LjI3NTk3MjFsLS44NDgyOTYzLjg0ODI5NjMzLTEuNzM5MDA3NS0xLjczOTAwNzUuODQ4Mjk2My0uODQ4Mjk2MzNjLjE3ODE0MjItLjE4NjYyNTIuNDc1MDQ2LS4xODY2MjUyLjY1MzE4ODIgMGwxLjA4NTgxOTMgMS4wODU4MTkzYy4xODY2MjUyLjE3ODE0MjI0LjE4NjYyNTIuNDc1MDQ1OTYgMCAuNjUzMTg4MnoiLz4KICAgIDwvZz4KICA8L2c+Cjwvc3ZnPg==");']{
+background-image:url(https://i.imgur.com/nHzSR9W.png)!important
+}
+
+.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNMTMuMDA2Mjg2NjIgMjJjMSAwIDEuNzE0Mjg1NzItLjQwMTk1MzEgMS45OTk5OTk5OC0xLjAwNDg4MjhoLTMuOTk5OTk5OThjLjI4NTcxNDMuNjAyOTI5NyAxIDEuMDA0ODgyOCAyIDEuMDA0ODgyOHptNi45ODA1Mjk3OC0zLjk2MzQzOTlWMTBjMC0yLjY0LTIuMzAyODY2OC00Ljk3NTAzNjYyLTUuMDEwNTU5MDgtNC45NzUwMzY2MiAwLS43Mi0uMzQ0MDU1MTctMS4wMjk4NDYyLTEuOTczMTE0LTEuMDI5ODQ2Mi0xLjYyOTA1ODg1IDAtMS45NjU4NTA4NC4zMDk4NDYyLTEuOTY1ODUwODQgMS4wMjk4NDYyQzguMzI5NjAwMTggNS4wMjQ5NjMzOCA1Ljk5NTQ4MzQgNy4zNiA1Ljk5NTQ4MzQgMTB2OC4wMzY1NjAxaC0uOTg5MTk2Nzh2MS45NTE0MTZIMjF2LTEuOTUxNDE2aC0xLjAxMzE4MzZ6TTE4IDE4SDh2LTcuN0M4IDguNDMgOS40NDQ0NDQ0NCA3IDExLjMzMzMzMzMzIDdoMy4zMzMzMzMzNEMxNi41NTU1NTU2IDcgMTggOC40MyAxOCAxMC4zVjE4eiIvPgo8L3N2Zz4=");'] {
+background-image:url(https://i.imgur.com/rYtrTeW.png)!important
+}
+
+.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xMy4wMDYyODY2MiAyMmMuOTk5OTk5OTggMCAxLjcxNDI4NTY4LS40MDE5NTMxIDEuOTk5OTk5OTgtMS4wMDQ4ODI4aC0zLjk5OTk5OTk4Yy4yODU3MTQzLjYwMjkyOTcgMSAxLjAwNDg4MjggMiAxLjAwNDg4Mjh6bTYuOTgwNTI5NzgtMy45NjM0Mzk5VjEwYzAtMi42NC0yLjMwMjg2NjgtNC45NzUwMzY2Mi01LjAxMDU1OTEtNC45NzUwMzY2MiAwLS43Mi0uMzQ0MDU1Mi0xLjAyOTg0NjItMS45NzMxMTQtMS4wMjk4NDYyLTEuNjI5MDU4ODMgMC0xLjk2NTg1MDgyLjMwOTg0NjItMS45NjU4NTA4MiAxLjAyOTg0NjJDOC4zMjk2MDAxOCA1LjAyNDk2MzM4IDUuOTk1NDgzNCA3LjM2IDUuOTk1NDgzNCAxMHY4LjAzNjU2MDFoLS45ODkxOTY3OHYxLjk1MTQxNkgyMXYtMS45NTE0MTZoLTEuMDEzMTgzNnpNMTMuMDgzODk2MTYgMThsLTIuMDc4OTMwODIgMi4wMjcyMDQ1SDQuOTQxNjIwMzhWMThINnYtM2wyLTIuMDgyOTQyOTJWMTAuM0M4IDguNDMgOS40NDQ0NDQ0NCA3IDExLjMzMzMzMzMzIDdoMy4zMzMzMzMzN2MuMjA1ODcyMSAwIDEuMzU3OTgyNS0xLjkwOTA0NTggMS4zNTc5ODI1LTEuOTA5MDQ1OHMxLjMxODM5MDguMjc5MTU2OTIgMi41NTU1MzQzIDEuNTk4ODMzNjdjMS4yMzcxNDM2IDEuMzE5Njc2NzYgMS4zMjUzODg5IDMuMjUxOTI3NzQgMS4zMjUzODg5IDMuMjUxOTI3NzRMMTggMTIuOTQ1NDcyNTZWMThoLTQuOTE2MTAzODR6Ii8+CiAgICA8cGF0aCBzdHJva2U9IiNGMDQ3NDciIHN0cm9rZS13aWR0aD0iMiIgZD0iTTIxIDVMNSAyMSIgc3Ryb2tlLWxpbmVjYXA9InNxdWFyZSIvPgogIDwvZz4KPC9zdmc+");'] {
+background-image:url(https://i.imgur.com/szyUrwt.png)!important
+}
+
+.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xIDFoMjR2MjRIMSIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTE1IDE1VjZoLTR2OWgtLjUwODk5NDgyQzEwLjIyNzg4MDQ4IDE1IDEwIDE1LjIyMzg1NzYgMTAgMTUuNWMwIC4yNjgwNjY0LjIxOTgzMDUuNS40OTEwMDUxOC41aDUuMDE3OTg5NjRDMTUuNzcyMTE5NTIgMTYgMTYgMTUuNzc2MTQyNCAxNiAxNS41YzAtLjI2ODA2NjQtLjIxOTgzMDUtLjUtLjQ5MTAwNTE4LS41SDE1em0yLTloMVY0SDh2MmgxdjhsLTIgMnYyaDUuMnY0aDEuNnYtNEgxOXYtMmwtMi0yVjZ6Ii8+CiAgPC9nPgo8L3N2Zz4=");'] {
+background-image:url(https://i.imgur.com/wK8aeTQ.png)!important
+}
+
+.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xMSAxM2MyLjIxIDAgNC0xLjc5IDQtNHMtMS43OS00LTQtNC00IDEuNzktNCA0IDEuNzkgNCA0IDR6bTAgMmMtMi42NyAwLTggMS4zNC04IDR2MmgxNnYtMmMwLTIuNjYtNS4zMy00LTgtNHptOS4wNjgxMTA2LTQuMDczNzMzODhWOC41NjEwODkzNmMwLS4xNzYyMDU0NSAwLS41NjEwODkzNi0uNTY2Nzc0Ny0uNTYxMDg5MzYtLjU2Njc3NDggMC0uNTcyMzk4MS4zODQ4ODM5LS41NzIzOTgxLjU2MTA4OTM2djIuMzY1MTc2NzZoLTIuMzE0ODE0NGMtLjE3NDkzMzIgMC0uNjA3NzE0NyAwLS42MDc3MTQ3LjU3MjM5Nzk4IDAgLjU3MjM5ODEuNDMyNzgxNS41NzM1MDE0LjYwNzcxNDcuNTczNTAxNGgyLjMxNDgxNDR2Mi4yOTkyNjcxYzAgLjE3NDkzMzIuMDA1NjIzMy42MjU4OTU3LjU3MjM5ODEuNjI1ODk1Ny41NjY3NzQ3IDAgLjU2Njc3NDctLjM5Mzc5OS41NjY3NzQ3LS41Njg3MzIydi0yLjM1NjQzMDZoMi4zMzkxMzM4Yy4xNzU1NjkzIDAgLjU5Mjc1NTYtLjAwMTEwMzMuNTkyNzU1Ni0uNTczNTAxNCAwLS41NzIzOTc5OC0uNDE3MTg2My0uNTcyMzk3OTgtLjU5Mjc1NTYtLjU3MjM5Nzk4aC0yLjMzOTEzMzh6Ii8+CiAgICA8cGF0aCBkPSJNMSAxaDI0djI0SDFWMXoiLz4KICA8L2c+Cjwvc3ZnPg==");'] {
+background-image:url(https://i.imgur.com/NxDeThh.png)!important
+}
+
+.header-toolbar button span[style*='background-image: url("/assets/567632a2702aed0296e15d68d6cae738.svg");'] {
+background-image:url(https://i.imgur.com/CJdITDq.png)!important
+}
+
+.header-toolbar button span[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNiIgaGVpZ2h0PSIyNiI+CiAgPHBhdGggZmlsbD0iI0ZGRiIgZmlsbC1ydWxlPSJldmVub2RkIiBkPSJNOCA5LjMyNTg0MjdjMCAuNzQxNTczMDMuNjE2NDM4MzYgMS4zNTk1NTA1NiAxLjM1NjE2NDM4IDEuMzU5NTUwNTYuNzM5NzI2MDMgMCAxLjM1NjE2NDQtLjYxNzk3NzUzIDEuMzU2MTY0NC0xLjM1OTU1MDU2IDAtMS40ODMxNDYwNyAxLjYwMjczOTctMS41NDQ5NDM4MiAxLjc4NzY3MTIyLTEuNTQ0OTQzODIuMTg0OTMxNSAwIDEuNzg3NjcxMjMuMDYxNzk3NzUgMS43ODc2NzEyMyAxLjU0NDk0Mzgydi4zMDg5ODg3NmMwIC42MTc5Nzc1My0uMzA4MjE5MTggMS4xMTIzNTk1NS0uODYzMDEzNyAxLjQyMTM0ODMybC0xLjIzMjg3NjcuNjc5Nzc1MjhjLS42NzgwODIyLjM3MDc4NjUtMS4wNDc5NDUyIDEuMDUwNTYxOC0xLjA0Nzk0NTIgMS43OTIxMzQ4M3YxLjExMjM1OTUyQzExLjE0MzgzNTYzIDE1LjM4MjAyMjUgMTEuNzYwMjczOTYgMTYgMTIuNSAxNmMuNzM5NzI2MDMgMCAxLjM1NjE2NDM4LS42MTc5Nzc1IDEuMzU2MTY0MzgtMS4zNTk1NTA1NnYtLjY3OTc3NTI4bC44NjMwMTM3LS40MzI1ODQyN0MxNi4xMzY5ODYzIDEyLjc4NjUxNjgyIDE3IDExLjMwMzM3MDggMTcgOS42OTY2Mjkydi0uMzcwNzg2NUMxNyA2LjQ4MzE0NjA3IDE0LjcxOTE3ODA4IDUgMTIuNSA1IDEwLjIxOTE3ODA4IDUgOCA2LjQ4MzE0NjA3IDggOS4zMjU4NDI3ek0xMi41IDE3Yy0yIDAtMiAzIDAgM3MyLTMgMC0zeiIvPgo8L3N2Zz4=");'] {
+background-image:url(https://i.imgur.com/gVzKx34.png)!important
+}
+
+.system-message-icon[style*='background-image: url("/assets/c30220457097b064286a8759a9b6c4af.svg");'] {
+background-image:url(https://i.imgur.com/oYUOVp0.png)!important
+}
+
+.system-message-icon[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmVyc2lvbj0iMS4xIj4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiIHN0cm9rZT0ibm9uZSIgc3Ryb2tlLXdpZHRoPSIxIj4KICAgIDxwYXRoIGQ9Ik0xOCAwSDB2MThoMTh6Ii8+CiAgICA8cGF0aCBmaWxsPSIjRjA0NzQ3IiBkPSJNMy44IDhsMy42LTMuNkw2IDMgMCA5bDYgNiAxLjQtMS40TDMuOCAxMEgxOFY4Ii8+CiAgPC9nPgo8L3N2Zz4=");'] {
+background-image:url(https://i.imgur.com/586Z9gu.png)!important
+}
+
+.system-message-icon[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiM5OUFBQjUiIGQ9Ik0wIDE0LjI1VjE4aDMuNzVMMTQuODEgNi45NGwtMy43NS0zLjc1TDAgMTQuMjV6TTE3LjcxIDQuMDRjLjM5LS4zOS4zOS0xLjAyIDAtMS40MUwxNS4zNy4yOWMtLjM5LS4zOS0xLjAyLS4zOS0xLjQxIDBsLTEuODMgMS44MyAzLjc1IDMuNzUgMS44My0xLjgzeiIvPgogICAgPHBhdGggZD0iTTAgMGgxOHYxOEgwIi8+CiAgPC9nPgo8L3N2Zz4K");']{
+background-image:url(https://i.imgur.com/u1wlBLb.png)!important
+}
+
+.system-message-icon[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0xOCAwSDB2MThoMTh6Ii8+CiAgICA8cGF0aCBmaWxsPSIjNDNCNTgxIiBkPSJNMCA4aDE0LjJsLTMuNi0zLjZMMTIgM2w2IDYtNiA2LTEuNC0xLjQgMy42LTMuNkgwIi8+CiAgPC9nPgo8L3N2Zz4=");'] {
+background-image:url(https://i.imgur.com/IzFVy0h.png)!important
+}
+
+.system-message-icon[style*='background-image: url("/assets/d80d1fdc43a3c42134a31a39581160ac.svg");'] {
+background-image:url(https://i.imgur.com/GczWQaH.png)!important
+}
+
+.guild-channels .channel-voice-states li .icon-muted {
+background-image:url(https://i.imgur.com/66RcXXp.png);
+opacity:.5!important
+}
+
+.guild-channels .channel-voice-states li .icon-deafened {
+background-image:url(https://i.imgur.com/quqY44n.png);
+opacity:.5!important
+}
+
+.private-channel-call .status-muted:after {
+background-image:url(https://i.imgur.com/66RcXXp.png);
+background-size:18px 18px
+}
+
+.private-channel-call .status-deafened:after {
+background-image:url(https://i.imgur.com/quqY44n.png);
+background-size:16px 16px
+}
+
+.channel-mute-button {
+background-image:url(https://i.imgur.com/rYtrTeW.png)
+}
+
+.channel-mute-button.muted {
+background-image:url(https://i.imgur.com/szyUrwt.png)
+}
+
+.channel-notification-settings .content .reset-container .reset-button {
+background-image:url(https://i.imgur.com/y5to0IU.png)
+}
+
+.guilds-wrapper .guilds .friends-icon {
+background-image:url(https://i.imgur.com/QJ8v9RV.png)
+}
+
+.private-channels .channel .icon-friends {
+background-image:url(https://i.imgur.com/W5UM0RM.png)
+}
+
+.guilds-wrapper .guilds .guild.audio .guild-inner:after {
+background-image:url(https://i.imgur.com/FgYwEtE.png);
+background-size:18px 18px
+}
+
+.messages-popout .empty-placeholder .image[style*='background-image: url("/assets/6793e022dc1b065b21f12d6df02f91bd.svg");'] {
+background-image:url(https://i.imgur.com/w0GqxfV.png)!important;
+background-size:135px
+}
+
+.messages-popout .empty-placeholder .image[style*='background-image: url("/assets/308e587f3a68412f137f7317206e92c2.svg");']{
+background-image:url(https://i.imgur.com/cqdtLo5.png)!important;
+background-size:85px
+}
+
+#settings-roles .roles header .create-role-button {
+background-image:url(https://i.imgur.com/ZbEoljM.png);
+background-size:18px
+}
+
+.member-roles .member-role.member-role-add button {
+background-image:url(https://i.imgur.com/ZbEoljM.png);
+background-size:13px
+}
+
+.member-roles .member-role .member-role-remove {
+background-image:url(https://i.imgur.com/u6RwzJp.png);
+background-size:12px 12px
+}
+
+.user-popout .body .roles .icon-roles {
+background-image:url(https://i.imgur.com/PLMb5Jf.png)
+}
+
+.user-popout .body .notes .icon-notes {
+background-image:url(https://i.imgur.com/mYjKNQo.png)
+}
+
+.private-channel-call .btn-icon-mute:after {
+background-image:url(https://i.imgur.com/ovju27H.png)
+}
+
+.private-channel-call .btn-icon-mute.mute:after {
+background-image:url(https://i.imgur.com/ovju27H.png)
+}
+
+.private-channel-call .btn-icon-settings:after {
+background-image:url(https://i.imgur.com/rI8942r.png)
+}
+
+.private-channel-call .btn-icon-mute:hover:after {
+background-image:url(https://i.imgur.com/ovju27H.png);
+opacity:1!important
+}
+
+.private-channel-call .btn-icon-settings:hover:after {
+background-image:url(https://i.imgur.com/rI8942r.png);
+opacity:1!important
+}
+
+.embed .embed-video-actions .embed-video-play {
+background-image:url(https://i.imgur.com/5g2k6mV.png);
+background-size:25px 25px;
+margin-top:-5px
+}
+
+.embed .embed-video-actions .embed-video-popout {
+background-image:url(https://i.imgur.com/Mgd1QEP.png);
+background-size:20px 20px
+}
+
+.guild-channels .icon-lock {
+background-image:url(https://i.imgur.com/CgPGTlg.png);
+background-size:16x 16px!important
+}
+
+.search-bar-tag .close {
+background-image:url(https://i.imgur.com/u6RwzJp.png);
+background-size:16px 16px
+}
+
+.private-channels .channel .close {
+background-image:url(https://i.imgur.com/u6RwzJp.png);
+background-size:18px 18px
+}
+
+.btn-confirm .icon.icon-logout {
+background-image:url(https://i.imgur.com/bWF7DDP.png);
+background-size:22px 22px
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete{
+background-image:url(https://i.imgur.com/5jfTC53.png);
+background-size:20px 20px;
+background-repeat:no-repeat
+}
+
+.btn-confirm .icon.icon-delete {
+background-image:url(https://i.imgur.com/5jfTC53.png);
+background-size:20px 20px
+}
+
+.settings-connections-wrapper .authed-app .details .permission-checkmark {
+background-image:url(https://i.imgur.com/TdP6eOM.png);
+background-size:13px 12px
+}
+
+.user-settings-modal button.preview-sound:before {
+background-image:url(https://i.imgur.com/FgYwEtE.png);
+background-size:20px 18px
+}
+
+.user-settings-locale .help-translate {
+background-image:url(https://i.imgur.com/y2loZPV.png);
+background-size:26px 22px
+}
+
+.markdown-modal .markdown-modal-header .markdown-modal-close {
+background-image:url(https://i.imgur.com/u6RwzJp.png);
+background-size:20px 20px;
+height:18px;
+width:18px
+}
+
+.user-settings-modal-games .games-table .games-row .item-alert .icon, .user-settings-modal-games .games-table .games-row .item-delete .icon {
+background-image:url(https://i.imgur.com/y5to0IU.png);
+background-size:16px 16px
+}
+
+.theme-dark .channel-textarea-upload {
+background-image:url(https://i.imgur.com/yQPO7Rt.png);
+background-size:24px 24px
+}
+
+.theme-dark .channel-textarea-upload:hover {
+background-image:url(https://i.imgur.com/yQPO7Rt.png);
+background-color:#383838!important
+}
+
+.create-guild-container .action.create .action-icon {
+background-image:url(https://i.imgur.com/XcU6PCi.png);
+background-size:75px 75px;
+opacity:.5
+}
+
+.create-guild-container .action.join .action-icon {
+background-image:url(https://i.imgur.com/GqN1Daw.png);
+background-size:75px 75px;
+opacity:.5
+}
+
+.create-guild-container .form-actions .btn-default:before {
+background-image:url(https://i.imgur.com/586Z9gu.png)
+}
+
+.clipboard-input-inner button.tweet {
+background-image:url(https://i.imgur.com/3HQwTtZ.png)
+}
+
+.clipboard-input-inner button.copy {
+background-image:url(https://i.imgur.com/vpF5Uw4.png)
+}
+
+.clipboard-input-inner button.copy:hover {
+background-color:#383838
+}
+
+.theme-dark .messages-popout-wrap .messages-popout .message-group .action-buttons .close-button {
+background-image:url(https://i.imgur.com/u6RwzJp.png)!important
+}
+
+.guild-channels header button:after {
+background-image:url(https://i.imgur.com/ZbEoljM.png);
+background-size:18px 18px
+}
+
+#user-profile-modal .header .additional-actions-icon {
+background-image:url(https://i.imgur.com/To9qvQa.png);
+background-size:34px 34px
+}
+
+.guild-channels .toggle-muted-text-channels a:before {
+background-image:url(https://i.imgur.com/33UBzEX.png);
+background-size:18px 18px
+}
+
+.chat .welcome-message .item-container .icon.exclamation {
+background-image:url(https://i.imgur.com/s2jYlk6.png)
+}
+
+.chat .welcome-message .item-container .icon.share {
+background-image:url(https://i.imgur.com/O5RG3dq.png);
+transform:rotate(-90deg)
+}
+
+.chat .welcome-message .item-container .icon.mobile {
+background-image:url(https://i.imgur.com/NdsFNVf.png)
+}
+
+.chat .welcome-message .item-container .icon.twitter {
+background-image:url(https://i.imgur.com/iBdW6HC.png)
 }
