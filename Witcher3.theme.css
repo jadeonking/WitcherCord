@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -20,6 +20,20 @@ background-size:cover!important;
 background:url(https://i.imgur.com/mQDJWFb.png)!important;
 background-size:cover!important;
 opacity:.95!important
+}
+
+/* Embed Settings */
+
+.embed {
+border:none;
+text-align:left!important
+}
+
+/* If you want titles, descriptions, etc. change display:none to display:inherit */
+
+.embed .embed-provider, .embed .embed-author, .embed .embed-title, .embed .embed-description, .embed.embed-link .embed-thumbnail {
+display:none;
+text-align:left!important
 }
 
 /*
@@ -1016,34 +1030,6 @@ background-color:#232323
 
 .message-group h2 .timestamp {
 color:#ccc
-}
-
-.embed {
-border:none;
-text-align:left!important
-}
-
-.embed .embed-provider {
-text-align:left;
-display:none
-}
-
-.embed .embed-author {
-text-align:left;
-display:none
-}
-
-.embed .embed-title {
-text-align:left;
-display:none
-}
-
-.embed .embed-description {
-display:none
-}
-
-.embed.embed-link .embed-thumbnail {
-display:none
 }
 
 .messages .message-group {
