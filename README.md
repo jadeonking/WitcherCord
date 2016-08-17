@@ -13,10 +13,6 @@ Click [HERE!](https://github.com/jadeonking/Witcher-3-Theme-for-Discord/tree/Non
 
 To use themes you need [__BetterDiscord__](https://betterdiscord.net/home/)
 
-Gist of the css if you prefer http://bit.ly/witcher3discordgist
-
-Custom icon images might be coming sometime
-
 The Witcher 3 theme album get a more indepth look! 
 <blockquote class="imgur-embed-pub" lang="en" data-id="a/Y5cg2"><a href="//imgur.com/a/Y5cg2">Witcher 3 Theme Album</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
 **DISCLAIMER some images might be out of date will update when I can**
