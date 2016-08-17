@@ -3,7 +3,7 @@
 
 Witcher 3
 
-[![Screenshot](http://bit.ly/28ZstSe)](https://gfycat.com/ImpossibleFewGoat "Click Me!")
+[![Screenshot](http://bit.ly/2b0FLPx)](https://gfycat.com/DrearyIllGoose "Click Me!")
 
 DuskCord
 
