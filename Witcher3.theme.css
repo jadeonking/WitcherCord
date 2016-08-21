@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.4"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -508,7 +508,7 @@ box-shadow:none!important
 }
 
 .account .btn:active {
-background:#000
+background:transparent
 }
 
 .account .btn-settings:after {
@@ -529,6 +529,10 @@ padding:5px 10px!important
 background:transparent;
 box-shadow:none!important;
 border:none
+}
+
+#voice-connection .btn:active {
+background:transparent
 }
 
 .account .btn-deafen,.account .btn-settings {
@@ -3984,15 +3988,39 @@ opacity:.5
 }
 
 .account .btn-mute:hover:after {
-opacity:1!important
+background-image:url(https://i.imgur.com/66RcXXp.png)!important;
+opacity:1!important;
+-moz-transform:scaleX(-1);
+-o-transform:scaleX(-1);
+-webkit-transform:scaleX(-1);
+transform:scaleX(-1);
+filter:FlipV;
+-ms-filter:"FlipV"
+}
+
+.account .btn-mute.disabled:after {
+background-image:url(https://i.imgur.com/66RcXXp.png)!important;
+opacity:1!important;
+-moz-transform:scaleX(-1);
+-o-transform:scaleX(-1);
+-webkit-transform:scaleX(-1);
+transform:scaleX(-1);
+filter:FlipV;
+-ms-filter:"FlipV"
 }
 
 .account .btn-deafen:after {
-background-image:url(https://i.imgur.com/8aFq0nd.png)!important;
+background-image:url(https://i.imgur.com/m1B6ZX1.png)!important;
 opacity:.5
 }
 
 .account .btn-deafen:hover:after {
+background-image:url(https://i.imgur.com/quqY44n.png)!important;
+opacity:1
+}
+
+.account .btn-deafen.disabled:after {
+background-image:url(https://i.imgur.com/quqY44n.png)!important;
 opacity:1
 }
 
@@ -4072,7 +4100,13 @@ background-image:url(https://i.imgur.com/GczWQaH.png)!important
 
 .guild-channels .channel-voice-states li .icon-muted {
 background-image:url(https://i.imgur.com/66RcXXp.png);
-opacity:.5!important
+opacity:.5!important;
+-moz-transform:scaleX(-1);
+-o-transform:scaleX(-1);
+-webkit-transform:scaleX(-1);
+transform:scaleX(-1);
+filter:FlipV;
+-ms-filter:"FlipV"
 }
 
 .guild-channels .channel-voice-states li .icon-deafened {
@@ -4082,7 +4116,13 @@ opacity:.5!important
 
 .private-channel-call .status-muted:after {
 background-image:url(https://i.imgur.com/66RcXXp.png);
-background-size:18px 18px
+background-size:18px 18px;
+-moz-transform:scaleX(-1);
+-o-transform:scaleX(-1);
+-webkit-transform:scaleX(-1);
+transform:scaleX(-1);
+filter:FlipV;
+-ms-filter:"FlipV"
 }
 
 .private-channel-call .status-deafened:after {
@@ -4117,12 +4157,12 @@ background-size:18px 18px
 
 .messages-popout .empty-placeholder .image[style*='background-image: url("/assets/6793e022dc1b065b21f12d6df02f91bd.svg");'] {
 background-image:url(https://i.imgur.com/w0GqxfV.png)!important;
-background-size:135px
+background-size:80%
 }
 
 .messages-popout .empty-placeholder .image[style*='background-image: url("/assets/308e587f3a68412f137f7317206e92c2.svg");']{
 background-image:url(https://i.imgur.com/cqdtLo5.png)!important;
-background-size:85px
+background-size:60%
 }
 
 #settings-roles .roles header .create-role-button {
@@ -4153,7 +4193,14 @@ background-image:url(https://i.imgur.com/ovju27H.png)
 }
 
 .private-channel-call .btn-icon-mute.mute:after {
-background-image:url(https://i.imgur.com/ovju27H.png)
+background-image:url(https://i.imgur.com/66RcXXp.png)!important;
+opacity:1!important;
+-moz-transform:scaleX(-1);
+-o-transform:scaleX(-1);
+-webkit-transform:scaleX(-1);
+transform:scaleX(-1);
+filter:FlipV;
+-ms-filter:"FlipV"
 }
 
 .private-channel-call .btn-icon-settings:after {
@@ -4161,8 +4208,14 @@ background-image:url(https://i.imgur.com/rI8942r.png)
 }
 
 .private-channel-call .btn-icon-mute:hover:after {
-background-image:url(https://i.imgur.com/ovju27H.png);
-opacity:1!important
+background-image:url(https://i.imgur.com/66RcXXp.png);
+opacity:1!important;
+-moz-transform:scaleX(-1);
+-o-transform:scaleX(-1);
+-webkit-transform:scaleX(-1);
+transform:scaleX(-1);
+filter:FlipV;
+-ms-filter:"FlipV"
 }
 
 .private-channel-call .btn-icon-settings:hover:after {
