@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.4"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.7"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -57,6 +57,59 @@ border-radius:0px
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
 border:none!important;
 background:none!important;
+}
+
+.tab-bar.SIDE::-webkit-scrollbar {
+background:transparent!important
+}
+
+.tab-bar.SIDE::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:2px solid #232323!important
+}
+
+div.scroller.settings-wrapper.settings-panel::-webkit-scrollbar-thumb {
+background:#383838!important;    
+border:1px solid #191919!important
+}
+
+.user-settings-modal-games.scroller::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid #191919!important
+}
+
+.user-settings-modal-connections .user-settings-modal-connections-list::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid #191919!important
+}
+
+.settings .settings-inner .settings-panel::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid #191919!important
+}
+
+.settings .settings-inner .settings-panel-with-header::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid #383838!important
+}
+
+#settings-roles .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid #383838!important
+}
+
+.Select-menu::-webkit-scrollbar {
+background:transparent!important
+}
+
+.Select-menu::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid #191919!important
+}
+
+.change-log.markdown-modal .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid #191919!important
 }
 
 div.scroller.settings-wrapper.settings-panel {
@@ -1848,13 +1901,14 @@ display:none!important
 .channel-members h2 {
 transform-origin:right!important;
 transform:scale(0)!important;
-margin-top:-40px!important;
+margin-top:-45px!important;
 transition:all 300ms ease!important
 }
 
 .channel-members:hover h2 {
 transform:scale(1)!important;
-margin-top:30px!important
+margin-top:26px!important;
+margin-bottom:-12px!important
 }
 
 .channel-members .avatar-small {
@@ -2565,6 +2619,10 @@ border:none;
 background-color:#232323
 }
 
+.form .Select-control * {
+color:#e5e5e5
+}
+
 .Select-control {
 border-radius:0
 }
@@ -2840,7 +2898,6 @@ box-shadow:none
 .tab-bar.SIDE {
 margin-right:0;
 background-color:rgba(35,35,35,1);
-overflow-y:hidden;
 border-right:6px solid #900;
 border-radius:0px
 }
@@ -3100,7 +3157,8 @@ border:2px solid #900
 }
 
 #settings-roles .roles li {
-margin-left:6px
+margin-left:6px;
+color:#e5e5e5
 }
 
 #settings-roles .roles li .avatar-small {
