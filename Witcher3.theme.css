@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.9"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.1"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -1331,6 +1331,11 @@ line-height:1.5
 
 .theme-dark .invite-button .invite-button-body {
 color:#ccc
+}
+
+.invite-button-icon {
+border-radius:0;
+border:none
 }
 
 .invite-button-icon.accepted {
