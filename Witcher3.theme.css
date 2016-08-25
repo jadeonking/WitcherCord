@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.7"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.0.9"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -1315,6 +1315,48 @@ opacity:1
 #twitchcord-button-container {
 right:30px!important
 }
+
+/* Instant Invite Button */
+
+.theme-dark .invite-button {
+background:#191919;
+border:none;
+border-radius:0
+}
+
+.theme-dark .invite-button .invite-button-header {
+color:#e5e5e5;
+line-height:1.5
+}
+
+.theme-dark .invite-button .invite-button-body {
+color:#ccc
+}
+
+.invite-button-icon.accepted {
+border-radius:0
+}
+
+.invite-button-icon.expired {
+border-radius:0
+}
+
+.form .invite-button {
+background:#232323;
+border:none;
+border-radius:0
+}
+
+.form .invite-button .invite-button-header {
+color:#e5e5e5;
+line-height:1.5
+}
+
+.form .invite-button .invite-button-body {
+color:#ccc
+}
+
+/* ----------------------- */
 
 /*** COMPACT MODE ***/
 .message-group.compact .timestamp {
@@ -4155,6 +4197,27 @@ background-image:url(https://i.imgur.com/IzFVy0h.png)!important
 .system-message-icon[style*='background-image: url("/assets/d80d1fdc43a3c42134a31a39581160ac.svg");'] {
 background-image:url(https://i.imgur.com/GczWQaH.png)!important
 }
+
+.system-message-icon[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik03Ljk3MDU2My02Ljk5OTk5OTc1TDI0Ljk0MTEyNTc1IDkuOTcwNTYzIDcuOTcwNTYzIDI2Ljk0MTEyNTc1LTguOTk5OTk5NzUgOS45NzA1NjMiLz4KICAgIDxwYXRoIGZpbGw9IiM5OUFBQjUiIGQ9Ik03Ljk3MDU2MyAxMi43OTg5OTAxMmw2LjM2Mzk2MTAzLTYuMzYzOTYxMDMtMi44Mjg0MjcxMi0yLjgyODQyNzE2TDUuMTQyMTM1OSA5Ljk3MDU2M2wtLjM1OTkxMzctLjM1OTkxMzdjLS4xODYwNTcyNS0uMTg2MDU3MjUtLjUwNTQ4NDMtLjE4ODkwMTg1LS43MDA3NDY0OC4wMDYzNjAzLS4xODk1NTE1Ny4xODk1NTE1OC0uMTk4MTA5NzQuNTA4OTk3MDQtLjAwNjM2MDMuNzAwNzQ2NWwzLjU0ODI1NDUgMy41NDgyNTQ1Yy4xODYwNTcyNy4xODYwNTcyNS41MDU0ODQzMy4xODg5MDE4Ni43MDA3NDY1LS4wMDYzNjAzLjE4OTU1MTU2LS4xODk1NTE1Ny4xOTgxMDk3NC0uNTA4OTk3MDQuMDA2MzYwMy0uNzAwNzQ2NWwtLjM1OTkxMzctLjM1OTkxMzY4em03Ljc3ODE3NDYtNC45NDk3NDc0NmwuNzA3MTA2NzcuNzA3MTA2NzggMS40MTQyMTM1Ny0xLjQxNDIxMzU2TDEwLjc5ODk5MDEyLjA3MTA2ODA2IDkuMzg0Nzc2NTYgMS40ODUyODE2M2wuNzA3MTA2NzguNzA3MTA2NzhMNC40MzUwMjkxIDcuODQ5MjQyN0gxLjYwNjYwMTk2TC4xOTIzODg0IDkuMjYzNDU2MjJsMy42NzY5NTUyNyAzLjY3Njk1NTI2LTIuODI4NDI3MTMgMi44Mjg0MjcxMyAxLjEzMTM3MDg2IDEuMTMxMzcwOSAyLjgyODQyNzEtMi44Mjg0MjcxMyAzLjY3Njk1NTI2IDMuNjc2OTU1MjYgMS40MTQyMTM1Ni0xLjQxNDIxMzU2VjEzLjUwNjA5NjlsNS42NTY4NTQyNS01LjY1Njg1NDI0eiIvPgogIDwvZz4KPC9zdmc+");'] {
+background-image:url(https://i.imgur.com/wK8aeTQ.png)!important;
+margin-right:6px
+}
+
+/* Pinned System message */
+
+.theme-dark .system-message-timestamp {
+color:#b2b2b2
+}
+
+.theme-dark .system-message {
+color:#ccc
+}
+
+.theme-dark .system-message-content a {
+color:#e5e5e5!important
+}
+
+/* --------------------- */
 
 .guild-channels .channel-voice-states li .icon-muted {
 background-image:url(https://i.imgur.com/66RcXXp.png);
