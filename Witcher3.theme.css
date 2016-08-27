@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.1"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.1.1"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -3871,6 +3871,42 @@ background:#900
 
 .bda-slist .bda-right .bda-plugin-reload:hover {
 background:#900
+}
+
+/* Even Better Repo Plugin CSS */
+
+#theme-search, #plugin-search {
+background:#232323!important;
+border:1px solid #191919!important;
+color:#e5e5e5
+}
+
+.ebr-plugin-item, .ebr-theme-item {
+background:#232323!important;
+border:none!important;
+border-radius:0!important
+}
+
+#theme-search:focus, #plugin-search:focus {
+border:1px solid #191919!important;
+box-shadow:none!important;
+outline:none!important
+}
+
+.install-button {
+background:#555!important
+}
+
+.update-button {
+background:#900!important
+}
+
+.view-source-button {
+background:#383838!important
+}
+
+.ebr-themes p.description, .ebr-plugins p.description {
+color:#ccc!important
 }
 
 /*
