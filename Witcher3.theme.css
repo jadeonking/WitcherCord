@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.1.3"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.2.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -142,7 +142,9 @@ background:transparent!important
 
 /* Server list area */
 .guilds-wrapper {
-background:rgba(0,0,0,0.65)!important
+background:rgba(0,0,0,0.65)!important;
+width:3%;
+min-width:58px!important
 }
 
 /* Channels list area */
@@ -248,14 +250,22 @@ opacity:.8
 padding:18px 20px 85px
 }
 
+div.guild.active {
+opacity:1!important
+}
+
+.guilds-wrapper .guilds {
+padding-left:0px
+}
+
 .guilds-wrapper .guilds-add {
 font-size:30px;
 background:transparent;
 border-radius:0px;
 width:40px!important;
 height:40px!important;
-margin-left:5px;
-margin-top:18px!important
+margin-left:2px;
+margin-top:-2px!important
 }
 
 .guilds .guild-inner {
@@ -276,33 +286,57 @@ line-height:40px;
 width:50px;
 height:50px;
 margin-left:-5px;
-padding-left:10px;
+padding-left:7px;
 padding-top:10px;
-border:none!important
+border:none!important;
+position:relative;
+top:-20px!important
 }
 
 .guilds-wrapper .guilds .guild .guild-inner a {
-width:40px!important;
-height:40px!important;
-background-size:40px 40px!important;
+width:50px!important;
+height:50px!important;
+background-size:50px 50px!important;
 border-radius:0px!important
 }
 
 .guilds-wrapper .guilds .friends-icon {
 width:40px!important;
 height:40px!important;
-background-size:30px 25px
+background-size:30px 25px;
+position:relative;
+margin-left:5px;
+bottom:-15px
+}
+
+.guilds-wrapper .guilds .guild+.guild {
+width:50px!important;
+height:42px!important;
+background-size:50px 50px!importan
+}
+
+.guilds-wrapper .guilds .guild {
+height:42px!important
+}
+
+.guilds-wrapper .guilds .guild:not(.selected) {
+opacity:.5
+}
+
+.guilds-wrapper .guilds .guild:not(.selected):hover {
+opacity:.75
 }
 
 .guilds-wrapper .guilds .guild.audio .guild-inner:after {
 background-size:16px;
-background-color:#191919;
-right:-6px;
-top:-2px
+background-color:transparent;
+top:40px!important;
+right:-3px
 }
 
 .guilds-wrapper .guild-separator:after {
-background:#e5e5e5
+background:#e5e5e5;
+display:none
 }
 
 .guilds .guild-inner:before {
@@ -314,12 +348,17 @@ background:#e5e5e5
 }
 
 .guilds-wrapper .guilds .guild.selected:before {
-top:30px
+top:30px;
+display:none
 }
 
 .guilds-wrapper .guilds .guild.unread:before {
-background:#e5e5e5;
-top:30px
+left:52px!important;
+height:50px;
+border-radius:0;
+background:#900;
+top:-4px;
+width:12%
 }
 
 .guilds li.active .guild-inner:before {
@@ -329,14 +368,13 @@ background:#e5e5e5!important
 .guilds-wrapper .guilds .friends-online {
 color:#e5e5e5;
 font-size:9.5px;
-margin-left:-7px;
+margin-left:0px;
 line-height:20px;
 width:55px;
 height:20px;
 border-radius:8px;
 overflow:hidden;
 background:transparent;
-margin-left:-3px
 }
 
 .guilds-error {
@@ -1019,6 +1057,15 @@ opacity:1!important
 display:none
 }
 
+.chat .divider {
+margin-bottom:30px;
+margin-top:30px
+}
+
+.chat .divider:before {
+display:none
+}
+
 .chat form {
 border-top:none!important;
 box-shadow:none
@@ -1403,41 +1450,6 @@ background-color:#232323!important;
 color:#e5e5e5
 }
 
-.add-friend-popout header {
-background:#191919 !important
-}
-
-.add-friend-popout section {
-border-top:none
-}
-
-.add-friend-popout {
-border-radius:10px
-}
-
-.add-friend-popout .btn {
-background-color:#232323 !important;
-color:#e5e5e5
-}
-
-.add-friend-popout .btn:disabled {
-background-color:#232323!important;
-opacity:1;
-color:#e5e5e5
-}
-
-.add-friend-popout header
-input:focus {
-background:#232323;
-color:#fff;
-border:solid 0 #191919
-}
-
-.add-friend-popout header input:not(focused) {
-border:hidden;
-background:#232323
-}
-
 .private-channels .channel:hover:not(.selected) .icon-friends {
 background-color:transparent!important
 }
@@ -1561,6 +1573,98 @@ background:#232323
 
 #friends .friends-table .friends-row .friends-column-actions .friends-action-grey:hover {
 background:#900
+}
+
+.theme-dark .add-friend-input-wrapper {
+background:rgba(102,102,102,.13);
+border-radius:0;
+border:none
+}
+
+.theme-dark .add-friend-input-wrapper .add-friend-input::-webkit-input-placeholder {
+color:#e5e5e5	
+}
+
+#friends .btn:hover {
+background:#900!important
+}
+
+#friends .friends-table .friend-table-add-wrapper .friend-table-add-header .friends-table-add {
+background:rgba(0,0,0,.35);
+}
+
+.theme-dark #friends .friends-table .friend-table-add-wrapper .friend-table-suggestions-header {
+border:none;
+margin-top:-25px
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+background:#191919;
+color:#b2b2b2
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item {
+color:#b2b2b2
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary {
+background:transparent;
+color:#b2b2b2
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:hover {
+background:#232323!important
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary.selected {
+color:#e5e5e5
+}
+
+.theme-dark #friends .friends-header .tab-bar .tab-bar-item.tab-bar-item-primary:not(.selected):hover {
+color:#b2b2b2!important
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-add {
+background-color:#232323;
+background-size:contain
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-add:hover {
+background-color:#900!important
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-ignore {
+background-repeat:no-repeat;
+background-size:contain;
+background-color:#232323
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-ignore:hover {
+background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxNiIgaGVpZ2h0PSIxNiI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTZ2MTZIMCIvPgogICAgPHBhdGggZmlsbD0iI0ZGRiIgZD0iTTEyLjY2NjY2NjcgNC4yNzMzMzMzM2wtLjk0LS45NEw4IDcuMDYgNC4yNzMzMzMzMyAzLjMzMzMzMzMzbC0uOTQuOTRMNy4wNiA4bC0zLjcyNjY2NjY3IDMuNzI2NjY2Ny45NC45NEw4IDguOTRsMy43MjY2NjY3IDMuNzI2NjY2Ny45NC0uOTRMOC45NCA4Ii8+CiAgPC9nPgo8L3N2Zz4=);
+background-size:contain;
+background-color:#900
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action {
+background-color:#232323;
+background-size:contain
+}
+
+.theme-dark #friends .friends-table .friends-row .friends-column-actions .friends-action:hover {
+background-color:#900!important
+}
+
+#friends .friends-table .friends-row .friends-column-actions .friends-action.friends-action-remove:hover {
+background:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIyNCIgaGVpZ2h0PSIyNCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGZpbGw9IiNGRkYiIGQ9Ik0xMCAxMmMyLjIxIDAgNC0xLjc5IDQtNHMtMS43OS00LTQtNC00IDEuNzktNCA0IDEuNzkgNCA0IDR6bTAgMmMtMi42NyAwLTggMS4zNC04IDR2MmgxNnYtMmMwLTIuNjYtNS4zMy00LTgtNHptOS4zMDczOTk5LTMuNTA2NjMzM2wxLjY3MjQzMjYtMS42NzI0MzI1NWMuMTI0NTk2LS4xMjQ1OTYwNi4zOTY3NS0uMzk2NzUwMS0uMDA0MDIwMi0uNzk3NTIwMzctLjQwMDc3MDMtLjQwMDc3MDI4LS42NzY5MDA2LS4xMzI1OTI1LS44MDE0OTY3LS4wMDc5OTY0M2wtMS42NzI0MzI1IDEuNjcyNDMyNTItMS42MzY4MjEtMS42MzY4MjFjLS4xMjM2OTY0LS4xMjM2OTY0Ni0uNDI5NzE5MS0uNDI5NzE5MTctLjgzNDQ2NTctLjAyNDk3MjY1LS40MDQ3NDY1LjQwNDc0NjUzLS4wOTk1MDM5LjcxMTU0OTQuMDI0MTkyNS44MzUyNDU4NWwxLjYzNjgyMSAxLjYzNjgyMTAzLTEuNjI1ODI3MyAxLjYyNTgyNzNjLS4xMjM2OTY1LjEyMzY5NjUtLjQzODU5ODkuNDQ2NTUxNC0uMDM3ODI4Ni44NDczMjE3LjQwMDc3MDMuNDAwNzcwMi42NzkyMjgyLjEyMjMxMjMuODAyOTI0Ny0uMDAxMzg0MmwxLjY2NjI0OC0xLjY2NjI0OCAxLjY1NDAxNzQgMS42NTQwMTczYy4xMjQxNDYyLjEyNDE0NjMuNDE5OTIxNi40MTgzNjE0LjgyNDY2ODIuMDEzNjE0OS40MDQ3NDY1LS40MDQ3NDY2LjEwOTc1MTItLjY5OTc0MTgtLjAxNDM5NS0uODIzODg4MWwtMS42NTQwMTc0LTEuNjU0MDE3M3oiLz4KICAgIDxwYXRoIGQ9Ik0wIDBoMjR2MjRIMCIvPgogIDwvZz4KPC9zdmc+);
+background-repeat:no-repeat;
+background-size:contain
+}
+
+#friends .friends-table .friends-row .friends-suggestion-inner .avatar-large {
+border-radius:0;
+box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000;
+margin-left:10px
 }
 
 /* GROUP CALLS */
@@ -2205,6 +2309,17 @@ color:#ccc!important
 color:#e5e5e5!important
 }
 
+.quick-message {
+background:#232323;
+border:none;
+border-radius:0;
+color:#e5e5e5
+}
+
+.quick-message::-webkit-input-placeholder {
+color:#e5e5e5
+}
+
 /* Admin buttons */
 .user-popout .user-popout-options .btn.btn-server {
 color:rgba(255,255,255,0.7);
@@ -2529,6 +2644,14 @@ color:#e5e5e5!important
 background-color:#191919!important
 }
 
+.context-menu .item {
+color:#ccc
+}
+
+.context-menu .item:hover {
+color:#e5e5e5
+}
+
 .change-nickname-warning {
 background:#232323
 }
@@ -2823,6 +2946,14 @@ background-color:#232323;
 color:#ccc;
 border:0;
 margin-top:4px
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-footer .help-text strong {
+color:#ccc
+}
+
+.guild-settings-modal-members .guild-settings-modal-members-footer .help-text {
+color:#b2b2b2
 }
 
 .guild-settings-modal-overview a {
@@ -3447,6 +3578,46 @@ color:#b2b2b2
 color:#b2b2b2
 }
 
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-divider {
+display:none
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list h3 {
+color:#e5e5e5
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner.warning {
+color:#b2b2b2
+}
+
+.connect-account-btn .connect-account-btn-inner {
+border:none
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]+span {
+background:#383838
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]:checked+span {
+background:#383838
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
+background:#666
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete {
+background:#232323
+}
+
+.connect-account-btn .connect-account-btn-inner:hover {
+background-color:#232323
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-accounts-list .user-settings-modal-accounts-list-description .user-settings-modal-accounts-list-description-inner {
+color:#b2b2b2!important
+}
+
 .user-settings-modal-keybinds
 .user-settings-modal-keybinds-header {
 border-bottom:0 #232323 solid
@@ -3802,6 +3973,23 @@ border-color:#191919
 
 #user-profile-modal .guilds .guild:hover .status {
 border-color:#191919
+}
+
+#user-profile-modal .tab-bar-container {
+background:#191919;
+border:none
+}
+
+#user-profile-modal .guilds .section .section-header {
+color:#e5e5e5
+}
+
+#user-profile-modal .guilds .section+.section {
+border:none
+}
+
+#user-profile-modal .guilds .section .connected-account .connected-account-name {
+color:#ccc
 }
 
 .theme-dark .header-toolbar .separator {
@@ -4427,12 +4615,6 @@ background-image:url(https://i.imgur.com/bWF7DDP.png);
 background-size:22px 22px
 }
 
-.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete{
-background-image:url(https://i.imgur.com/5jfTC53.png);
-background-size:20px 20px;
-background-repeat:no-repeat
-}
-
 .btn-confirm .icon.icon-delete {
 background-image:url(https://i.imgur.com/5jfTC53.png);
 background-size:20px 20px
@@ -4492,11 +4674,11 @@ background-image:url(https://i.imgur.com/586Z9gu.png)
 }
 
 .clipboard-input-inner button.tweet {
-background-image:url(https://i.imgur.com/3HQwTtZ.png)
+background-image:url(https://i.imgur.com/3HQwTtZ.png)!important
 }
 
 .clipboard-input-inner button.copy {
-background-image:url(https://i.imgur.com/vpF5Uw4.png)
+background-image:url(https://i.imgur.com/vpF5Uw4.png)!important
 }
 
 .clipboard-input-inner button.copy:hover {
@@ -4514,7 +4696,7 @@ background-size:18px 18px
 
 #user-profile-modal .header .additional-actions-icon {
 background-image:url(https://i.imgur.com/To9qvQa.png);
-background-size:34px 34px
+background-size:34px 34px!important
 }
 
 .guild-channels .toggle-muted-text-channels a:before {
