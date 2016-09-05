@@ -3,11 +3,11 @@
 
 Witcher 3
 
-[![Screenshot](http://bit.ly/2b0FLPx)](https://gfycat.com/DrearyIllGoose "Click Me!")
+[![Screenshot](http://bit.ly/2bSm50z)](https://gfycat.com/DrearyIllGoose "Click Me!")
 
 DuskCord
 
-[![Screenshot](http://bit.ly/2aT06pQ)](https://gfycat.com/JoyfulFamousAfricanaugurbuzzard "Click Me!")
+[![Screenshot](http://bit.ly/2bSmfFs)](https://gfycat.com/JoyfulFamousAfricanaugurbuzzard "Click Me!")
 
 Click [HERE!](https://github.com/jadeonking/Witcher-3-Theme-for-Discord/tree/Non-Transparent) to grab DuskCord
 
