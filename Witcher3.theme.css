@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.2.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.2.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -44,14 +44,35 @@ text-align:left!important
  \___\___/|_|  \___|  \___|_|\___|_| |_| |_|\___|_| |_|\__|___/
 
 */
+
+span {
+backface-visibility:hidden!important
+}
+
 textarea {
 background:transparent!important
 }
 
+.user-popout .body .roles .member-roles {
+overflow-y:scroll;
+max-height:90px
+}
+
+.user-popout .body .roles .member-roles::-webkit-scrollbar {
+background:none
+}
+
+.user-popout .body .roles .member-roles::-webkit-scrollbar-thumb {
+background:#383838;
+border:2px solid transparent;
+background-clip:content-box
+}
+
 .scroller-wrap .scroller::-webkit-scrollbar-thumb {
-border:1px solid rgba(35,35,35,.75)!important;
+border:1px solid transparent!important;
 background-color:rgba(35,35,35,.75)!important;
-border-radius:0px
+border-radius:0px;
+background-clip:content-box!important
 }
 
 .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
@@ -104,7 +125,8 @@ background:transparent!important
 
 .Select-menu::-webkit-scrollbar-thumb {
 background:#383838!important;
-border:1px solid #191919!important
+border:2px solid transparent!important;
+background-clip:content-box!important
 }
 
 .change-log.markdown-modal .scroller-wrap .scroller::-webkit-scrollbar-thumb {
