@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.2.3"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.2.5"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -1918,11 +1918,16 @@ width:90%
 
 */
 .channel-members .invite-btn {
-background:rgba(35,35,35,.75)
+display:none
+}
+
+.channel-members:hover .invite-btn {
+background:#232323!important;
+display:block!important
 }
 
 .channel-members .invite-btn:hover {
-background:#900
+background:#900!important
 }
 
 .theme-dark .channel-members .member.popout-open {
@@ -3621,15 +3626,42 @@ background:#383838
 }
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]:checked+span {
-background:#383838
+background:#900
 }
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-options .connection-option .checkbox .checkbox-inner.alt input[type=checkbox]:checked+span:after {
-background:#666
+background:#e5e5e5
 }
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete {
-background:#232323
+background:#191919;
+border:none
+}
+
+.settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete:hover {
+background:#900!important
+}
+
+/* connection backgrounds */
+
+div.connection[style*='border-color: rgb(0, 154, 229); background-color: rgb(0, 154, 229);'] {
+background:#232323!important;
+border:none!important
+}
+
+div.connection[style*='border-color: rgb(24, 35, 50); background-color: rgb(24, 35, 50);'] {
+background:#232323!important;
+border:none!important
+}
+
+div.connection[style*='border-color: rgb(89, 54, 149); background-color: rgb(89, 54, 149);'] {
+background:#232323!important;
+border:none!important
+}
+
+div.connection[style*='border-color: rgb(203, 33, 32); background-color: rgb(203, 33, 32);'] {
+background:#232323!important;
+border:none!important
 }
 
 .connect-account-btn .connect-account-btn-inner:hover {
@@ -4128,6 +4160,73 @@ background:#383838!important
 
 .ebr-themes p.description, .ebr-plugins p.description {
 color:#ccc!important
+}
+
+/* Detected Connections */
+
+.detected-platform-accounts-modal {
+background:#191919;
+height:375px;
+border-radius:6px
+}
+
+.detected-platform-accounts-modal .privacy {
+bottom:0;
+width:450px;
+left:0;
+position:relative;
+margin-top:3px
+}
+
+.detected-platform-accounts-modal .divider {
+border-top:6px solid #900;
+width:450px;
+opacity:1;
+height:0
+}
+
+.input-switch input:checked+.input-switch-slider:before {
+border-radius:0;
+border:none;
+height:20px;
+width:20px;
+position:absolute;
+left:0px;
+top:-3px
+}
+
+.input-switch .input-switch-slider:before {
+border-radius:0;
+border:none;
+height:20px;
+width:20px;
+position:absolute;
+left:0px;
+top:-3px
+}
+
+.input-switch input:checked+.input-switch-slider {
+border-radius:0;
+border:2px solid #191919;
+background:#900;
+height:15px;
+width:20px
+}
+
+.input-switch .input-switch-slider {
+border-radius:0;
+border:2px solid #191919;
+background:#232323;
+height:15px;
+width:40px
+}
+
+.detected-platform-accounts-modal .btn-group .btn-primary {
+background:#232323
+}
+
+.detected-platform-accounts-modal .btn-group .btn-primary:hover {
+background:#900!important
 }
 
 /*
