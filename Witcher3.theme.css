@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.2.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.2.8"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _ 
@@ -259,8 +259,18 @@ color:#e5e5e5
 padding:0 18px
 }
 
+.guild-channels .channel a {
+opacity:1;
+color:#b2b2b2
+}
+
 .guild-channels .channel-text a {
 padding:8px 6px 10px 18px
+}
+
+.guild-channels .channel-text .channel-name:before {
+content:"#";
+color:inherit!important
 }
 
 .guild-channels header h2,.guild-channels ul .channel a {
@@ -328,7 +338,7 @@ height:40px!important;
 background-size:30px 25px;
 position:relative;
 margin-left:5px;
-bottom:-15px
+bottom:-10px
 }
 
 .guilds-wrapper .guilds .guild+.guild {
@@ -339,6 +349,11 @@ background-size:50px 50px!importan
 
 .guilds-wrapper .guilds .guild {
 height:42px!important
+}
+
+.guilds-wrapper .guilds .guild .badge {
+bottom:34px!important;
+right:14px
 }
 
 .guilds-wrapper .guilds .guild:not(.selected) {
@@ -365,8 +380,11 @@ display:none
 left:-24px
 }
 
-.guilds li.unread .guild-inner:before,.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
-background:#e5e5e5
+.guild-channels .channel-text.unread:not(.selected):not(.channel-muted):before {
+background:#e5e5e5!important;
+border-radius:0!important;
+width:3px!important;
+left:8px!important
 }
 
 .guilds-wrapper .guilds .guild.selected:before {
@@ -2546,6 +2564,10 @@ line-height:25px
 font-size:10px!important
 }
 
+#bd-pub-button {
+margin-top:-12px!important;
+}
+
 .bd-minimal .guilds .friends-online {
 font-size:10px;
 word-spacing:50px;
@@ -3358,6 +3380,10 @@ color:#fff
 .alert.form .form-inner .btn {
 border:none;
 color:#e5e5e5
+}
+
+.alert.form .form-inner .btn-close-forever {
+color:#b2b2b2
 }
 
 .guild-settings-modal-members {
@@ -4227,6 +4253,41 @@ background:#232323
 
 .detected-platform-accounts-modal .btn-group .btn-primary:hover {
 background:#900!important
+}
+
+/* KEYBOARD SHORTCUTS */
+
+.keyboard-shortcuts-modal {
+background:#191919
+}
+
+.keyboard-shortcuts-modal .modal-subtitle {
+border-bottom:6px solid #900;
+color:#ccc
+}
+
+.keybind-shortcut span {
+box-shadow:inset 0 -4px 0 #666;
+border:1px solid #666;
+color:#ccc
+}
+
+.keyboard-shortcuts-modal .modal-title .content {
+color:#e5e5e5
+}
+
+.keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
+color:#b2b2b2
+}
+
+.keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .bind-arrow {
+content:url(https://i.imgur.com/IRzpP3m.png)
+}
+
+.keyboard-shortcuts-modal .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid transparent!important;
+background-clip:content-box!important
 }
 
 /*
