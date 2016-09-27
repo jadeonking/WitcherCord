@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.3.8"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.3.9"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -2396,6 +2396,11 @@ background-size:18px 18px
 
 .popout-menu [style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGZpbGw9IiM3Mjg5REEiIGQ9Ik03LjU0NTM1MzQgMTEuMjM0Mjg3M2w1Ljc2LTUuMTkwMDAwMDRjLjI1NS0uMjMyNS0uMDUyNS0uMzQ1LS4zOS0uMTQyNWwtNy4xMSA0LjQ5MjUwMDA0LTMuMDc1LS45NzUwMDAwNGMtLjY2LS4xODc1LS42Njc1LS42NDUuMTUtLjk3NWwxMS45Nzc1LTQuNjJjLjU0NzUtLjI0NzUgMS4wNzI1LjEzNS44NjI1Ljk3NWwtMi4wNCA5LjYwNzUwMDA0Yy0uMTQyNS42ODI1LS41NTUuODQ3NS0xLjEyNS41MzI1bC0zLjEwNS0yLjI5NS0xLjQ5MjUgMS40NDc1Yy0uMTcyNS4xNzI1LS4zMTUuMzE1LS42MjI1LjMxNWwuMjEtMy4xNzI1eiIvPgogIDwvZz4KPC9zdmc+");'] {
 background-image:url(https://i.imgur.com/UFCZJTQ.png)!important;
+background-size:18px 18px
+}
+
+.popout-menu [style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCI+CiAgPGcgZmlsbD0ibm9uZSIgZmlsbC1ydWxlPSJldmVub2RkIj4KICAgIDxwYXRoIGQ9Ik0wIDBoMTh2MThIMHoiLz4KICAgIDxwYXRoIGZpbGw9IiM3MzdGOEQiIGQ9Ik0xNC4yNSAyLjI1SDMuNzVjLS44MzI1IDAtMS41LjY2NzUtMS41IDEuNXYzaDEuNXYtM2gxMC41djEwLjVIMy43NXYtM2gtMS41djNjMCAuODI4NDI3MS42NzE1NzI4NyAxLjUgMS41IDEuNWgxMC41Yy44Mjg0MjcxIDAgMS41LS42NzE1NzI5IDEuNS0xLjVWMy43NWMwLS44MzI1LS42NzUtMS41LTEuNS0xLjV6bS02LjY5IDkuNDM1bDEuMDY1IDEuMDY1TDEyLjM3NSA5bC0zLjc1LTMuNzVMNy41NiA2LjMwNzUgOS41MDI1IDguMjVIMi4yNXYxLjVoNy4yNTI1TDcuNTYgMTEuNjg1eiIvPgogIDwvZz4KPC9zdmc+");'] {
+background-image:url(https://i.imgur.com/O5RG3dq.png)!important;
 background-size:18px 18px
 }
 
