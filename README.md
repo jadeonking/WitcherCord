@@ -3,19 +3,14 @@
 
 Witcher 3
 
-[![Screenshot](http://bit.ly/2bSm50z)](https://gfycat.com/DrearyIllGoose "Click Me!")
+[![Screenshot](http://bit.ly/2cHcjPu)](https://gfycat.com/DrearyIllGoose "Click Me!")
 
 DuskCord
 
-[![Screenshot](http://bit.ly/2bSmfFs)](https://gfycat.com/JoyfulFamousAfricanaugurbuzzard "Click Me!")
+[![Screenshot](http://bit.ly/2cHbohZ)](https://gfycat.com/JoyfulFamousAfricanaugurbuzzard "Click Me!")
 
 Click [HERE!](https://github.com/jadeonking/Witcher-3-Theme-for-Discord/tree/Non-Transparent) to grab DuskCord
 
 To use themes you need [__BetterDiscord__](https://betterdiscord.net/home/)
-
-The Witcher 3 theme album get a more indepth look! 
-<blockquote class="imgur-embed-pub" lang="en" data-id="a/Y5cg2"><a href="//imgur.com/a/Y5cg2">Witcher 3 Theme Album</a></blockquote><script async src="//s.imgur.com/min/embed.js" charset="utf-8"></script>
-**DISCLAIMER some images might be out of date will update when I can**
-
 
 Help Tutorial for Installing Better Discord and theme https://youtu.be/dapTr_vjyTM
