@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.4"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.4.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -1309,7 +1309,16 @@ overflow-y:auto!important
 }
 
 .message-group .edit-message .channel-textarea-inner textarea::-webkit-scrollbar {
-display:none
+background:none
+}
+
+.message-group .edit-message .channel-textarea-inner textarea::-webkit-scrollbar-track-piece {
+background:none!important
+}
+
+.message-group .edit-message .channel-textarea-inner textarea::-webkit-scrollbar-thumb {
+background:rgba(56,56,56,.75)!important;
+border:1px solid rgba(35,35,35,0.75)
 }
 
 .comment > div[style^="border-radius: 2px;"] {
@@ -1369,6 +1378,19 @@ background:rgba(35,35,35,0.75)!important;
 color:#b2b2b2!important;
 padding:0.85em!important;
 border-radius:0
+}
+
+.messages .markup pre code.hljs::-webkit-scrollbar-track-piece {
+background:none!important
+}
+
+.messages .markup pre code.hljs::-webkit-scrollbar {
+background:none
+}
+
+.messages .markup pre code.hljs::-webkit-scrollbar-thumb {
+background:rgba(56,56,56,.75);
+border:1px solid rgba(35,35,35,0.75)
 }
 
 .modal-content .markup code.inline,.messages .markup code.inline {
@@ -2392,6 +2414,14 @@ background:#191919!important
 .popout-menu {
 background:#191919;
 border-radius:0
+}
+
+div.popout.popout-top {
+box-shadow:0 0 2px rgba(0,0,0,.82),0 1px 4px 1px rgba(0,0,0,.3)!important
+}
+
+div.popout.popout-bottom {
+box-shadow:0 0 0 rgba(0,0,0,.82),0 1px 4px 1px rgba(0,0,0,.3)!important
 }
 
 .status-picker .popout-menu-item .helper {
