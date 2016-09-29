@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.3.9"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.4"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -165,8 +165,8 @@ background:transparent!important
 /* Server list area */
 .guilds-wrapper {
 background:rgba(0,0,0,0.65)!important;
-width:3%;
-min-width:58px!important
+width:68px;
+min-width:68px!important
 }
 
 /* Channels list area */
@@ -281,6 +281,23 @@ padding:8px 6px 10px 18px
 .guild-channels .channel-text .channel-name:before {
 content:"#";
 color:inherit!important
+}
+.guild-channels .toggle-muted-text-channels a {
+opacity:1;
+color:#b2b2b2
+}
+
+.guild-channels .toggle-muted-text-channels a:hover {
+color:#e5e5e5
+}
+
+.guild-channels .channel-text.channel-muted:not(.selected) span {
+opacity:1;
+color:#7f7f7f
+}
+
+.guild-channels .channel-text.channel-muted:not(.selected):hover span {
+color:#b2b2b2
 }
 
 .guild-channels header h2,.guild-channels ul .channel a {
@@ -433,6 +450,15 @@ height:40px;
 line-height:36px
 }
 
+.guild-channels header {
+opacity:1;
+color:#ccc
+}
+
+.guild-channels header:hover {
+color:#e5e5e5
+}
+
 .guild-channels header h2,.private-channels header {
 opacity:1
 }
@@ -536,6 +562,11 @@ color:#e5e5e5;
 opacity:1
 }
 
+.private-channels .channel .channel-name {
+color:#b2b2b2;
+opacity:1
+}
+
 .private-channels .channel .avatar-small {
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
@@ -585,7 +616,7 @@ display:block!important
 padding-right:1px
 }
 
-.private-channels .channel :not(.selected):hover {
+.private-channels .channel:hover .channel-name {
 color:#e5e5e5!important
 }
 
@@ -692,6 +723,16 @@ top:60px
 
 #voice-connection .btn-group {
 border:none
+}
+
+#voice-connection .voice-connection-channel {
+opacity:1;
+color:#ccc;
+text-decoration:none!important
+}
+
+#voice-connection .voice-connection-channel:hover {
+color:#e5e5e5
 }
 
 .account .avatar-small {
@@ -2010,6 +2051,10 @@ font-size:11px;
 color:#ccc;
 font-style:italic;
 font-weight:600
+}
+
+.private-channels .channel:hover .channel-activity strong {
+color:#e5e5e5!important
 }
 
 .private-channels .channel .channel-activity {
