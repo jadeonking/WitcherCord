@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.4.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.4.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -2422,6 +2422,10 @@ box-shadow:0 0 2px rgba(0,0,0,.82),0 1px 4px 1px rgba(0,0,0,.3)!important
 
 div.popout.popout-bottom {
 box-shadow:0 0 0 rgba(0,0,0,.82),0 1px 4px 1px rgba(0,0,0,.3)!important
+}
+
+div.popout.popout-invert.popout-bottom {
+box-shadow:none!important
 }
 
 .status-picker .popout-menu-item .helper {
