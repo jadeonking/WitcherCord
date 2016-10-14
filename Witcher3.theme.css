@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.4.4"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.5"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -3012,7 +3012,7 @@ border:none!important
 }
 
 .clipboard-input-copied button:not(.tweet) {
-background:#900!important;
+background-color:#900!important;
 border:none!important
 }
 
@@ -3326,6 +3326,10 @@ color:#ccc
 
 /* Server Emojis */
 
+.guild-settings-modal-emoji .table-header {
+color:#ccc
+}
+
 .guild-settings-modal-emoji .guild-settings-modal-emoji-header h6 {
 color:#e5e5e5;
 border-bottom:none!important
@@ -3347,8 +3351,8 @@ color:#ccc
 border-bottom:none
 }
 
-.guild-settings-modal-emoji .emoji-row:hove {
-background:#191919!important
+.guild-settings-modal-emoji .emoji-uploader .emoji-uploader-avatar {
+border-radius:0
 }
 
 .guild-settings-modal-emoji .emoji-uploader .emoji-uploader-username {
@@ -3469,6 +3473,22 @@ border-left:#900 solid 0
 
 .settings .settings-actions {
 border-top:none!important
+}
+
+.settings .settings-actions .btn-confirm:not(.reverse-slide) .btn:first-of-type:hover {
+background-color:#900
+}
+
+.settings .settings-actions .btn-confirm:not(.reverse-slide) .btn:first-of-type {
+background-color:#232323
+}
+
+.settings .settings-actions .btn-confirm:not(.reverse-slide).active .btn:last-of-type:not(:first-of-type) {
+background:#232323
+}
+
+.settings .settings-actions .btn-confirm:not(.reverse-slide).active .btn:last-of-type:not(:first-of-type):hover {
+background:#900
 }
 
 #settings-roles .roles header h1 {
@@ -4580,6 +4600,128 @@ content:url(https://i.imgur.com/IRzpP3m.png)
 background:#383838!important;
 border:1px solid transparent!important;
 background-clip:content-box!important
+}
+/* Webhooks */
+
+.webhooks .webhooks-header {
+border-bottom:none
+}
+
+.webhooks .webhook {
+background:#232323
+}
+
+.webhooks .webhook .webhook-header .avatar-large {
+border-radius:0!important;
+box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000
+}
+
+.webhooks .webhook .webhook-header .webhook-details .webhook-name {
+color:#e5e5e5
+}
+
+.webhooks .webhook .webhook-header .webhook-details .webhook-created-on {
+color:#ccc
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-clear {
+background:#191919!important;
+color:#ccc
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-clear:hover {
+background:#900!important;
+color:#e5e5e5
+}
+
+.webhooks .webhooks-header button.btn.btn-primary.green {
+positio:relative!important;
+botto:-530px!important;
+z-index:1
+}
+
+.webhooks .webhook .webhook-config input#webhook-name {
+background:#191919!important;
+margin-top:11px
+}
+
+.webhooks .webhook .webhook-config div.Select-placeholder {
+background:#191919!important
+}
+
+.webhooks .webhook .webhook-config .Select-menu-outer {
+background:#191919;
+overflow-y:auto;
+max-height:125px
+}
+
+.webhooks .webhook .webhook-config .Select-menu-outer::-webkit-scrollbar {
+background:none
+}
+
+.webhooks .webhook .webhook-config .Select-menu-outer::-webkit-scrollbar-thumb {
+background:#383838;
+border:2px solid transparent;
+background-clip:content-box
+}
+
+.webhooks .webhook .webhook-config .Select-menu {
+overflow-y:hidden
+}
+
+.webhooks .webhook .webhook-config input {
+background:#191919!important
+}
+
+.webhooks .webhook .webhook-config button.copy.flash.icon {
+background-color:#191919
+}
+
+.webhooks .webhook .webhook-config button.copy.flash.icon:hover {
+background-color:#383838
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-confirm {
+background:#191919!important
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-default {
+background:#191919;
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-default:hover {
+background:#900!important
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn.green {
+background:#191919;
+position:relative;
+top:-2px
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn.green:hover {
+background:#900!important
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-confirm.reverse-slide .btn:last-of-type:not(:first-of-type):hover {
+background-color:#900!important
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-confirm.reverse-slide.active .btn:first-of-type {
+background:#191919
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-confirm.reverse-slide.active .btn:first-of-type:hover {
+background:#900!important
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-confirm.active .btn:last-of-type:not(:first-of-type) {
+background-color:#191919
+}
+
+.webhooks .webhook .webhook-header .webhook-actions .btn-confirm.active .btn:last-of-type:not(:first-of-type):hover {
+background-color:#900!important
 }
 
 /*
