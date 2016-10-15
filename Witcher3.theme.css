@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.5.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -22,18 +22,34 @@ background-size:cover!important;
 opacity:.95!important
 }
 
-/* Embed Settings */
+/* Embed Left Borders */
 
-.embed {
-border:none;
-text-align:left!important
+/*Commits*/
+div.embed.embed-rich[style*='border-left-color: rgb(114, 137, 218);'] {
+border-left-color:green!important
+}
+/* Issues */
+div.embed.embed-rich[style*='border-left-color: rgb(235, 100, 32);'] {
+border-left-color:red!important
+}
+/*Pull Requests Closed/Opened | Issue Closed */
+div.embed.embed-rich {
+border-left-color:yellow!important
+}
+/*Website links etc.*/
+div.embed.embed-link {
+border-left-color:#900!important
+}
+/* Video, Imgur, and Gyazo links etc. */
+div.embed {
+border-left-color:#900!important
 }
 
-/* If you want titles, descriptions, etc. change display:none to display:inherit */
+/* If you want to remove titles, descriptions, etc. change display: to display:none and border: to border:none */
 
 .embed .embed-provider, .embed .embed-author, .embed .embed-title, .embed .embed-description, .embed.embed-link .embed-thumbnail {
-display:none;
-text-align:left!important
+display:;
+border:
 }
 
 /*
@@ -3747,6 +3763,22 @@ margin-left:6px
 background:none
 }
 
+#settings-roles .selected-role .btn-confirm:not(.reverse-slide) .btn:first-of-type:hover {
+background-color:#900!important
+}
+
+#settings-roles .selected-role .btn-confirm:not(.reverse-slide) .btn:first-of-type {
+background-color:#232323!important
+}
+
+#settings-roles .selected-role .btn-confirm:not(.reverse-slide).active .btn:last-of-type:not(:first-of-type) {
+background:#232323
+}
+
+#settings-roles .selected-role .btn-confirm:not(.reverse-slide).active .btn:last-of-type:not(:first-of-type):hover {
+background:#900
+}
+
 .btn-help {
 font-size:15px;
 background:#191919
@@ -3880,6 +3912,10 @@ background:#232323
 background:#900
 }
 
+.user-settings-modal-keybinds .user-settings-modal-keybinds-list .keybind .btn-confirm:not(.reverse-slide) .btn:first-of-type:hover {
+background-color:#900!important
+}
+
 .user-settings-modal-connections .user-settings-modal-accounts-list .connect-container .name {
 color:#e5e5e5
 }
@@ -3926,7 +3962,11 @@ box-shadow:none
 }
 
 .settings-connections-wrapper .authed-app .header .header-actions .action-btn {
-background:#900
+background:#191919
+}
+
+.settings-connections-wrapper .authed-app .header .header-actions .action-btn:hover {
+background:#900!important
 }
 
 .settings-connections-wrapper .authed-app .header .app-name {
@@ -4622,7 +4662,8 @@ color:#e5e5e5
 }
 
 .webhooks .webhook .webhook-header .webhook-details .webhook-created-on {
-color:#ccc
+color:#ccc;
+position:absolute
 }
 
 .webhooks .webhook .webhook-header .webhook-actions .btn-clear {
