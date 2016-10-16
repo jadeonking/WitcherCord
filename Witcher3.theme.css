@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.5.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.6"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -2406,11 +2406,6 @@ background:#900!important
 background:#232323
 }
 
-.popout.popout-invert header {
-border-top:6px solid #900!important;
-border-bottom:none!important
-}
-
 .popout.popout-invert.popout-top-right header:before,.popout.popout-invert.popout-top header:before {
 border-top-color:#e5e5e5
 }
@@ -2446,6 +2441,20 @@ box-shadow:0 0 0 rgba(0,0,0,.82),0 1px 4px 1px rgba(0,0,0,.3)!important
 
 div.popout.popout-invert.popout-bottom {
 box-shadow:none!important
+}
+
+.popout.popout-invert header {
+border-top:none!important;
+border-bottom:6px solid #900
+}
+
+div.popout.popout-top #autocomplete-popout header {
+border-bottom:none;
+border-top:6px solid #900!important
+}
+
+.popout.popout-right.no-arrow {
+box-shadow:none
 }
 
 .status-picker .popout-menu-item .helper {
@@ -5376,4 +5385,84 @@ background-image:url(https://i.imgur.com/NdsFNVf.png)
 
 .chat .welcome-message .item-container .icon.twitter {
 background-image:url(https://i.imgur.com/iBdW6HC.png)
+}
+
+/* DEV TAG */
+
+.message-group .avatar-large[style*="128043634678300672"]+.comment .user-name::after {
+content:"W3 DEV";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:4px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.guild-settings-modal-members .avatar-small[style*="128043634678300672"]+.member-inner .member-username::after {
+content:"W3 DEV";
+background:#900;
+color:#e5e5e5;
+border-radius:3px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700;
+margin-left:4px
+}
+
+div.avatar-small[style*="128043634678300672"]+.member-inner .member-username-inner::after {
+content:"W3 DEV";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+margin-left:1px;
+font-size:10px;
+padding:2px 2px 1px 2px;
+font-weight:700
+}
+
+.avatar-popout[style*="128043634678300672"]::after {
+content:"WITCHER 3 DEV";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2.5px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:93px
+}
+
+.avatar-profile[style*="128043634678300672"]::after {
+content:"WITCHER 3 DEV";
+color:#e5e5e5;
+background:#900;
+border-radius:3px;
+left:-2px;
+font-size:11px;
+padding:1px 5px 0px 5px;
+font-weight:700;
+line-height:15px;
+position:absolute;
+width:95%;
+text-align:center;
+top:132px
+}
+
+.theme-dark .message-group h2 strong:hover {
+text-decoration:none;
+text-shadow:2.5px 2px 1.5px #000
+}
+
+.user-popout .username-wrapper .discord-tag {
+margin-top:5px
+}
+
+.user-popout .username-wrapper .nickname {
+margin-top:5px
 }
