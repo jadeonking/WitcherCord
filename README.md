@@ -9,8 +9,6 @@ DuskCord
 
 [![Screenshot](http://bit.ly/2cMwtHJ)](https://gfycat.com/JoyfulFamousAfricanaugurbuzzard "Click Me!")
 
-Click [HERE!](https://github.com/jadeonking/Witcher-3-Theme-for-Discord/tree/Non-Transparent) to grab DuskCord
-
 To use themes you need [__BetterDiscord__](https://betterdiscord.net/home/)
 
 Help Tutorial for Installing Better Discord and theme https://youtu.be/dapTr_vjyTM
