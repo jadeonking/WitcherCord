@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.6"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.6.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 /*
                      _                _                                   _
@@ -4772,6 +4772,39 @@ background-color:#191919
 
 .webhooks .webhook .webhook-header .webhook-actions .btn-confirm.active .btn:last-of-type:not(:first-of-type):hover {
 background-color:#900!important
+}
+
+/* Notices and Streamer mode */
+
+.notice.notice-info {
+background:#232323
+}
+
+.notice .btn {
+background:#191919;
+border:none;
+color:#ccc
+}
+
+.notice .btn:hover {
+background:#900;
+color:#e5e5e5!important
+}
+
+.notice.notice-streamer-mode {
+background:#232323
+}
+
+.streamer-mode-enabled .streamer-mode-enabled-btn,.streamer-mode-enabled .streamer-mode-enabled-btn.disabled {
+background:#232323
+}
+
+.streamer-mode-enabled .streamer-mode-enabled-btn:hover,.streamer-mode-enabled .streamer-mode-enabled-btn.disabled:hover {
+background:#900
+}
+
+.streamer-mode-enabled .streamer-mode-enabled-image {
+opacity:.1
 }
 
 /*
