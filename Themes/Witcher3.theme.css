@@ -1,5 +1,12 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.6.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.6.8"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
+
+/* Want to disable reactions? change display:!important to display:none!important */
+
+.reactions {
+display:!important
+}
+
 /*
                      _                _                                   _
   __ _ _ __  _ __   | |__   __ _  ___| | ____ _ _ __ ___  _   _ _ __   __| |
@@ -884,6 +891,29 @@ color:#e5e5e5
 .emoji-picker .header {
 border-bottom:6px solid #900
 }
+
+/* Emoji Reactions */
+
+.theme-dark .reaction.reaction-me {
+background:rgba(25,25,25,.35);
+border-bottom:2px solid #900!important
+}
+
+.theme-dark .reaction.reaction-me .reaction-count {
+color:#e5e5e5
+}
+
+.theme-dark .reaction {
+background:rgba(30,30,30,.35);
+border-radius:0;
+border-bottom:2px solid #7f7f7f
+}
+
+.theme-dark .reaction .reaction-count {
+color:#b2b2b2
+}
+
+/**/
 
 .title-wrap {
 box-shadow:inset 10px 0 5px -6px #000!important;
