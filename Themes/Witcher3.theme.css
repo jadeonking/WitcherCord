@@ -1,11 +1,5 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.6.8"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.6.9"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
-
-/* Want to disable reactions? change display:!important to display:none!important */
-
-.reactions {
-display:!important
-}
 
 /*
                      _                _                                   _
@@ -2331,7 +2325,16 @@ border-bottom:none !important;
 box-shadow:none!important
 }
 
+.user-popout .header.streaming .nickname {
+color:#fff!important
+}
+
+.user-popout .header.streaming .discord-tag .username {
+color:#e5e5e5
+}
+
 .user-popout .header.streaming .activity strong {
+color:#b2b2b2;
 margin-left:-66px
 }
 
@@ -3059,7 +3062,7 @@ border-radius:8px
 
 #instant-invite-modal .copy {
 background-image:none!important;
-background:#383838
+background-color:#383838
 }
 
 .clipboard-input-copied .clipboard-input-inner {
@@ -3067,8 +3070,17 @@ border:none!important
 }
 
 .clipboard-input-copied button:not(.tweet) {
+background-image:url(https://i.imgur.com/vpF5Uw4.png)!important;
 background-color:#900!important;
 border:none!important
+}
+
+#instant-invite-modal .clipboard-input-inner button.copy {
+background-image:none!important
+}
+
+#instant-invite-modal .clipboard-input-copied button:not(.tweet) {
+background-image:url(https://i.imgur.com/vpF5Uw4.png)!important
 }
 
 #instant-invite-modal .clipboard-input-inner input {
