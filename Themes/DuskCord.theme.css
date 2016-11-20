@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"2.6.9"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"2.7"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -28,27 +28,34 @@ background-size:cover!important;
 opacity:.75!important
 }
 
-/* Embed Left Borders */
+/* Embed Left Borders and Background */
 
-/*Commits*/
-div.embed.embed-rich[style*='border-left-color: rgb(114, 137, 218);'] {
-border-left-color:green!important
+/* Background */
+.theme-dark .message-group .embed {
+background-color:#191919;
+border:none;
+border-radius:0
 }
+
+/* Commits */
+.theme-dark .message-group .embed-wrapper .embed-color-pill[style*='background-color: rgb(114, 137, 218);'] {
+background-color:green!important
+}
+
 /* Issues */
-div.embed.embed-rich[style*='border-left-color: rgb(235, 100, 32);'] {
-border-left-color:red!important
+.theme-dark .message-group .embed-wrapper .embed-color-pill[style*='background-color: rgb(235, 100, 32);'] {
+background-color:yellow!important
 }
-/*Pull Requests Closed/Opened | Issue Closed */
-div.embed.embed-rich {
-border-left-color:yellow!important
+
+/* Pull Requests Opened */
+.theme-dark .message-group .embed-wrapper .embed-color-pill[style*='background-color: rgb(0, 152, 0);'] {
+background-color:yellow!important
 }
-/*Website links etc.*/
-div.embed.embed-link {
-border-left-color:#4B0082!important
-}
-/* Video, Imgur, and Gyazo links etc. */
-div.embed {
-border-left-color:#4B0082!important
+
+/* Issues, Pull Requests Closed | Website links etc. */
+.theme-dark .message-group .embed-wrapper .embed-color-pill {
+background-color:#4B0082;
+border-radius:0
 }
 
 /* If you want to remove titles, descriptions, etc. change display: to display:none and border: to border:none */
@@ -4488,6 +4495,51 @@ color:#ccc
 border:none
 }
 
+/* New User Profile Modal */
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account {
+border:none;
+background:#232323
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
+color:#e5e5e5
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
+color:#e5e5e5
+}
+
+#user-profile-modal .header .header-info .header-info-inner .discord-tag .discriminator {
+color:#e5e5e5
+}
+
+#user-profile-modal .actions .btn {
+background:#232323!important
+}
+
+#user-profile-modal .actions .btn:hover {
+background:#4B0082!important
+}
+
+#user-profile-modal .header .header-info .header-info-inner .activity {
+color:#b2b2b2;
+text-indent:-42px
+}
+
+#user-profile-modal .tab-bar .tab-bar-item.selected {
+color:#e5e5e5
+}
+
+#user-profile-modal .tab-bar .tab-bar-item {
+color:#b2b2b2
+}
+
+#user-profile-modal .header:after {
+display:none
+}
+
+/* --- */
 .theme-dark .header-toolbar .separator {
 background:none;
 margin-left:0
@@ -5506,7 +5558,7 @@ margin-top:-5px
 
 .embed .embed-video-actions .embed-video-popout {
 background-image:url(https://i.imgur.com/Mgd1QEP.png);
-background-size:20px 20px
+background-size:22px 22px
 }
 
 .guild-channels .icon-lock {
