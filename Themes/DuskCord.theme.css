@@ -1,10 +1,16 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"2.7"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"2.9"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
 use Ctrl+F place #4B0082 in the find field and #900 in the replace field and click replace all,
 the red borders were carried over from witcher 3 and I never got around to replacing them for DuskCord,
 and apologize for anyone who was used to the red this is the best solution I can provide */
+
+/* if you wish to hide blocked messages change display: to display:none */
+
+.message-group-blocked {
+display:
+}
 
 /*
                      _                _                                   _
@@ -639,6 +645,14 @@ width:82%!important
 
 .guild-channels .channel.sorting:after {
 border:2px solid #4B0082
+}
+
+.new-messages-indicator.new-messages-indicator-mention {
+background:#191919
+}
+
+.new-messages-indicator.new-messages-indicator-mention:hover {
+background:#4B0082
 }
 
 /*
@@ -1478,16 +1492,20 @@ color:#ccc
 margin:23px
 }
 
-.channel-textarea-guard button {
-background:#232323!important
+div.chat.flex-vertical.flex-spacer.private .channel-textarea-guard button {
+background:#191919!important
 }
 
-.channel-textarea-guard button:hover {
+div.chat.flex-vertical.flex-spacer.private .channel-textarea-guard button:hover {
 background:#4B0082!important
 }
 
 .channel-textarea-guard div {
 color:#ccc
+}
+
+.channel-textarea-guard {
+background-image:none!important
 }
 
 .theme-dark .chat form .typing {
@@ -1567,6 +1585,32 @@ line-height:1.5
 
 .form .invite-button .invite-button-body {
 color:#ccc
+}
+
+/* Blocked Messages */
+
+.message-group-blocked .message-group-blocked-btn {
+background:#191919!important;
+color:#e5e5e5!important;
+}
+
+.message-group-blocked:hover {
+box-shadow:1px .5px 0px 0 rgba(0,0,0,.3),inset 1px -.8px 0 0 rgba(0,0,0,.3)!important
+}
+
+.message-group-blocked {
+background:#232323!important;
+border:none!important;
+border-radius:0;
+box-shadow:none!important
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed .message-group-blocked-btn {
+border-bottom:6px solid #4B0082!important
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed .message-group.hide-overflow:hover {
+box-shadow:none!important
 }
 
 /* BetterDiscord Emote Tooltip */
