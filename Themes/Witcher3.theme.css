@@ -1,5 +1,11 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.7"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.9"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
+
+/* if you wish to hide blocked messages change display: to display:none */
+
+.message-group-blocked {
+display:
+}
 
 /*
                      _                _                                   _
@@ -49,7 +55,7 @@ background-color:yellow!important
 
 /* Issues, Pull Requests Closed | Website links etc. */
 .theme-dark .message-group .embed-wrapper .embed-color-pill {
-background-color:#4B0082;
+background-color:#900;
 border-radius:0
 }
 
@@ -667,6 +673,14 @@ width:82!important
 
 .guild-channels .channel.sorting:after {
 border:2px solid #900
+}
+
+.new-messages-indicator.new-messages-indicator-mention {
+background:rgba(35,35,35,.9)
+}
+
+.new-messages-indicator.new-messages-indicator-mention:hover {
+background:#900
 }
 
 /*
@@ -1502,16 +1516,20 @@ color:#ccc
 margin:23px
 }
 
-.channel-textarea-guard button {
-background:#232323!important
+div.chat.flex-vertical.flex-spacer.private .channel-textarea-guard button {
+background:rgba(25,25,25,.75)!important
 }
 
-.channel-textarea-guard button:hover {
+div.chat.flex-vertical.flex-spacer.private .channel-textarea-guard button:hover {
 background:#900!important
 }
 
 .channel-textarea-guard div {
 color:#ccc
+}
+
+.channel-textarea-guard {
+background-image:none!important
 }
 
 .theme-dark .chat form .typing {
@@ -1591,6 +1609,32 @@ line-height:1.5
 
 .form .invite-button .invite-button-body {
 color:#ccc
+}
+
+/* Blocked Messages */
+
+.message-group-blocked .message-group-blocked-btn {
+background:rgba(25,25,25,.75)!important;
+color:#e5e5e5!important;
+}
+
+.message-group-blocked:hover {
+box-shadow:1px .5px 0px 0 rgba(0,0,0,.3),inset 1px -.8px 0 0 rgba(0,0,0,.3)!important
+}
+
+.message-group-blocked {
+background:rgba(35,35,35,.75)!important;
+border:none!important;
+border-radius:0;
+box-shadow:none!important
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed .message-group-blocked-btn {
+border-bottom:6px solid #900!important
+}
+
+.theme-dark .messages-wrapper .messages .message-group-blocked.revealed .message-group.hide-overflow:hover {
+box-shadow:none!important
 }
 
 /* BetterDiscord Emote Tooltip */
