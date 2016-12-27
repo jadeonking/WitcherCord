@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.9"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.9.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -826,6 +826,15 @@ box-shadow:none!important
 color:#e5e5e5
 }
 
+.mention {
+background:rgba(35,35,35,.75)!important;
+color:#ccc!important
+}
+
+.mentioned .mention {
+background:rgba(35,35,35,.75)!important
+}
+
 .emoji-picker {
 background:#191919!important;
 border:none
@@ -927,6 +936,52 @@ border-bottom:2px solid #7f7f7f
 
 .theme-dark .reaction .reaction-count {
 color:#b2b2b2
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction.selected {
+background-color:#191919;
+border-radius:0
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction:not(.selected):hover {
+background-color:#383838!important;
+border-radius:0
+}
+
+.message-reactions-modal .message-reactions-list .scroller-wrap {
+background-color:#232323
+}
+
+.message-reactions-modal .message-reactions-list-inner {
+background-color:#232323
+}
+
+div.message-reactions-list {
+background-color:#191919
+}
+
+.message-reactions-modal .message-reactions-reactors {
+background-color:#191919;
+border-left:6px solid #900;
+}
+
+.message-reactions-modal .message-reactions-reactors .reactor {
+box-shadow:none
+}
+
+.message-reactions-modal .message-reactions-reactors .reactor .name {
+color:#e5e5e5
+}
+
+.message-reactions-modal .message-reactions-list-inner .reaction .count {
+color:#ccc
+}
+
+.message-reactions-modal .message-reactions-reactors .reactor:hover .remove {
+background-image:url(https://i.imgur.com/u6RwzJp.png)!important;
+background-repeat:no-repeat;
+background-position:bottom;
+background-size:22px 22px
 }
 
 /**/
@@ -1793,6 +1848,10 @@ border:none;
 background:none
 }
 
+.search-bar-icon {
+left:-18px
+}
+
 #friends .friends-table .friends-row .friends-column-actions .friends-action-grey {
 background:#232323
 }
@@ -2232,13 +2291,17 @@ box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000
 }
 
-/*CANNOT REMEMBER WHAT AVATARS THESE CHANGE PROBABLY NONE?*/
+/*CANNOT REMEMBER WHAT AVATAR THIS CHANGES*/
 .avatar-medium {
 border-radius:8px
 }
 
+/*----------------------------------------*/
+
 .avatar-xsmall {
-border-radius:8px
+border-radius:0px;
+box-shadow:-1px 1px 3px #000,inset -1px 1px 3px #000,
+inset 1px -1px 3px #000,1px -1px 3px #000
 }
 
 .channel-members .member.member-status-offline .avatar-small {
@@ -2791,6 +2854,10 @@ margin-top:5px
 .tooltip {
 background:#232323;
 color:#fff
+}
+
+.tooltip.tooltip-left:after {
+border-left-color:#e5e5e5!important
 }
 
 .tooltip.tooltip-right:after {
@@ -5638,34 +5705,4 @@ margin-top:5px
 
 .user-popout .username-wrapper .nickname {
 margin-top:5px
-}
-
-.account {
-background-image:url(https://i.imgur.com/RKyc0Xn.png)!important;
-background-size:75px 75px!important;
-background-repeat:no-repeat!important;
-background-position:81px 2px!important;
-height:130px!important
-}
-
-.account .account-details .discriminator {
-margin-top:35px
-}
-
-.account .btn-group {
-margin-top:30px
-}
-
-.guild-channels {
-background-image:url()!important;
-background-size:10% 10%!important;
-background-position:top!important;
-background-repeat:no-repeat!important
-}
-
-.tab-bar.SIDE {
-background-image:url(https://i.imgur.com/TCWQQut.png)!important;
-background-size:75% 20%!important;
-background-position:bottom!important;
-background-repeat:no-repeat!important
 }
