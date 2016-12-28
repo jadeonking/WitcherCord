@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"2.9.2"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"2.9.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -2063,6 +2063,12 @@ inset 0 -1px 0 0 rgba(0,0,0,.3)!important
 
 .private-channel-recipients-invite {
 border:none!important
+}
+
+.private-channel-recipients-invite .friend .avatar-small {
+border-radius:0px;
+box-shadow:-1px 1px 6px #000,inset -1px 1px 6px #000,
+inset 1px -1px 6px #000,1px -1px 6px #000
 }
 
 .private-channel-recipients-invite .header {
