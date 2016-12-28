@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.9.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.9.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -2084,6 +2084,12 @@ background:#191919
 
 .private-channel-recipients-invite {
 border:none!important
+}
+
+.private-channel-recipients-invite .friend .avatar-small {
+border-radius:0px;
+box-shadow:-1px 1px 6px #000,inset -1px 1px 6px #000,
+inset 1px -1px 6px #000,1px -1px 6px #000
 }
 
 .private-channel-recipients-invite .header {
