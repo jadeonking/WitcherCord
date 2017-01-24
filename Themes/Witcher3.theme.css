@@ -5712,3 +5712,144 @@ margin-top:5px
 .user-popout .username-wrapper .nickname {
 margin-top:5px
 }
+
+/* Discord Nitro */
+
+.premium-settings .premium-header .premium-logo {
+opacity:.75;
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%)
+}
+
+.premium-settings .premium-header .premium-splash-wumpus {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-settings .premium-header.splash {
+border-bottom:none ;
+background-image:none
+}
+
+.premium-settings .premium-feature .premium-feature-icon {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-settings .premium-header .intro-subtitle {
+color:#b2b2b2
+}
+
+.premium-settings .premium-feature .premium-feature-title {
+color:#e5e5e5
+}
+
+.premium-settings .premium-feature .premium-feature-description {
+color:#b2b2b2
+}
+
+.premium-settings .premium-header .premium-options button strong {
+color:#e5e5e5
+}
+
+.premium-settings .premium-header .premium-options button {
+background:#232323;
+border:none;
+color:#ccc
+}
+
+.premium-settings .premium-header .premium-options button:hover {
+background:#900!important
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear strong {
+color:#e5e5e5
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear {
+background:#232323;
+color:#ccc;
+border:none
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear:hover {
+background:#900!important
+}
+
+.premium-settings .premium-header .premium-free-months {
+color:#b2b2b2
+}
+
+.premium-payment-modal {
+background:#191919
+}
+
+.premium-payment-modal .premium-animation {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-payment-modal .premium-payment-form .premium-payment-title {
+color:#e5e5e5
+}
+
+.premium-payment-modal .premium-payment-form .premium-payment-subtitle {
+color:#b2b2b2
+}
+
+.fancy-credit-input {
+background-color:#232323
+}
+
+.fancy-credit-input .card-icon-wrapper {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.fancy-credit-input .cc-number-wrapper .cc-number-placeholder {
+color:#b2b2b2
+}
+
+.fancy-credit-input .cc-number-wrapper .cc-number {
+color:#ccc!important
+}
+
+.fancy-credit-input .cc-number-wrapper .cc-number-continue {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.fancy-credit-input .cc-info-wrapper .expiration-placeholder {
+color:#b2b2b2;
+opacity:
+}
+
+.fancy-credit-input input {
+color:#ccc;
+opacity:
+}
+
+.fancy-credit-input input::-webkit-input-placeholder {
+color:#b2b2b2!important
+}
+
+.premium-payment-modal .premium-payment-button.open:disabled,
+.premium-payment-modal .premium-payment-button.open:disabled:hover {
+border:none;
+background:#232323
+}
+
+.premium-payment-modal .premium-payment-button {
+background:#232323;
+color:#ccc;
+box-shadow:none
+}
+
+.premium-payment-modal .premium-payment-button:hover {
+background:#900
+}
