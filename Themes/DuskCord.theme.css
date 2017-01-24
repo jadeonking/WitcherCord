@@ -6315,3 +6315,89 @@ box-shadow:none
 .premium-payment-modal .premium-payment-button:hover {
 background:#4B0082
 }
+
+.premium-settings .premium-header {
+border-bottom:none
+
+}
+
+.premium-settings .subscription .premium-details .premium-title {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+.premium-settings .subscription.active:before {
+display:none
+}
+
+.premium-settings .subscription.active {
+background:#383838
+}
+
+.premium-settings .subscription.active .btn-filled {
+background:#232323;
+color:#ccc
+}
+
+.premium-settings .subscription.active .btn-filled:hover {
+background:#4B0082
+}
+
+.premium-settings .subscription .premium-details .premium-info {
+color:#b2b2b2
+}
+
+.premium-settings .payment-subhead {
+color:#ccc
+}
+
+.card-icon:before {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-settings .payment-method .payment-info .card-info .card-description {
+color:#b2b2b2
+}
+
+.premium-settings .payment-method .payment-info .card-info .card-description strong {
+color:#ccc
+}
+
+.premium-settings .payment-method .payment-info .card-info .card-details {
+color:#b2b2b2
+}
+
+.btn-stroked {
+background:#232323;
+color:#ccc;
+border:none
+}
+
+.btn-stroked:hover {
+background:#4B0082
+}
+
+.premium-settings .billing-history-list li.header-row {
+color:#b2b2b2
+}
+
+.premium-settings .billing-history-list li:last-of-type {
+color:#b2b2b2
+}
+
+.alert.form.premium-unsubscribe:before, .alert.form.premium-upgrade:before {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.modal-content .form-inner p:first-child {
+margin-top:40px
+}
+
+.alert.form.premium-upgrade strong {
+color:#e5e5e5
+}
