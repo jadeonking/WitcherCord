@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"2.9.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -5879,7 +5879,7 @@ color:#ccc
 }
 
 .premium-settings .subscription.active .btn-filled:hover {
-background:##900
+background:#900
 }
 
 .premium-settings .subscription .premium-details .premium-info {
@@ -5915,7 +5915,7 @@ border:none
 }
 
 .btn-stroked:hover {
-background:##900
+background:#900
 }
 
 .premium-settings .billing-history-list li.header-row {
@@ -5938,4 +5938,337 @@ margin-top:40px
 
 .alert.form.premium-upgrade strong {
 color:#e5e5e5
+}
+
+/* search */
+
+.theme-dark .search-results-wrap .search-header {
+background-color:#232323
+}
+
+.theme-dark .search-results-wrap {
+z-index:1;
+background:#191919
+}
+
+.theme-dark .search-results-wrap .search-result:after {
+background-image:none
+}
+
+.theme-dark .search-results-wrap .search-result:before {
+background-image:none
+}
+
+.search-results-wrap .search-result .search-result-message.hit {
+box-shadow:none;
+background-color:#232323;
+border:none!important;
+border-radius:0
+}
+
+.theme-dark .search-results-wrap .search-result.expanded {
+border:none;
+background:#232323;
+border-radius:0
+}
+
+.theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
+background:#383838
+}
+
+.theme-dark .search-results-wrap .message-group h2 span {
+color:#b2b2b2
+}
+
+.theme-dark .message-group .mentioned .message-text {
+background:none!important
+}
+
+.theme-dark .search-results-wrap .channel-separator .channel-name {
+background-color:#191919
+}
+
+.theme-dark .search-results-wrap .channel-separator:before {
+border-color:#b2b2b2
+}
+
+.theme-dark .search-results-wrap .search-header .total-results, .theme-dark .search-results-wrap .search-header a {
+opacity:1;
+color:#b2b2b2
+}
+
+.theme-dark .search-results-wrap .search-header .tab {
+opacity:1;
+color:#b2b2b2;
+border-color:#900!important
+}
+
+.theme-dark .search-results-wrap .search-header .tab.selected {
+color:#e5e5e5
+}
+
+.theme-dark .search-results-wrap .search-header .tab:not(.selected):hover {
+color:#ccc;
+border-color:#ccc!important
+}
+
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+background:none!important
+}
+
+.theme-dark .search-results-wrap .scroller-wrap .scroller::-webkit-scrollbar-thumb {
+background-color:#292929!important;
+border:1px solid #191919!important
+}
+
+.theme-dark .search-results-wrap .empty-results-wrap .no-results-image, .theme-dark .search-results-wrap .error-wrap .no-results-image {
+opacity:.25
+}
+
+.theme-dark .search-results .message-group .comment .markup .mention {
+background-color:#191919!important
+}
+
+.theme-dark .search-results .message-group .comment .markup .highlight {
+background:none;
+text-decoration:underline
+}
+
+.theme-dark .search-results .message-group .comment .markup pre code {
+background-color:#191919;
+color:#b2b2b2
+}
+
+.theme-dark .search-results .message-group .comment .markup pre {
+border:none
+}
+
+.theme-dark .search-results .message-group .comment .markup code.inline {
+background-color:#191919;
+border-radius:0
+}
+
+.search-results-wrap .empty-results-wrap .no-results {
+color:#b2b2b2
+}
+
+.theme-dark .search .search-bar .search-bar-icon {
+left:-2px
+}
+
+.theme-dark .search .search-bar {
+background-color:rgba(25,25,25,.75)
+}
+
+.search .DraftEditor-root .public-DraftStyleDefault-block span {
+background-color:#282828
+}
+
+.theme-dark .search .search-bar .public-DraftEditorPlaceholder-root {
+color:#ccc
+}
+
+.search-popout .search-query {
+border-bottom:4px solid #900
+}
+
+.search-popout .search-query .search-for strong {
+color:#ccc
+}
+
+.theme-dark .search-popout {
+background-color:#191919;
+background-image:none;
+border-radius:0
+}
+
+.search-popout .results-group:before {
+display:none
+}
+
+.search-popout .option {
+background-color:#191919!important;
+background-image:none!important
+}
+
+.search-popout .results-group .header {
+color:#e5e5e5
+}
+
+.search-popout .results-group .search-learn-more {
+background-image:url(https://i.imgur.com/PGNUNis.png);
+background-size:18px 18px
+}
+
+.search-popout .option:hover {
+background-color:#232323!important;
+border-radius:0
+}
+
+.search-popout .option.selected:after {
+background-image:none
+}
+
+.search-popout .option .filter {
+color:#b2b2b2;
+opacity:.80
+}
+
+.search-popout .option .answer {
+color:#ccc;
+font-weight:normal
+}
+
+.search-popout .option .non-text {
+color:#e5e5e5;
+font-style:italic!important
+}
+
+.search-popout .option strong {
+color:#ccc
+}
+
+.search-popout .option.user .displayed-nick {
+color:#b2b2b2
+}
+
+.search-popout .option:after {
+background-image:none
+}
+
+.search-popout .option.selected:before {
+background-image:url(https://imgur.com/ZbEoljM.png);
+background-size:18px 18px
+}
+
+.search-popout .results-group .search-clear-history {
+background-image:url(https://i.imgur.com/JW7VcCL.png)
+}
+
+.theme-dark .search-results-wrap .pagination .pagination-next {
+background-image:url(https://imgur.com/33UBzEX.png);
+background-size:20px 20px;
+transform:rotate(-90deg)!important;
+border:none
+}
+
+.theme-dark .search-results-wrap .pagination .pagination-previous {
+background-image:url(https://imgur.com/33UBzEX.png);
+background-size:20px 20px;
+transform:rotate(90deg)!important;
+border:none
+}
+
+.search-popout .date-picker {
+background:#191919;
+border-top:none
+}
+
+.react-datepicker {
+background:#191919
+}
+
+.react-datepicker .react-datepicker__navigation.react-datepicker__navigation--next, .react-datepicker .react-datepicker__navigation.react-datepicker__navigation--previous {
+border:none
+}
+
+.react-datepicker .react-datepicker__navigation.react-datepicker__navigation--next {
+background-image:url(https://imgur.com/33UBzEX.png);
+background-size:18px 18px;
+transform:rotate(-90deg)!important
+}
+
+.react-datepicker .react-datepicker__navigation.react-datepicker__navigation--previous {
+background-image:url(https://imgur.com/33UBzEX.png);
+background-size:18px 18px;
+transform:rotate(90deg)!important
+}
+
+.react-datepicker .react-datepicker__header {
+background:#191919
+}
+
+.react-datepicker .react-datepicker__month-container {
+background:#191919;
+border:none
+}
+
+.react-datepicker .react-datepicker__month {
+background:#191919;
+color:#e5e5e5!important
+}
+
+.react-datepicker .react-datepicker__current-month {
+background:#191919;
+color:#e5e5e5!important;
+border-bottom:none
+}
+
+.react-datepicker .react-datepicker__day-names {
+background:#191919
+}
+
+.react-datepicker .react-datepicker__day-name {
+color:#ccc
+}
+
+.react-datepicker__day {
+background:#383838;
+color:#e5e5e5!important
+}
+
+.react-datepicker__day:hover {
+background:#232323!important;
+color:#e5e5e5!important
+}
+
+.react-datepicker__day--today {
+background:#383838
+}
+
+.react-datepicker .react-datepicker__day.react-datepicker__day--today:after {
+background-color:#900
+}
+
+.react-datepicker__day--disabled {
+background:#191919;
+color:#383838!important
+}
+
+.react-datepicker__day--disabled:hover {
+background:none!important;
+color:#383838!important
+}
+
+.react-datepicker .react-datepicker__day--outside-month {
+background:#232323!important;
+}
+
+.react-datepicker .react-datepicker__day--outside-month:hover {
+background:#900!important
+}
+
+.search-popout .date-picker .date-picker-hint {
+border-top:4px solid #900
+}
+
+.search-popout .date-picker .date-picker-hint .hint-value {
+background:#383838
+}
+
+.search-popout .date-picker .date-picker-hint .hint-value:hover {
+background:#232323!important
+}
+
+.react-datepicker .react-datepicker__day {
+border-radius:0!important;
+border-color:#191919!important
+}
+
+.react-datepicker .react-datepicker__month .react-datepicker__week>.react-datepicker__day:last-of-type {
+border-radius:0!important;
+}
+
+.react-datepicker .react-datepicker__month>.react-datepicker__week:last-of-type .react-datepicker__day {
+border-radius:0!important;
 }
