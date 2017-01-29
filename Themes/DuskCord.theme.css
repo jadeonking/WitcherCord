@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.0"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.0.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -5910,13 +5910,12 @@ border-radius:0
 
 .theme-dark .search-results-wrap .search-result.expanded {
 border:none;
-background:#383838;
+background:#232323;
 border-radius:0
 }
 
 .theme-dark .search-results-wrap .search-result.expanded .search-result-message.hit {
-background:#232323;
-border-left:4px solid #!important
+background:#383838
 }
 
 .theme-dark .search-results-wrap .message-group h2 span {
@@ -5968,6 +5967,31 @@ border:1px solid #191919!important
 opacity:.25
 }
 
+.theme-dark .search-results .message-group .comment .markup .mention {
+background-color:#191919!important
+}
+
+.theme-dark .search-results .message-group .comment .markup .highlight {
+background:none!important;
+text-decoration:underline;
+font-weight:bold!important;
+color:#ccc
+}
+
+.theme-dark .search-results .message-group .comment .markup pre code {
+background-color:#191919;
+color:#b2b2b2
+}
+
+.theme-dark .search-results .message-group .comment .markup pre {
+border:none
+}
+
+.theme-dark .search-results .message-group .comment .markup code.inline {
+background-color:#191919;
+border-radius:0
+}
+
 .search-results-wrap .empty-results-wrap .no-results {
 color:#b2b2b2
 }
@@ -5990,6 +6014,10 @@ color:#ccc
 
 .search-popout .search-query {
 border-bottom:4px solid #4B0082
+}
+
+.search-popout .search-query .search-for strong {
+color:#ccc
 }
 
 .theme-dark .search-popout {
@@ -6059,6 +6087,20 @@ background-size:18px 18px
 
 .search-popout .results-group .search-clear-history {
 background-image:url(https://i.imgur.com/JW7VcCL.png)
+}
+
+.theme-dark .search-results-wrap .pagination .pagination-next {
+background-image:url(https://imgur.com/33UBzEX.png);
+background-size:20px 20px;
+transform:rotate(-90deg)!important;
+border:none
+}
+
+.theme-dark .search-results-wrap .pagination .pagination-previous {
+background-image:url(https://imgur.com/33UBzEX.png);
+background-size:20px 20px;
+transform:rotate(90deg)!important;
+border:none
 }
 
 .search-popout .date-picker {
