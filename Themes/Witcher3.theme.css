@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.5"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -258,13 +258,18 @@ box-shadow:inset -10px 0 5px -6px rgba(0,0,0,1)
 }
 
 .guilds-wrapper .guilds-error {
+background-color:#191919;
 border-radius:0;
-margin-top:-9px;
+margin-top:-10px;
 border:0;
 height:45px!important;
 width:50px;
 right:-2px;
 position:relative
+}
+
+.guilds-wrapper .guilds-error:hover {
+background-color:#900
 }
 
 .guild-header ul {
@@ -355,7 +360,7 @@ border-radius:0px;
 width:40px!important;
 height:40px!important;
 margin-left:2px;
-margin-top:-2px!important
+margin-top:3px!important
 }
 
 .guilds .guild-inner {
@@ -1852,6 +1857,14 @@ background:none
 left:-18px
 }
 
+.search-bar-icon .icon.icon-search-bar-eye-glass {
+background:url(https://i.imgur.com/9R0mm3N.png)!important;
+}
+
+.search-bar-icon .icon.visible {
+opacity:.80
+}
+
 #friends .friends-table .friends-row .friends-column-actions .friends-action-grey {
 background:#232323
 }
@@ -2876,6 +2889,14 @@ border-top-color:#e5e5e5
 
 .tooltip.tooltip-bottom:after {
 border-bottom-color:#e5e5e5
+}
+
+.tooltip.tooltip-error {
+background-color:#232323
+}
+
+.tooltip.tooltip-error.tooltip-right:after {
+border-right-color:#e5e5e5
 }
 
 /*
@@ -4274,6 +4295,11 @@ color:#b2b2b2
 color:#ccc
 }
 
+.change-log.markdown-modal code.inline {
+background:#232323;
+border-radius:0
+}
+
 .change-log-button-container:before {
 display:none
 }
@@ -4306,6 +4332,19 @@ border-color:#191919!important
 color:#e5e5e5
 }
 
+.user-settings-modal-games .games-table .games-row .item-game .icon {
+background:url(https://imgur.com/TdP6eOM.png);
+background-position:center;
+background-size:15px 20px
+}
+
+.user-settings-modal-games .games-table .games-row .item-game .game-input:focus,
+.user-settings-modal-games .games-table .games-row .item-game .game-input:hover {
+border-radius:0;
+border-color:#383838;
+background-color:#232323
+}
+
 .user-settings-modal-games .games-table .games-row .item-game .last-played {
 color:#ccc
 }
@@ -4331,7 +4370,8 @@ background-color:#232323;
 border:1px solid;
 animation-name:pulse;
 animation-duration:1.5s;
-animation-direction:alternate
+animation-direction:alternate;
+border-radius:0
 }
 
 @keyframes pulse {
@@ -4611,6 +4651,23 @@ background:#232323
 
 #user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-name {
 color:#e5e5e5
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account a .connected-account-open-icon {
+background:url(https://imgur.com/Mgd1QEP.png);
+background-size:18px 18px
+}
+
+#user-profile-modal .guilds .section .connected-accounts .connected-account .connected-account-name-inner .connected-account-verified-icon {
+background:url(https://imgur.com/TdP6eOM.png);
+background-position:center;
+background-size:16px 21px
+}
+
+#user-profile-modal .header .header-info .badge-premium {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
 }
 
 #user-profile-modal .header .header-info .header-info-inner .discord-tag .username {
@@ -5959,6 +6016,20 @@ background-image:none
 background-image:none
 }
 
+.search-results-wrap .empty-results-wrap .search-index-animation {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.search-results-wrap .empty-results-wrap .still-indexing {
+color:#ccc
+}
+
+.theme-dark .search-results-wrap .search-header .spinner .path {
+stroke:#e5e5e5
+}
+
 .search-results-wrap .search-result .search-result-message.hit {
 box-shadow:none;
 background-color:#232323;
@@ -6057,7 +6128,8 @@ left:-2px
 }
 
 .theme-dark .search .search-bar {
-background-color:rgba(25,25,25,.75)
+background-color:rgba(25,25,25,.75);
+border-radius:0
 }
 
 .search .DraftEditor-root .public-DraftStyleDefault-block span {
@@ -6120,8 +6192,7 @@ font-weight:normal
 }
 
 .search-popout .option .non-text {
-color:#e5e5e5;
-font-style:italic!important
+color:#e5e5e5
 }
 
 .search-popout .option strong {
@@ -6129,7 +6200,24 @@ color:#ccc
 }
 
 .search-popout .option.user .displayed-nick {
-color:#b2b2b2
+color:#b2b2b2;
+font-weight:bold
+}
+
+.search-popout .option.user .display-username::before {
+content:"(";
+color:#ccc
+}
+
+.search-popout .option.user .display-username::after {
+content:")";
+color:#ccc
+}
+
+.search-popout .option.user .display-avatar {
+box-shadow: -1px 1px 6px #000,
+inset -1px 1px 6px #000,inset 1px -1px 6px #000,1px -1px 6px #000;
+border-radius:2px
 }
 
 .search-popout .option:after {
