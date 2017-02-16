@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.0.5"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.0.6"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -4367,7 +4367,8 @@ background-color:#232323;
 border:1px solid;
 animation-name:pulse;
 animation-duration:1.5s;
-animation-direction:alternate
+animation-direction:alternate;
+border-radius:0
 }
 
 @keyframes pulse {
@@ -6529,4 +6530,10 @@ margin-top:40px
 
 .alert.form.premium-upgrade strong {
 color:#e5e5e5
+}
+
+/*..........*/
+
+.theme-dark .layers {
+background:none!important;
 }
