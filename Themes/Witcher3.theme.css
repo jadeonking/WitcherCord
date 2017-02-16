@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.6"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -6359,4 +6359,10 @@ border-radius:0!important;
 
 .react-datepicker .react-datepicker__month>.react-datepicker__week:last-of-type .react-datepicker__day {
 border-radius:0!important;
+}
+
+/*..........*/
+
+.theme-dark .layers {
+background:none!important;
 }
