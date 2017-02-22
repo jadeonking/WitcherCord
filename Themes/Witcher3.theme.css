@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.6"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.8"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -4015,46 +4015,50 @@ background:#900;
 color:#e5e5e5
 }
 
-.user-settings-security .btn-ghost {
+.user-settings-modal-security .btn-ghost {
 color:#e5e5e5;
 background:#232323;
 border:none
 }
 
-.user-settings-security .mfa-group .mfa-active {
+.user-settings-modal-security .btn-ghost:hover {
+background-color:#900
+}
+
+.user-settings-modal-security .mfa-group .mfa-active {
 color:#e5e5e5
 }
 
-.user-settings-security .mfa-group .lock-icon {
+.user-settings-modal-security .mfa-group .lock-icon {
 display:none
 }
 
-.user-settings-security.show-art {
+.user-settings-modal-security p {
+color:#ccc
+}
+
+.user-settings-modal-security.show-art {
 background:none
 }
 
-.guild-settings-modal-security {
-background:none
-}
-
-.user-settings-security .btn-ghost:hover {
-background:#900
-}
-
-.user-settings-security p {
+.user-settings-modal-security .backup-codes p {
 color:#ccc
 }
 
-.user-settings-security .backup-codes p {
+.user-settings-modal-security .backup-codes p strong {
 color:#ccc
 }
 
-.user-settings-security .backup-codes p strong {
-color:#ccc
-}
-
-.user-settings-security .backup-codes .code {
+.user-settings-modal-security .backup-codes .code {
 color:#b2b2b2
+}
+
+.mfa-modal .mfa-step {
+border-bottom:none
+}
+
+.mfa-modal .form-inner p {
+color:#ccc!important
 }
 
 .user-settings-modal .link-button {
