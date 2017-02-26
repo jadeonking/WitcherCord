@@ -3,11 +3,11 @@
 
 Witcher 3
 
-[![Screenshot](http://bit.ly/2cMvNSQ)](https://gfycat.com/DrearyIllGoose "Click Me!")
+[![Screenshot](http://i.imgur.com/PzP2Ekd.jpg)](http://i.imgur.com/LIowg6U.gifv "Click Me!")
 
 DuskCord
 
-[![Screenshot](http://bit.ly/2cMwtHJ)](https://gfycat.com/JoyfulFamousAfricanaugurbuzzard "Click Me!")
+[![Screenshot](http://i.imgur.com/56KWBGE.png)](http://i.imgur.com/HOc0X2j.gifv "Click Me!")
 
 To use themes you need [__BetterDiscord__](https://betterdiscord.net/home/)
 
