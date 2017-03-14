@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.0.8"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.1"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -3930,6 +3930,11 @@ margin-left:6px;
 color:#e5e5e5
 }
 
+#settings-roles .roles li .lock {
+background-image:url(https://i.imgur.com/CgPGTlg.png);
+background-size:15px 15px
+}
+
 #settings-roles .roles li .avatar-small {
 border-radius:0;
 box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
@@ -6365,7 +6370,50 @@ border-radius:0!important;
 border-radius:0!important;
 }
 
-/*..........*/
+/* Invite Modal */
+
+.invite-modal {
+box-shadow:1px -1px 2px rgba(0,0,0,1),-1px 1px 2px rgba(0,0,0,1);
+border-radius:0
+}
+
+.invite-modal .scroller {
+background-color:#191919!important;
+background:none
+}
+
+.invite-modal .avatar-xxxlarge {
+border-radius:0;
+box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000
+}
+
+.invite-modal .invite-title {
+color:#e5e5e5
+}
+
+.invite-modal .invite-body {
+color:#b2b2b2
+}
+
+.invite-modal .button {
+background-color:#232323;
+color:#b2b2b2
+}
+
+.invite-modal .button:hover {
+background-color:#900
+}
+
+.invite-modal .invite-cancel {
+color:#b2b2b2
+}
+
+.invite-modal .invite-body.error {
+color:#b2b2b2
+}
+
+/*--------------*/
 
 .theme-dark .layers {
 background:none!important;
