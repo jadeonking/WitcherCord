@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.1"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.1.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -6588,4 +6588,95 @@ color:#b2b2b2
 
 .theme-dark .layers {
 background:none!important;
+}
+
+/* Random Bug Fixes */
+
+div.scroller.settings-wrapper.settings-panel {
+background:#191919
+}
+
+.user-settings-modal-streamer-mode .user-settings-streamer-mode-image {
+opacity:.35
+}
+
+.user-settings-modal-locale p {
+color:#b2b2b2
+}
+
+.user-settings-modal-locale a {
+color:#e5e5e5!important
+}
+
+.guild-settings-modal-security {
+background:none
+}
+
+.guild-settings-modal-emoji .no-emoji img {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+.guild-settings-modal-members .search-bar-icon .icon {
+top:8px;
+left:12px
+}
+
+.private-channels .search-result .search-result-name {
+color:#b2b2b2
+}
+
+.search-bar-light .search-bar-icon .icon.icon-search-bar-clear {
+background-image:url(data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE4IDE4Ij4KICA8ZyBmaWxsPSJub25lIiBmaWxsLXJ1bGU9ImV2ZW5vZGQiPgogICAgPHJlY3Qgd2lkdGg9IjE4IiBoZWlnaHQ9IjE4Ii8+CiAgICA8cGF0aCBmaWxsPSIjRkZGRkZGIiBkPSJNOSwyIEMxMi44NzEsMiAxNiw1LjEyOSAxNiw5IEMxNiwxMi44NzEgMTIuODcxLDE2IDksMTYgQzUuMTI5LDE2IDIsMTIuODcxIDIsOSBDMiw1LjEyOSA1LjEyOSwyIDksMiBMOSwyIFogTTExLjY5MjUsNS4yNSBMOSw3Ljk0MjUgTDYuMzA3NSw1LjI1IEw1LjI1LDYuMzA3NSBMNy45NDI1LDkgTDUuMjUsMTEuNjkyNSBMNi4zMDc1LDEyLjc1IEw5LDEwLjA1NzUgTDExLjY5MjUsMTIuNzUgTDEyLjc1LDExLjY5MjUgTDEwLjA1NzUsOSBMMTIuNzUsNi4zMDc1IEwxMS42OTI1LDUuMjUgWiIvPgogIDwvZz4KPC9zdmc+Cg==)
+}
+
+.change-log-button-container .change-log-button {
+color:#e5e5e5
+}
+
+.change-log-button-container .change-log-button:hover {
+color:#fff
+}
+
+.user-settings-modal-locale .select-item .primary {
+color:#ccc!important
+}
+
+.user-settings-modal-locale .select-item .localized {
+color:#ccc!important
+}
+
+.premium-settings .payment-method .payment-info .card-tools .ui-button {
+border:none;
+background:#232323;
+color:#ccc
+}
+
+.premium-settings .payment-method .payment-info .card-tools .ui-button:hover {
+border:none;
+background:#4B0082;
+color:#ccc
+}
+
+.premium-settings .billing-history-list li .ui-form-text {
+color:#b2b2b2
+}
+
+.ui-form-title.h2 {
+color:#ccc
+}
+
+.premium-settings .subscription .premium-tools .ui-button {
+background:#232323;
+color:#ccc
+}
+
+.premium-settings .subscription .premium-tools .ui-button:hover {
+background:#4B0082;
+color:#ccc
+}
+
+.premium-settings.v1 .ui-form-divider {
+display:none
 }
