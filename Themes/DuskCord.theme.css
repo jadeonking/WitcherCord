@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.1.3"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.1.4"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -6679,4 +6679,8 @@ color:#ccc
 
 .premium-settings.v1 .ui-form-divider {
 display:none
+}
+
+.theme-dark .channel-members .member:not(.disabled).popout-open {
+background:none
 }
