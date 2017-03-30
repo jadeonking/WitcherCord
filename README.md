@@ -12,3 +12,7 @@ DuskCord
 To use themes you need [__BetterDiscord__](https://betterdiscord.net/home/)
 
 Help Tutorial for Installing Better Discord and theme https://youtu.be/VFiZzuuq8gU Newly updated!
+
+THESE THEMES USE DARK THEME MODE BE SURE TO SET APPEARANCE SETTINGS ACCORDINGLY
+
+![Screenshot](http://i.imgur.com/xCZ4FYZ.png)]
