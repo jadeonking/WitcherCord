@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.1.4"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.1.5"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -6683,4 +6683,8 @@ display:none
 
 .theme-dark .channel-members .member:not(.disabled).popout-open {
 background:none
+}
+
+.user-settings-modal .safety-level-select .radio-group li .criteria {
+color:#b2b2b2
 }
