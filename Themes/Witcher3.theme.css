@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.1.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.1.6"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -6415,7 +6415,7 @@ color:#b2b2b2
 
 /*--------------*/
 
-.theme-dark .layers {
+.layers {
 background:none!important;
 }
 
