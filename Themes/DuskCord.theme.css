@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.2"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.2.1"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -2782,6 +2782,17 @@ color:#e5e5e5;
 color:#e5e5e5
 }
 
+.theme-dark .messages-popout-wrap .has-more button {
+background-color:#232323;
+border:none;
+border-radius:0;
+color:#ccc
+}
+
+.theme-dark .messages-popout-wrap .has-more button:hover {
+background-color:#4B0082
+}
+
 .theme-dark .messages-popout-wrap .footer {
 background:#191919;
 border-top:6px solid #4B0082
@@ -4934,8 +4945,21 @@ border:1px solid #666;
 color:#ccc
 }
 
+.keybind-shortcut span:active {
+background-color:#191919!important;
+border:solid 1px #666!important;
+box-shadow:inset 0 -4px 0 #666!important;
+color:#ccc
+}
+
 .keyboard-shortcuts-modal .modal-title .content {
 color:#e5e5e5
+}
+
+.keyboard-shortcuts-modal .modal-title .keybind-shortcut span {
+background:#191919!important;
+border:solid 1px #666!important;
+box-shadow:inset 0 -4px 0 #666!important
 }
 
 .keyboard-shortcuts-modal .keyboard-shortcut-list .keybind-group .keybind-description {
@@ -6099,6 +6123,12 @@ color:#ccc
 
 .search-popout .search-query {
 border-bottom:4px solid #4B0082
+}
+
+.search-popout .search-query .keybind-shortcut span {
+background:#191919!important;
+border:solid 1px #666!important;
+box-shadow:inset 0 -4px 0 #666!important
 }
 
 .search-popout .search-query .search-for strong {
