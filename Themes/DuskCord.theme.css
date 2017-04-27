@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.2.2"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -125,6 +125,10 @@ border:2px solid transparent!important;
 background-clip:content-box!important
 }
 
+.Select-menu::-webkit-scrollbar-corner {
+background:none
+}
+
 .instant-invite-popout .Select-menu-outer::-webkit-scrollbar {
 background:transparent!important
 }
@@ -159,7 +163,7 @@ display:none
 |_| |_| |_|\__,_|_|_| |_| |_.__/ \__,_|\___|_|\_\__, |_|  \___/ \__,_|_| |_|\__,_|___/
                                                 |___/
 */
-.links,.chat,.typing,.content,.guild-channels,.private-channels,.guild-header header,.divider-red span,.messages-wrapper,#voice-connection {
+.links,.chat,.typing,.content,.guild-channels,.private-channels,.guild-header header,.divider-red span,.messages-wrapper,#rtc-connection {
 background:transparent!important
 }
 
@@ -710,19 +714,19 @@ opacity:.3
 border-right:0 solid #000
 }
 
-#voice-connection {
+#rtc-connection {
 z-index:9;
 border-top:none!important;
 padding:5px 10px!important
 }
 
-#voice-connection .btn {
+#rtc-connection .btn {
 background:transparent;
 box-shadow:none!important;
 border:none
 }
 
-#voice-connection .btn:active {
+#rtc-connection .btn:active {
 background:transparent!important
 }
 
@@ -737,17 +741,17 @@ right:72px;
 top:60px
 }
 
-#voice-connection .btn-group {
+#rtc-connection .btn-group {
 border:none
 }
 
-#voice-connection .voice-connection-channel {
+#rtc-connection .rtc-connection-channel {
 opacity:1;
 color:#ccc;
 text-decoration:none!important
 }
 
-#voice-connection .voice-connection-channel:hover {
+#rtc-connection .rtc-connection-channel:hover {
 color:#e5e5e5
 }
 
@@ -3006,7 +3010,7 @@ margin-left:10px
 }
 
 /* ACCOUNT BAR */
-.bd-minimal #voice-connection {
+.bd-minimal #rtc-connection {
 width:150px;
 margin-left:0
 }
@@ -5155,72 +5159,72 @@ color:#ccc
 color:#e5e5e5
 }
 
-#voice-debug-modal #users-section .user-list {
+#rtc-debug-modal #users-section .user-list {
 border-right:none
 }
 
-#voice-debug-modal #users-section .selected-user {
+#rtc-debug-modal #users-section .selected-user {
 color:#e5e5e5;
 border-left:none!important
 }
 
-#voice-debug-modal #users-section .user-list li.selected {
+#rtc-debug-modal #users-section .user-list li.selected {
 background:#232323;
 color:#e5e5e5;
 margin-left:6px
 }
 
-#voice-debug-modal #users-section .user-list li {
+#rtc-debug-modal #users-section .user-list li {
 background:#191919;
 color:#b2b2b2;
 margin-left:6px
 }
 
-#voice-debug-modal #users-section .user-list .avatar-small {
+#rtc-debug-modal #users-section .user-list .avatar-small {
 border-radius:0;
 box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
 inset 1px -1px 4px #000,1px -1px 4px #000
 }
 
-#voice-debug-modal #users-section .user-list li:not(.selected):hover {
+#rtc-debug-modal #users-section .user-list li:not(.selected):hover {
 background:rgba(35,35,35,.50);
 color:#e5e5e5;
 margin-left:6px
 }
 
-#voice-debug-modal #users-section .user-list li.selected:before {
+#rtc-debug-modal #users-section .user-list li.selected:before {
 background:none
 }
 
-#voice-debug-modal #users-section .user-list li:hover:not(.selected):before {
+#rtc-debug-modal #users-section .user-list li:hover:not(.selected):before {
 background:none
 }
 
-#voice-debug-modal #users-section .user-list li:not(.selected):before {
+#rtc-debug-modal #users-section .user-list li:not(.selected):before {
 background:#191919
 }
 
-#voice-connection-popout {
+#rtc-connection-popout {
 background:#232323!important
 }
 
-#voice-connection-popout .debug-button {
+#rtc-connection-popout .debug-button {
 color:#e5e5e5
 }
 
-#voice-connection-popout .secured {
+#rtc-connection-popout .secured {
 color:#e5e5e5
 }
 
-#voice-connection-popout section {
+#rtc-connection-popout section {
 background:#232323!important
 }
 
-#voice-connection-popout section p {
+#rtc-connection-popout section p {
 color:#b2b2b2
 }
 
-#voice-connection-popout hr {
+#rtc-connection-popout hr {
 border:hidden
 }
 
@@ -5539,17 +5543,17 @@ background-image:url(https://i.imgur.com/quqY44n.png)!important;
 opacity:1
 }
 
-#voice-connection .btn-info:after {
+#rtc-connection .btn-info:after {
 background-image:url(https://i.imgur.com/XrnhT3o.png);
 background-size:22px 22px
 }
 
-#voice-connection .btn-disconnect:after {
+#rtc-connection .btn-disconnect:after {
 background-image:url(https://i.imgur.com/Q0yl9MW.png);
 background-size:25px 25px
 }
 
-#voice-connection-popout .secured:before {
+#rtc-connection-popout .secured:before {
 background-image:url(https://i.imgur.com/CgPGTlg.png);
 background-size:11px 11px
 }
@@ -6414,7 +6418,7 @@ background:#4B0082!important
 }
 
 .premium-settings .subscription .premium-tools .ui-button {
-margin-right:6px!important
+margin-right:0px!important
 }
 
 .premium-settings .premium-header .premium-free-months {
@@ -6742,6 +6746,71 @@ background:none!important;
 background:none!important
 }
 
+/* NSFW Settings */
+
+/* Kilanna did some bullshit wizardry to make
+majority of this work thank him */
+
+div.flex-vertical.flex-spacer > .content.flex-spacer.flex-horizontal {
+background-color:#282828!important;
+}
+
+.theme-dark .ui-guild-nsfw .image {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+.theme-dark .ui-guild-nsfw .title {
+color:#e5e5e5
+}
+
+.theme-dark .ui-guild-nsfw .description {
+color:#b2b2b2
+}
+
+.ui-guild-nsfw .separator {
+display:none
+}
+
+.theme-dark .ui-button.primary.outlined {
+background-color:#191919;
+border:none
+}
+
+.theme-dark .ui-button.primary.outlined:hover {
+background-color:#4B0082
+}
+
+.ui-guild-nsfw .action-button.dark-red {
+background-color:#191919
+}
+
+.ui-guild-nsfw .action-button.dark-red:hover {
+background-color:#4B0082
+}
+
+.channel-settings-modal .overview .checkbox-group {
+position:relative;
+left:-323px;
+top:100px
+}
+
+.channel-settings-modal .overview .control-group {
+margin-bottom:87px
+}
+
+.channel-settings-modal .overview .checkbox-group:before {
+content:"CHANNEL NSFW SETTING";
+color:#ccc;
+font-size:11px;
+font-weight:bold;
+}
+
+.channel-settings-modal .overview .control-group .help-text {
+margin-top:-8px
+}
+
 /* Random Bug Fixes */
 
 div.scroller.settings-wrapper.settings-panel {
@@ -6839,4 +6908,21 @@ background:none
 
 .user-settings-modal .safety-level-select .radio-group li .criteria {
 color:#b2b2b2
+}
+
+.theme-dark .ui-quick-select {
+color:#e5e5e5
+}
+
+.theme-dark .ui-quick-select-label {
+display:none
+}
+
+.ui-quick-select-popout {
+background-color:#383838
+}
+
+.ui-quick-select-popout-option:hover {
+background-color:#232323;
+color:#e5e5e5!important
 }
