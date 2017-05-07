@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.3.1"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -3135,10 +3135,7 @@ box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
 inset 1px -1px 8px #000,1px -1px 8px #000;
 border:none!important;
 background-color:#232323;
-top:8px;
-background-repeat:no-repeat;
-width:50%;
-height:128px
+background-repeat:no-repeat
 }
 
 .create-guild-container .avatar-uploader .avatar-uploader-inner {
@@ -3301,9 +3298,7 @@ color:#ccc!important
 
 .Select-option:hover {
 background:none!important;
-border-left:6px solid #900;
 position:relative;
-padding-left:4px;
 border-radius:0!important
 }
 
@@ -4245,28 +4240,6 @@ border:none
 
 .settings-connections-wrapper .user-settings-modal-connections .user-settings-modal-connections-list .connection .connection-header .btn-delete:hover {
 background:#900!important
-}
-
-/* connection backgrounds */
-
-div.connection[style*='border-color: rgb(0, 154, 229); background-color: rgb(0, 154, 229);'] {
-background:#232323!important;
-border:none!important
-}
-
-div.connection[style*='border-color: rgb(24, 35, 50); background-color: rgb(24, 35, 50);'] {
-background:#232323!important;
-border:none!important
-}
-
-div.connection[style*='border-color: rgb(89, 54, 149); background-color: rgb(89, 54, 149);'] {
-background:#232323!important;
-border:none!important
-}
-
-div.connection[style*='border-color: rgb(203, 33, 32); background-color: rgb(203, 33, 32);'] {
-background:#232323!important;
-border:none!important
 }
 
 .connect-account-btn .connect-account-btn-inner:hover {
@@ -6756,4 +6729,1434 @@ background-color:#383838
 .ui-quick-select-popout-option:hover {
 background-color:#232323;
 color:#e5e5e5!important
+}
+
+/* New Server Setting */
+
+.theme-dark .guild-settings-base-section .avatar-uploader .avatar-uploader-inner {
+box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000;
+}
+
+.ui-standard-sidebar-view .notice-region .ui-settings-notice.elevation-high {
+background-color:#383838!important
+}
+
+.ui-standard-sidebar-view .notice-region .ui-button.filled.green.small.grow {
+background-color:#232323
+}
+
+.ui-standard-sidebar-view .notice-region .ui-button.filled.green.small.grow:hover {
+background-color:#900
+}
+
+.ui-form-item .ui-text-input .input {
+background-color:#282828
+}
+
+.ui-form-item .ui-text-input .input:focus {
+border-color:#191919;
+background-color:#191919
+}
+
+.ui-form-item .ui-region-selector.ui-input-button {
+background-color:#282828
+}
+
+.ui-form-item .ui-region-selector.ui-input-button.hover {
+background-color:#191919
+}
+
+.ui-form-item .ui-button.ghost.grey.min.grow {
+background-color:#191919
+}
+
+.ui-form-item .ui-button.ghost.brand.min.grow:hover {
+background-color:#900;
+color:#e5e5e5
+}
+
+.ui-form-item .ui-button.brand.ghost {
+background-color:#232323;
+color:#e5e5e5
+}
+
+.ui-button.white.outlined {
+background-color:#191919;
+border:none
+}
+
+.ui-button.white.outlined:hover {
+background-color:#900
+}
+
+/* Audit Logs */
+
+.theme-dark .ui-popout-list {
+background-color:#383838
+}
+
+.ui-selectable-item.selected {
+background-color:#191919!important;
+border-radius:0
+}
+
+.theme-dark .ui-selectable-item:hover {
+background-color:#232323;
+border-radius:0
+}
+
+.ui-popout-list .ui-search-bar {
+background-color:#282828;
+border-radius:0
+}
+
+.ui-popout-list .ui-search-bar .input::-webkit-input-placeholder {
+color:#e5e5e5
+}
+
+.ui-avatar.small {
+border-radius:0
+}
+
+.theme-dark .ui-audit-log .header {
+background-color:#383838;
+color:#ccc
+}
+
+.theme-dark .ui-audit-log.ui-audit-log-expanded .header {
+background-color:#303030
+}
+
+.theme-dark .ui-audit-log-change-details {
+background-color:#282828
+}
+
+.theme-dark .ui-audit-log strong {
+color:#e5e5e5
+}
+
+.theme-dark .ui-audit-log .timestamp {
+color:#b2b2b2
+}
+
+.ui-audit-log-change-details .prefix.ui-flex.type-update {
+color:#ccc
+}
+
+.ui-audit-log-change-details .prefix.ui-flex.type-create {
+color:#ccc
+}
+
+.ui-audit-log-change-details .change-str {
+color:#b2b2b2
+}
+
+.ui-audit-log-change-details .sub-list-item {
+color:#b2b2b2;
+text-decoration:underline
+}
+
+.ui-audit-log .ui-avatar {
+border-radius:4px;
+box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000;
+}
+
+/* Roles */
+
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected {
+border-radius:0
+}
+
+.theme-dark .ui-color-picker-custom {
+background-color:#383838
+}
+
+.ui-color-picker-custom .ui-text-input .input:focus {
+background-color:#191919;
+border:none;
+}
+
+.ui-color-picker-custom .ui-text-input {
+background-color:#282828
+}
+
+/* Integrations */
+
+.ui-empty-state-title {
+color:#e5e5e5!important
+}
+
+.ui-empty-state-text {
+color:#b2b2b2!important
+}
+
+/* Server Emoji */
+
+.theme-dark .emoji-row {
+box-shadow:none
+}
+
+.theme-dark .ui-text-input.emoji-alias-input .input {
+background-color:#232323;
+border-color:#191919;
+border-radius:0
+}
+
+.theme-dark .ui-text-input.emoji-alias-input .input:focus {
+background-color:#191919
+}
+
+.ui-avatar.xsmall {
+border-radius:0;
+box-shadow:-1px 1px 2px #000,inset -1px 1px 2px #000,
+inset 1px -1px 2px #000,1px -1px 2px #000;
+}
+
+.emoji-row .emoji-remove {
+background-color:#282828
+}
+
+.emoji-row .emoji-remove:hover {
+background-color:#303030
+}
+
+/* Webhooks */
+
+.webhook-modal {
+background-color:#191919
+}
+
+.webhook-modal-footer {
+background-color:#191919;
+border-top:6px solid #900
+}
+
+.webkhook-modal-header.ui-form-title.h5 {
+color:#e5e5e5;
+border-bottom:6px solid #900
+}
+
+.webhook-modal .ui-form-title.h5 {
+color:#e5e5e5
+}
+
+.webhook-modal .ui-form-divider {
+background-color:#191919;
+margin-top:10px;
+margin-bottom:15px
+}
+
+.webhook-modal .ui-select .Select-control {
+border-radius:0
+}
+
+.webhook-modal .ui-text-input .input {
+background-color:#383838;
+color:#e5e5e5;
+border-color:#191919;
+border-radius:0
+}
+
+.webhook-modal .ui-text-input .input:focus {
+background-color:#303030
+}
+
+.webhook-modal .ui-text-input .input:hover {
+border-color:#191919
+}
+
+.webhook-modal .ui-select .Select-value {
+height:39px
+}
+
+.webhook-modal .ui-select .Select-value-label {
+color:#e5e5e5
+}
+
+.webhook-modal .ui-select .Select-menu {
+background-color:#232323
+}
+
+.webhook-modal .ui-select .Select-option {
+background-color:#303030
+}
+
+.webhook-modal .ui-select .Select-option.is-selected {
+background-color:#191919!important
+}
+
+.webhook-modal .ui-select .Select-option.is-focused {
+background-color:#232323
+}
+
+.webhook-modal .ui-form-text {
+color:#ccc!important
+}
+
+.webhook-modal .ui-button.medium.grow {
+background-color:#232323;
+border:none;
+color:#e5e5e5
+}
+
+.webhook-modal .ui-button.medium.grow:hover {
+background-color:#900
+}
+
+.webhook-modal .avatar-uploader .size-info {
+color:#ccc
+}
+
+.webhook-modal .ui-copy-input {
+background-color:#303030;
+border:1px solid #191919;
+color:#e5e5e5
+}
+
+.webhook-modal .ui-copy-input .input {
+color:#e5e5e5
+}
+
+.webhook-modal .ui-copy-input.success {
+color:#ccc;
+border:1px solid #191919!important
+}
+
+.webhook-modal .ui-button.green.ghost {
+background-color:#232323;
+color:#e5e5e5
+}
+
+.webhook-modal .ui-button.ghost.grey.min.grow {
+color:#e5e5e5
+}
+
+.webhook-modal .ui-button.filled.brand.small.grow {
+background-color:#232323
+}
+
+.webhook-modal .ui-button.filled.brand.small.grow:hover {
+background-color:#900
+}
+
+.webhook-modal .ui-button.link.grey.small.grow {
+color:#e5e5e5
+}
+
+.ui-webhook-row .remove-webhook {
+background-color:#282828
+}
+
+.ui-webhook-row .remove-webhook:hover {
+background-color:#303030
+}
+
+.form .form-inner {
+color:#ccc
+}
+
+/* Widget */
+
+.ui-copy-input.success {
+border-color:#191919
+}
+
+.theme-dark .ui-input-button {
+background-color:#282828
+}
+
+.ui-button.green.ghost {
+color:#e5e5e5;
+background-color:#232323
+}
+
+.ui-flex.flex-vertical.flex-justify-start.flex-align-stretch.flex-nowrap img.ui-flex-child {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+/* Members */
+
+.theme-dark .guild-settings-members-member .tag {
+color:#b2b2b2
+}
+
+.theme-dark .ui-role-list-add {
+border-color:#b2b2b2;
+opacity:.75
+}
+
+.guild-settings-members-member .ui-avatar {
+border-radius:0;
+box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000;
+}
+
+.theme-dark .guild-settings-members-member {
+box-shadow:none
+}
+
+.prune-red-link:link {
+color:#e5e5e5
+}
+
+.ui-flex.flex-horizontal.flex-justify-start.flex-align-stretch.flex-nowrap.ui-search-bar {
+background-color:#303030
+}
+
+.theme-dark .ui-search-bar .input::-webkit-input-placeholder {
+color:#e5e5e5
+}
+
+.ui-bot-tag {
+background-color:#900
+}
+
+/* Invites */
+
+.invite-settings-invite-row .ui-flex {
+margin-left:4px
+}
+
+.invite-settings-invite-row .channel-name {
+color:#b2b2b2;
+opacity:1!important;
+margin-left:32px
+}
+
+.invite-settings-invite-row .overflow-ellipsis.user-select-text.size-medium.color-primary.font-family-code {
+color:#ccc;
+opacity:1!important
+}
+
+.invite-settings-invite-row .revoke-invite {
+background-color:#282828
+}
+
+.invite-settings-invite-row .revoke-invite:hover {
+background-color:#303030
+}
+
+.theme-dark .invite-settings-invite-row {
+box-shadow:none
+}
+
+/* Bans */
+
+.guild-settings-banned-user .ui-avatar {
+border-radius:0;
+box-shadow:-1px 1px 8px #000,inset -1px 1px 8px #000,
+inset 1px -1px 8px #000,1px -1px 8px #000
+}
+
+.theme-dark .guild-settings-banned-user {
+box-shadow:none
+}
+
+.theme-dark .guild-settings-banned-user .username .discrim {
+color:#b2b2b2
+}
+
+.theme-dark .guild-settings-banned-user-modal .user-discrim {
+color:#b2b2b2
+}
+
+.guild-settings-banned-user-modal .content {
+background-color:#191919!important
+}
+
+.theme-dark .guild-settings-banned-user-modal .reason {
+color:#ccc
+}
+
+.guild-settings-banned-user-modal .footer {
+background-color:#191919;
+border-top:6px solid #900
+}
+
+.guild-settings-banned-user-modal .footer .ui-button.filled.brand.medium.grow {
+background-color:#232323
+}
+
+.guild-settings-banned-user-modal .footer .ui-button.filled.brand.medium.grow:hover {
+background-color:#900
+}
+
+.guild-settings-banned-user-modal .footer .ui-button.link.red.medium.revoke-btn.grow {
+color:#ccc
+}
+
+.guild-settings-banned-user-modal .footer button.red.link:not(:disabled):hover .ui-button-contents {
+background-image:none;
+color:#e5e5e5
+}
+
+/* Delete Server */
+
+.delete-server-modal .form-header header {
+color:#e5e5e5
+}
+
+/* Notifications */
+
+.deprecated-settings-modal .settings-inner {
+background-color:#191919
+}
+
+.deprecated-settings-modal .settings-actions {
+background-color:#191919;
+border-top:none
+}
+
+/* New User Settings */
+
+.ui-standard-sidebar-view .sidebar-region .scroller {
+background-color:#191919
+}
+
+.ui-standard-sidebar-view .scroller {
+background-color:#232323
+}
+
+.ui-standard-sidebar-view .btn-close {
+border-radius:12px;
+border-color:#383838!important
+}
+
+.ui-standard-sidebar-view .btn-close:hover {
+background-color:#900!important
+}
+
+.ui-standard-sidebar-view .esc-text {
+color:#ccc!important
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-header {
+color:#e5e5e5;
+margin-bottom:15px;
+margin-top:15px
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item {
+color:#999!important
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item.selected, .ui-tab-bar.SIDE .ui-tab-bar-item:active {
+background-color:#191919;
+color:#e5e5e5!important
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-item:hover {
+background-color:#191919;
+border-radius:0;
+color:#ccc!important
+}
+
+.ui-tab-bar.SIDE .ui-tab-bar-separator {
+display:none
+}
+
+/* My Account */
+
+.theme-dark .ui-card-primary {
+background-color:#383838;
+border-radius:0
+}
+
+.theme-dark .avatar-uploader-indicator {
+display:none
+}
+
+.user-settings-account .user-info-viewing .ui-button {
+background-color:#232323
+}
+
+.user-settings-account .user-info-viewing .ui-button:hover {
+background-color:#900
+}
+
+.theme-dark .ui-card-primary.editable {
+background-color:#303030
+}
+
+.user-settings-account .ui-text-input .input {
+background-color:#232323;
+border-radius:0;
+border:none
+}
+
+.ui-form-title .is-required {
+color:#e5e5e5
+}
+
+.theme-dark .ui-form-divider {
+visibility:hidden
+}
+
+.user-settings-account .ui-button.small.grow {
+background-color:#232323
+}
+
+.user-settings-account .ui-button.small.grow:hover {
+background-color:#900
+}
+
+.theme-dark .ui-card-primary .ui-form-title.h5 {
+color:#ccc
+}
+
+.theme-dark .ui-card-primary:not(.editable):not(.outline) .ui-form-text {
+color:#b2b2b2
+}
+
+.margin-top-60 .ui-form-title.h5 {
+color:#e5e5e5
+}
+
+.user-settings-security .h5.is-enabled {
+color:#b2b2b2
+}
+
+.user-settings-security .lock-icon {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+}
+
+.user-settings-security .ui-button.small.grow {
+background-color:#191919;
+border:none;
+color:#e5e5e5
+}
+
+.user-settings-security .ui-button.small.grow:hover {
+background-color:#900;
+}
+
+.user-settings-security img.ui-flex-child {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%)
+}
+
+.theme-dark .user-settings-security .ui-form-text {
+color:#b2b2b2
+}
+
+.user-settings-security .ui-checkbox-wrapper .ui-checkbox {
+border:none;
+background-color:#383838;
+}
+
+polyline.ui-icon-fg {
+stroke:#b2b2b2!important
+}
+
+.user-settings-security .checkbox-group .code {
+color:#b2b2b2
+}
+
+.user-settings-security .ui-button.brand.link {
+color:#b2b2b2;
+text-decoration:none!important
+}
+
+.user-settings-security .ui-button.brand.link:hover {
+color:#e5e5e5
+}
+
+.user-settings-security .ui-button.brand.link:not(:disabled):hover .ui-button-contents {
+background-image:none;
+}
+
+/* Privacy & Safety */
+
+.theme-dark .ui-form-title.h5 {
+color:#e5e5e5
+}
+
+.theme-dark .ui-form-text.style-description {
+color:#b2b2b2
+}
+
+.theme-dark .ui-card-primary.editable {
+background-color:#383838
+}
+
+.ui-card.ui-card-primary.flex-horizontal.margin-bottom-8.checked.editable {
+background-color:#900!important;
+border:1px solid #232323!important;
+color:#ccc
+}
+
+.ui-checkbox-wrapper .ui-checkbox {
+background-color:#232323;
+border:solid 1px #191919;
+border-radius:0
+}
+
+.theme-dark .ui-checkbox.checked {
+background-color:#232323;
+border:solid 2px #191919;
+border-radius:0
+}
+
+.ui-radiogroup .title {
+color:#ccc!important
+}
+
+.theme-dark .ui-radiogroup .desc {
+color:#b2b2b2
+}
+
+.theme-dark .ui-radiogroup .checked .desc {
+color:#b2b2b2
+}
+
+.ui-switch-checkbox:checked+.ui-switch {
+background-color:#900!important;
+}
+
+.ui-switch {
+border-radius:0;
+background-color:#191919!important;
+height:16px;
+margin-left:6px;
+top:4px
+}
+
+.ui-switch:before {
+border-radius:0;
+background-color:#b2b2b2!important;
+height:18px;
+width:18px;
+top:-1px;
+left:6px;
+margin-left:-6px
+}
+
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox+.ui-switch {
+background-color:#191919
+}
+
+.ui-switch-wrapper:not(.disabled):not(.clear):hover .ui-switch-checkbox:checked+.ui-switch {
+background-color:#900
+}
+
+.ui-form-title.h3.margin-reset.margin-reset.ui-flex-child {
+color:#ccc
+}
+
+/* Authorized Apps */
+
+.ui-card.ui-card-primary.authed-app.margin-bottom-8.outline {
+background-color:#303030
+}
+
+.ui-form-text.style-label-bold.ui-flex-child {
+color:#e5e5e5
+}
+
+.ui-form-text.style-default {
+color:#b2b2b2
+}
+
+.user-settings-authorized-apps .authed-app .ui-button {
+background-color:#232323;
+border:none;
+color:#e5e5e5
+}
+
+.user-settings-authorized-apps .authed-app .ui-button:hover {
+background-color:#900
+}
+
+/* Connections */
+
+.theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner {
+background-color:#232323
+}
+
+.user-settings-connections-list-description .warning {
+color:#ccc
+}
+
+.theme-dark .user-settings-connections .connect-account-btn .connect-account-btn-inner:hover {
+background-color:#191919
+}
+
+.user-settings-connections .connection-header {
+background-color:#303030;
+border-radius:0
+}
+
+.connection-delete {
+border:none
+}
+
+div.connection[style*='border-color: rgb(203, 33, 32); background-color: rgb(203, 33, 32);'] {
+background-color:#282828!important
+}
+
+div.connection[style*='border-color: rgb(89, 54, 149); background-color: rgb(89, 54, 149);'] {
+background-color:#282828!important
+}
+
+div.connection[style*='border-color: rgb(0, 154, 229); background-color: rgb(0, 154, 229);'] {
+background-color:#282828!important
+}
+
+div.connection[style*='border-color: rgb(24, 35, 50); background-color: rgb(24, 35, 50);'] {
+background-color:#282828!important
+}
+
+div.connection[style*='border-color: rgb(95, 153, 207); background-color: rgb(95, 153, 207);'] {
+background-color:#282828!important
+}
+
+div.connection[style*='border-color: rgb(29, 161, 242); background-color: rgb(29, 161, 242);'] {
+background-color:#282828!important
+}
+
+div.connection[style*='border-color: rgb(2, 31, 37); background-color: rgb(2, 31, 37);'] {
+background-color:#282828!important
+}
+
+.ui-switch-wrapper.clear .ui-switch {
+box-shadow:none
+}
+
+.ui-switch-wrapper.clear:not(.disabled):hover .ui-switch {
+box-shadow:none
+}
+
+.theme-dark .elevation-low {
+border-radius:0
+}
+
+/* Discord Nitro */
+
+.premium-settings .premium-header .premium-logo {
+opacity:.75;
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%)
+}
+
+.premium-settings .premium-header .premium-splash-wumpus {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-settings .premium-header.splash {
+border-bottom:none;
+background-image:none
+}
+
+.premium-settings .premium-feature .premium-feature-icon {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-settings .premium-header .intro-subtitle {
+color:#b2b2b2
+}
+
+.premium-settings .premium-feature .premium-feature-title {
+color:#e5e5e5
+}
+
+.premium-settings .premium-feature .premium-feature-description {
+color:#b2b2b2
+}
+
+.premium-settings .premium-header .premium-options button strong {
+color:#e5e5e5
+}
+
+.premium-settings .premium-header .premium-options button {
+background:#232323;
+border:none;
+color:#ccc
+}
+
+.premium-settings .premium-header .premium-options button:hover {
+background:#900!important
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear strong {
+color:#e5e5e5
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear {
+background:#232323;
+color:#ccc;
+border:none
+}
+
+.premium-settings .premium-header .premium-options button.btn-clear:hover {
+background:#900!important
+}
+
+.premium-settings .subscription .premium-tools .ui-button {
+margin-right:0px!important
+}
+
+.premium-settings .premium-header .premium-free-months {
+color:#b2b2b2
+}
+
+.premium-payment-modal {
+background:#191919
+}
+
+.premium-payment-modal .premium-animation {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-payment-modal .premium-payment-form .premium-payment-title {
+color:#e5e5e5
+}
+
+.premium-payment-modal .premium-payment-form .premium-payment-subtitle {
+color:#b2b2b2
+}
+
+.fancy-credit-input {
+background-color:#232323
+}
+
+.fancy-credit-input .card-icon-wrapper {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.fancy-credit-input .cc-number-wrapper .cc-number-placeholder {
+color:#b2b2b2
+}
+
+.fancy-credit-input .cc-number-wrapper .cc-number {
+color:#ccc!important
+}
+
+.fancy-credit-input .cc-number-wrapper .cc-number-continue {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.fancy-credit-input .cc-info-wrapper .expiration-placeholder {
+color:#b2b2b2;
+opacity:
+}
+
+.fancy-credit-input input {
+color:#ccc;
+opacity:
+}
+
+.fancy-credit-input input::-webkit-input-placeholder {
+color:#b2b2b2!important
+}
+
+.premium-payment-modal .premium-payment-button.open:disabled,
+.premium-payment-modal .premium-payment-button.open:disabled:hover {
+border:none;
+background:#232323
+}
+
+.premium-payment-modal .premium-payment-button {
+background:#232323;
+color:#ccc;
+box-shadow:none
+}
+
+.premium-payment-modal .premium-payment-button:hover {
+background:#900
+}
+
+.premium-settings .premium-header {
+border-bottom:none
+
+}
+
+.premium-settings .subscription .premium-details .premium-title {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+.premium-settings .subscription.active:before {
+display:none
+}
+
+.premium-settings .subscription.active {
+background:#383838
+}
+
+.premium-settings .subscription.active .btn-filled {
+background:#232323;
+color:#ccc
+}
+
+.premium-settings .subscription.active .btn-filled:hover {
+background:#900
+}
+
+.premium-settings .subscription .premium-details .premium-info {
+color:#b2b2b2
+}
+
+.premium-settings .payment-subhead {
+color:#ccc
+}
+
+.card-icon:before {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.premium-settings .payment-method .payment-info .card-info .card-description {
+color:#b2b2b2
+}
+
+.premium-settings .payment-method .payment-info .card-info .card-description strong {
+color:#ccc
+}
+
+.premium-settings .payment-method .payment-info .card-info .card-details {
+color:#b2b2b2
+}
+
+.btn-stroked {
+background:#232323;
+color:#ccc;
+border:none
+}
+
+.btn-stroked:hover {
+background:#900
+}
+
+.premium-settings .billing-history-list li.header-row {
+color:#b2b2b2
+}
+
+.premium-settings .billing-history-list li:last-of-type {
+color:#b2b2b2
+}
+
+.alert.form.premium-unsubscribe:before, .alert.form.premium-upgrade:before {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.4
+}
+
+.modal-content .form-inner p:first-child {
+margin-top:40px
+}
+
+.alert.form.premium-upgrade strong {
+color:#e5e5e5
+}
+
+.premium-settings .payment-method .payment-info .card-tools .ui-button {
+border:none;
+background:#191919;
+color:#ccc
+}
+
+.premium-settings .payment-method .payment-info .card-tools .ui-button:hover {
+border:none;
+background:#900;
+color:#ccc
+}
+
+/* Voice */
+
+.ui-select .Select-menu {
+background-color:#282828
+}
+
+.ui-select .Select-value {
+background-color:#383838
+}
+
+.theme-dark .ui-select .Select-option.is-focused, .theme-dark .ui-select .Select-option:hover {
+background-color:#191919!important
+}
+
+.theme-dark .ui-slider .slider-bar-fill {
+background-color:#900!important
+}
+
+.theme-dark .ui-slider .slider-bar {
+background-color:#383838!important;
+border-radius:0
+}
+
+.user-settings-voice .input-sensitivity-toggle.manual .microphone .fill {
+background-color:#900
+}
+
+.ui-slider .slider-grabber {
+background-color:#b2b2b2;
+border-color:#191919;
+border-radius:0
+}
+
+.ui-key-recorder {
+background-color:#282828!important;
+border-radius:0
+}
+
+.ui-key-recorder:hover {
+border:1px solid #191919!important
+}
+
+.theme-dark .ui-key-recorder.recording {
+border:1px solid #191919!important;
+-webkit-animation:none!important;
+box-shadow:none
+}
+
+.ui-button.ghost.grey.min.grow{
+background-color:#202020
+}
+
+.theme-dark .ui-key-recorder.recording .input {
+color:#ccc
+}
+
+.ui-key-recorder.recording .ui-button.ghost.grey {
+background-color:#191919;
+color:#e5e5e5
+}
+
+.theme-dark .ui-input-button .input {
+color:#ccc
+}
+
+.theme-dark .ui-input-button .input::-webkit-input-placeholder {
+color:#b2b2b2
+}
+
+.ui-button.red.outlined {
+background-color:#191919;
+border:none;
+color:#e5e5e5
+}
+
+.ui-button.red.outlined:hover {
+background-color:#900
+}
+
+/* Overlay */
+
+.ui-card-warning {
+background-color:#383838;
+border:none;
+border-radius:0
+}
+
+.theme-dark .ui-card a {
+color:#e5e5e5
+}
+
+/* Notifications */
+
+.theme-dark .user-settings-notifications .notifications-sound {
+box-shadow:inset 0 -.8px 0 0 #303030
+}
+
+/* Keybinds */
+
+.ghost-pill.cursor-default.ui-flex-child {
+background-color:#383838;
+border-radius:0;
+color:#e5e5e5
+}
+
+.ui-button.filled.brand.small.grow {
+background-color:#191919
+}
+
+.ui-button.filled.brand.small.grow:hover {
+background-color:#900
+}
+
+.ui-empty-state-image.margin-bottom-40 {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+.user-settings-keybinds .keybind-group {
+border-bottom:none
+}
+
+.theme-dark .ui-hover-card:before {
+background-color:#303030;
+border:none;
+border-radius:0
+}
+
+.user-settings-keybinds .remove-keybind {
+background-color:#282828
+}
+
+.user-settings-keybinds .remove-keybind:hover {
+background-color:#303030
+}
+
+.ui-form-section.keybind-list .ui-select .Select-value {
+background-color:#383838;
+border:1px solid #191919
+}
+
+/* Games */
+
+.theme-dark .user-settings-games .not-detected {
+background-color:#383838;
+border-radius:0
+}
+
+.now-playing-add .link {
+color:#ccc!important
+}
+
+.ui-button.link-color.link:not(:disabled):hover .ui-button-contents {
+background-image:none;
+color:#e5e5e5
+}
+
+.theme-dark .add-game-popout-new {
+background-color:#303030;
+border-radius:0
+}
+
+.theme-dark .add-game-popout-new .ui-select .Select-value {
+background-color:#383838
+}
+
+.ui-button.filled.brand.medium.grow.disabled {
+background-color:#191919
+}
+
+.ui-button.filled.brand.medium.grow {
+background-color:#191919
+}
+
+.ui-button.filled.brand.medium.grow:hover {
+background-color:#900
+}
+
+.theme-dark .user-settings-games .game {
+box-shadow:none
+}
+
+.theme-dark .user-settings-games .game-name {
+color:#ccc
+}
+
+.ui-hover-roll {
+color:#b2b2b2
+}
+
+.theme-dark .user-settings-games .overlay-status-text {
+color:#ccc
+}
+
+.theme-dark .user-settings-games .game-name-input:focus {
+background-color:#191919!important
+}
+
+.theme-dark .user-settings-games .game-name-input:hover {
+background-color:#232323
+}
+
+.overlay-toggle-icon-off {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.65
+}
+
+.overlay-toggle-icon-on {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%)
+}
+
+.user-settings-games .game .remove-game {
+background-color:#282828
+}
+
+.user-settings-games .game .remove-game:hover {
+background-color:#303030
+}
+
+/* Appearance */
+
+.ui-card.ui-card-primary.preview.outline {
+height:20px;
+margin-top:12px
+}
+
+.ui-card.ui-card-primary.preview.outline:before {
+content:"DO NOT USE LIGHT THEME DUSKCORD IS A DARK THEME";
+color:#e5e5e5;
+font-weight:bold;
+position:relative;
+top:5px
+}
+
+.user-settings-appearance .preview-inner {
+display:none
+}
+
+/* Streamer Mode */
+
+.ui-form-notice-icon.no-user-drag.ui-flex-child {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%)
+}
+
+/* Language */
+
+.ui-checkbox.round {
+border:none!important
+}
+
+.ui-checkbox.round.checked.inverted {
+background-color:#383838!important
+}
+
+.theme-dark .ui-radio-list-item {
+box-shadow:none
+}
+
+/* BetterDiscord */
+
+div#bd-settingspane-container.content-region .ui-switch-wrapper.ui-flex-child {
+margin-top:25px
+}
+
+div#bd-settingspane-container.content-region .ui-form-title.h3.margin-reset.margin-reset.ui-flex-child{
+margin-top:25px
+}
+
+.ui-standard-sidebar-view #editor-detached h3 {
+color:#e5e5e5
+}
+
+.ui-standard-sidebar-view #editor-detached button {
+background-color:#191919
+}
+
+.ui-standard-sidebar-view #editor-detached button:hover {
+background-color:#900
+}
+
+.bda-right .ui-switch-wrapper.ui-flex-child {
+top:80px
+}
+
+.ui-standard-sidebar-view .bda-slist li:nth-child(odd) {
+background-color:#303030
+}
+
+.ui-standard-sidebar-view .bda-slist li {
+background-color:#303030;
+border-bottom:none
+}
+
+.ui-standard-sidebar-view .bda-slist .bda-description {
+background-color:#303030;
+border-top:none;
+color:#ccc;
+margin-top:0;
+padding-top:12px
+}
+
+.content-region .CodeMirror-scroll {
+background-color:#303030
+}
+
+.CodeMirror-gutter {
+background-color:#383838
+}
+
+.content-region #bd-customcss-attach-controls {
+background-color:#383838
+}
+
+.ui-standard-sidebar-view #bd-customcss-attach-controls button {
+background-color:#232323
+}
+
+.ui-standard-sidebar-view #bd-customcss-attach-controls button:hover {
+background-color:#900
+}
+
+#bd-customcss-detach-editor #bd-customcss-innerpane .CodeMirror-scroll {
+background-color:#303030
+}
+
+#bd-customcss-detach-container #bd-customcss-attach-controls {
+background-color:#191919
+}
+
+.bd-detached-css-editor #bd-customcss-attach-controls button {
+background-color:#232323;
+border:none!important;
+margin-right:5px
+}
+
+.bd-detached-css-editor #bd-customcss-attach-controls button:hover {
+background-color:#900
+}
+
+/* New Channel Setting */
+
+/* Overview */
+
+textarea.input {
+background-color:#282828!important
+}
+
+textarea.input:focus {
+background-color:#191919!important
+}
+
+/* Voice Overview */
+
+.theme-dark .ui-slider .slider-mark-dash {
+background-color:#666
+}
+
+.theme-dark .ui-slider .slider-mark-value {
+color:#b2b2b2
+}
+
+.theme-dark .ui-slider .slider-grabber .bubble {
+background-color:#383838
+}
+
+.theme-dark .ui-slider .slider-grabber .bubble:before {
+border-top-color:#b2b2b2
+}
+
+/* Permissions */
+
+.ui-tab-bar.SIDE .guild-role.ui-tab-bar-item.selected {
+background-color:#383838
+}
+
+.ui-tab-bar.SIDE .guild-role.ui-tab-bar-item:hover {
+background-color:#303030
 }
