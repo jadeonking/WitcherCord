@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5.2"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -2726,6 +2726,13 @@ color:#ccc!important
 
 #autocomplete-popout .row:hover a {
 color:#e5e5e5!important
+}
+
+#autocomplete-popout .scroller::-webkit-scrollbar-track {
+background:#383838!important;
+border:1px solid transparent!important;
+border-radius:0;
+background-clip:content-box!important
 }
 
 .quick-message {
@@ -5745,7 +5752,7 @@ color:#e5e5e5;
 background:#900;
 border-radius:3px;
 left:-2.5px;
-font-size:11px;
+font-size:10px;
 padding:1px 5px 0px 5px;
 font-weight:700;
 line-height:15px;
@@ -7259,6 +7266,24 @@ color:#ccc!important
 display:none
 }
 
+.ui-scroller-wrap .scroller::-webkit-scrollbar-thumb {
+background:#383838!important;
+border:1px solid transparent!important;
+border-radius:0;
+background-clip:content-box!important
+}
+
+.ui-standard-sidebar-view .scroller::-webkit-scrollbar-track {
+background:none!important
+}
+
+.private-channels .scroller::-webkit-scrollbar-thumb {
+background:rgba(35,35,35,.75)!important;
+border:1px solid transparent!important;
+border-radius:0;
+background-clip:content-box!important
+}
+
 /* My Account */
 
 .theme-dark .ui-card-primary {
@@ -7927,6 +7952,11 @@ background-color:#383838;
 border-radius:0
 }
 
+.theme-dark .user-settings-games .now-playing {
+background-color:#900;
+border-radius:0
+}
+
 .now-playing-add .link {
 color:#ccc!important
 }
@@ -7936,7 +7966,7 @@ background-image:none;
 color:#e5e5e5
 }
 
-.theme-dark .add-game-popout-new {
+.theme-dark .add-game-popout {
 background-color:#303030;
 border-radius:0
 }
@@ -8008,7 +8038,7 @@ margin-top:12px
 }
 
 .ui-card.ui-card-primary.preview.outline:before {
-content:"DO NOT USE LIGHT THEME DUSKCORD IS A DARK THEME";
+content:"DO NOT USE LIGHT THEME WITCHER 3 IS A DARK THEME";
 color:#e5e5e5;
 font-weight:bold;
 position:relative;
@@ -8119,6 +8149,22 @@ margin-right:5px
 
 .bd-detached-css-editor #bd-customcss-attach-controls button:hover {
 background-color:#900
+}
+
+.bd-pfbtn {
+background-color:#191919;
+border-radius:0
+}
+
+.bd-pfbtn:hover {
+background-color:#900
+}
+
+.content-region .CodeMirror-simplescroll-vertical div, .content-region .CodeMirror-simplescroll-horizontal div, #bd-customcss-detach-container .CodeMirror-simplescroll-vertical div, #bd-customcss-detach-container .CodeMirror-simplescroll-horizontal div {
+background-color:#191919!important;
+border:5px solid transparent!important;
+border-radius:0!important;
+background-clip:content-box
 }
 
 /* New Channel Setting */
