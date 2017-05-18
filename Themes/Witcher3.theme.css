@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5.2"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5.3"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -847,6 +847,10 @@ background:rgba(35,35,35,.75)!important
 .emoji-picker {
 background:#191919!important;
 border:none
+}
+
+.emoji-picker .scroller::-webkit-scrollbar-track {
+background:none!important
 }
 
 .emote-menu-inner {
@@ -6390,6 +6394,22 @@ border-radius:0!important;
 
 .react-datepicker .react-datepicker__month>.react-datepicker__week:last-of-type .react-datepicker__day {
 border-radius:0!important;
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker, .theme-light .ui-calendar-picker .react-datepicker {
+background-color:#191919
+}
+
+.theme-dark .theme-light .ui-calendar-picker .react-datepicker__header, .theme-light .ui-calendar-picker .react-datepicker__header {
+background-color:#191919
+}
+
+.theme-dark .ui-calendar-picker .react-datepicker__day-name {
+color:#ccc!important
+}
+
+.theme-dark .ui-calendar-picker .react-datepicker__day.react-datepicker__day--selected:after {
+background-color:#900!important
 }
 
 /* Invite Modal */
