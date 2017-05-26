@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.5.3"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.5.5"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -8145,4 +8145,160 @@ background-color:#383838
 
 .ui-tab-bar.SIDE .guild-role.ui-tab-bar-item:hover {
 background-color:#303030
+}
+
+/* Discord rolling their face on the keyboard css*/
+
+.uovsMu6N {
+background-color:#191919;
+border:none;
+color:#e5e5e5
+}
+
+.uovsMu6N:hover {
+background-color:#4B0082
+}
+
+._2_7ZaCzU {
+background-color:#191919;
+border:none;
+color:#e5e5e5
+}
+
+._2_7ZaCzU:hover {
+background-color:#4B0082
+}
+
+._3eCAFJCK:hover {
+border:none!important
+}
+
+._3eCAFJCK:active ._4L4hQM5p, ._3eCAFJCK:hover ._4L4hQM5p {
+background-image:none
+}
+
+._3M8HCxCs, ._1g2WiOIQ, ._2ScJ_PR8, .mJF6nQXH {
+color:#ccc
+}
+
+._3EZi6xez:active ._4L4hQM5p, ._3EZi6xez:hover ._4L4hQM5p {
+background-image:none;
+text-decoration:underline
+}
+
+._3Y4mXQW7 {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+.user-settings-security-image {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:.75
+}
+
+._1bjP4FEW:active ._4L4hQM5p, ._1bjP4FEW:hover ._4L4hQM5p {
+background-image:none;
+text-decoration:underline
+}
+
+.O9_zYpYo {
+color:#b2b2b2
+}
+
+._38OOBLD8 {
+color:#e5e5e5!important
+}
+
+._1rLRshXe {
+color:#b2b2b2!important
+}
+
+._36NOFatQ, ._1I9VjEuZ {
+
+}
+
+._2VxITA_2 {
+border-color:#191919
+}
+
+._3wAGwkJ3 {
+background-color:#4B0082!important;
+color:#e5e5e5
+}
+
+._2wYlsUjN {
+background-color:#191919
+}
+
+.guild-settings-audit-logs-action-filter-popout .ui-scroller-wrap .scroller::-webkit-scrollbar-track {
+background:#282828!important
+}
+
+.guild-settings-audit-logs-action-filter-popout .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb {
+background-color:#383838
+}
+
+.theme-dark .ui-popout-list {
+background-color:#282828
+}
+
+.theme-dark .guild-settings-members-filter-popout .ui-scroller-wrap .scroller::-webkit-scrollbar-track {
+background:none!important
+}
+
+.theme-light .ui-text-input .input.editable:focus:focus, .theme-light .ui-text-input .input.editable:hover:focus, .theme-light .ui-text-input .input:focus {
+border-color:#383838
+}
+
+.theme-light .ui-text-input .input, .theme-light .ui-text-input .input.editable:focus, .theme-light .ui-text-input .input.editable:hover {
+color:#ccc
+}
+
+.user-popout-kick-body {
+color:#ccc
+}
+
+._288-ZL2S {
+background-color:#4B0082;
+color:#e5e5e5
+}
+
+._1-Lmhcmg {
+background-color:#4B0082;
+color:#e5e5e5
+}
+
+.theme-dark .private-channel-recipients-invite .friend.selected {
+background-color:#191919
+}
+
+.theme-dark .private-channel-recipients-invite .friend:hover {
+background-color:#303030!important
+}
+
+.private-channel-recipients-invite .ui-scroller-wrap .scroller::-webkit-scrollbar {
+background-color:#191919
+}
+
+.private-channel-recipients-invite .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb {
+border:22px solid #383838!important
+}
+
+.private-channel-recipients-invite .friend .checkbox .checkbox-inner span {
+left:-25px!important
+}
+
+.modal-content {
+border-radius:8px
+}
+
+.theme-dark .user-settings-games .now-playing .overlay-status-text {
+color:#ccc
+}
+
+.popout-menu .popout-menu-icon[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjNzI4OURBIiBkPSJNMTAuNSw3IEMxMi4xODM4MDk1LDcgMTQsNS4yODY2NjY2NyAxNCwzLjU0NTQ1NDU1IEMxNCwxLjgwNDI0MjQyIDEyLjE4MzgwOTUsMCAxMC41LDAgQzguODE2MTkwNDgsMCA3LDEuODA0MjQyNDIgNywzLjU0NTQ1NDU1IEM3LDUuMjg2NjY2NjcgOC44MTYxOTA0OCw3IDEwLjUsNyBaIE0zLDYgTDMsNCBMMiw0IEwyLDYgTDAsNiBMMCw3IEwyLDcgTDIsOSBMMyw5IEwzLDcgTDUsNyBMNSw2IEwzLDYgWiBNMTAuNSw4IEM4LjQ2NTcxNDI5LDggNSw5LjMyODQ4NDg1IDUsMTEuNDI0MjQyNCBMNSwxMyBMMTYsMTMgTDE2LDExLjQyNDI0MjQgQzE2LDkuMzI4NDg0ODUgMTIuNTM0Mjg1Nyw4IDEwLjUsOCBaIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAxNiAyKSIvPgo8L3N2Zz4K");'] {
+background-image:url(https://i.imgur.com/NxDeThh.png)!important;
+background-size:19px 19px
 }
