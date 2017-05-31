@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5.5"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5.8"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -6758,6 +6758,20 @@ background-color:#232323;
 color:#e5e5e5!important
 }
 
+.message-group .btn-reaction {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+}
+
+.deprecated-settings-modal .settings-inner .settings-panel h1 {
+color:#e5e5e5
+}
+
+.emoji-picker .header .search-bar-icon {
+left:0px;
+top:4px
+}
+
 /* New Server Setting */
 
 .theme-dark .guild-settings-base-section .avatar-uploader .avatar-uploader-inner {
@@ -8381,4 +8395,286 @@ color:#ccc
 .popout-menu .popout-menu-icon[style*='background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIxOCIgaGVpZ2h0PSIxOCIgdmlld0JveD0iMCAwIDE2IDE2Ij4KICA8cGF0aCBmaWxsPSIjNzI4OURBIiBkPSJNMTAuNSw3IEMxMi4xODM4MDk1LDcgMTQsNS4yODY2NjY2NyAxNCwzLjU0NTQ1NDU1IEMxNCwxLjgwNDI0MjQyIDEyLjE4MzgwOTUsMCAxMC41LDAgQzguODE2MTkwNDgsMCA3LDEuODA0MjQyNDIgNywzLjU0NTQ1NDU1IEM3LDUuMjg2NjY2NjcgOC44MTYxOTA0OCw3IDEwLjUsNyBaIE0zLDYgTDMsNCBMMiw0IEwyLDYgTDAsNiBMMCw3IEwyLDcgTDIsOSBMMyw5IEwzLDcgTDUsNyBMNSw2IEwzLDYgWiBNMTAuNSw4IEM4LjQ2NTcxNDI5LDggNSw5LjMyODQ4NDg1IDUsMTEuNDI0MjQyNCBMNSwxMyBMMTYsMTMgTDE2LDExLjQyNDI0MjQgQzE2LDkuMzI4NDg0ODUgMTIuNTM0Mjg1Nyw4IDEwLjUsOCBaIiB0cmFuc2Zvcm09Im1hdHJpeCgtMSAwIDAgMSAxNiAyKSIvPgo8L3N2Zz4K");'] {
 background-image:url(https://i.imgur.com/NxDeThh.png)!important;
 background-size:19px 19px
+}
+
+/* Video Calls */
+
+.ui-video-background {
+background:#232323;
+box-shadow: inset 10px 10px 5px -6px rgba(0,0,0,1)!important;
+}
+
+.theme-dark .ui-video {
+background:transparent
+}
+
+.chat>.title-wrap.title-wrap-dark.call {
+background-color:#191919!important
+}
+
+.ui-call-avatar.voice {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000;
+}
+
+.ui-call-avatar-border.voice.speaking {
+border-radius:0
+}
+
+.theme-dark .private-channel-call.minimum .private-channel-call-actions .center {
+background-color:#232323;
+border-radius:0;
+border:none
+}
+
+.private-channel-call .button-exit.voice {
+background-color:#232323;
+border-radius:0
+}
+
+.private-channel-call .button-exit.voice ._3M8HCxCs:hover {
+color:#e5e5e5
+}
+
+.private-channel-call .toggle-button {
+-webkit-filter:greyscale(100%);
+filter:grayscale(100%);
+opacity:1
+}
+
+.theme-dark .ui-call-avatar.voice .ui-call-avatar-status {
+background-color:rgba(0,0,0,.45);
+height:26px;
+width:26px;
+border:none;
+border-radius:6px;
+top:0;
+left:0
+}
+
+.theme-dark .ui-quick-select-popout {
+background-color:#191919;
+border-radius:0
+}
+
+.theme-dark .ui-quick-select-popout-option:hover {
+background-color:#282828;
+}
+
+.small-popout-box {
+border-radius:0
+}
+
+/* Avatars */
+
+.private-channels .channel .avatar-small {
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border-radius:0
+}
+
+.guild-channels .channel-voice-states li .avatar-small {
+border-radius:0px;
+box-shadow:-1px 1px 2px #000,inset -1px 1px 2px #000,
+inset 1px -1px 2px #000,1px -1px 2px #000!important;
+border:none
+}
+
+.account .avatar-small {
+opacity:1;
+right:-105px;
+top:-25px;
+border-radius:0;
+box-shadow:-1px 1px 2px #000,inset -1px 1px 2px #000,
+inset 1px -1px 2px #000,1px -1px 2px #000!important
+}
+
+.message-group .avatar-large {
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border-radius:0;
+margin-left:6px;
+margin-bottom:8px;
+background-color:#232323
+}
+
+#friends .friends-table .friends-row .friends-column-name .avatar-small {
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border-radius:0;
+margin-left:6px
+}
+
+#friends .friends-table .friends-row .friends-column-guilds .avatar-small {
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border-radius:0
+}
+
+#friends .friends-table .friends-row .friends-suggestion-inner .avatar-large {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+margin-left:10px
+}
+
+.private-channel-recipients-invite .friend .avatar-small {
+border-radius:0px;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+.avatar-xxlarge {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+.avatar-xsmall {
+border-radius:0px;
+box-shadow:-1px 1px 2px #000,inset -1px 1px 2px #000,
+inset 1px -1px 2px #000,1px -1px 2px #000!important
+}
+
+.channel-members .avatar-small {
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border-radius:0
+}
+
+.user-popout .avatar-wrapper .avatar-popout {
+border:none;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border-radius:0;
+background-color:#232323
+}
+
+#autocomplete-popout .row .avatar-small {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+.avatar-uploader .avatar-uploader-inner {
+color:#b2b2b2;
+border-radius:0px!important;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border:none!important;
+background-color:#232323;
+background-repeat:no-repeat
+}
+
+.avatar-uploader .avatar-uploader-inner:hover {
+color:#b2b2b2;
+border-radius:0px!important;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border:none!important;
+opacity:.85
+}
+
+.instant-invites .instant-invites-list .instant-invite .show-channel .avatar-small {
+border-radius:0;
+box-shadow:-1px 1px 2px #000,inset -1px 1px 2px #000,
+inset 1px -1px 2px #000,1px -1px 2px #000!important
+}
+
+.instant-invites .instant-invites-list .instant-invite .member .avatar-small {
+border-radius:0;
+box-shadow:-1px 1px 2px #000,inset -1px 1px 2px #000,
+inset 1px -1px 2px #000,1px -1px 2px #000!important
+}
+
+.guild-settings-modal-members .guild-settings-modal-list .member .avatar-small {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+#settings-roles .roles li .avatar-small {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+#user-profile-modal .avatar-profile {
+border:hidden;
+background-color:rgba(0,0,0,0);
+border-radius:0px;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+#user-profile-modal .guilds .avatar-large {
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+border-radius:0px
+}
+
+.webhooks .webhook .webhook-header .avatar-large {
+border-radius:0!important;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+#rtc-debug-modal #users-section .user-list .avatar-small {
+border-radius:0;
+box-shadow:-1px 1px 2px #000,inset -1px 1px 2px #000,
+inset 1px -1px 2px #000,1px -1px 2px #000!important
+}
+
+.search-popout .option.user .display-avatar {
+box-shadow: -1px 1px 3px #000,
+inset -1px 1px 3px #000,inset 1px -1px 3px #000,1px -1px 3px #000!important;
+border-radius:2px
+}
+
+.invite-modal .avatar-xxxlarge {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+.theme-dark .guild-settings-base-section .avatar-uploader .avatar-uploader-inner {
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+}
+
+.ui-audit-log .ui-avatar {
+border-radius:4px;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+}
+
+.guild-settings-members-member .ui-avatar {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important;
+}
+
+.guild-settings-banned-user .ui-avatar {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+.guild-settings-members-member .member-avatar {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+._3yh-62Td {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000!important
+}
+
+.create-guild-container .avatar-uploader .avatar-uploader-inner {
+box-shadow:none!important;
+width:128px!important;
+height:128px!important
 }
