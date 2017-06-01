@@ -1,4 +1,4 @@
-//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.5.8"}*//{}
+//META{"name":"DuskCordP","description":"A dark and sleek discord","author":"Jadeonking","version":"3.5.9"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* If you would like the old red borders back use a CSS editor such as Atom or Notepad++
@@ -6699,6 +6699,15 @@ left:0px;
 top:4px
 }
 
+.theme-dark .ui-search-bar {
+background-color:#191919;
+border-radius:0
+}
+
+.quickswitcher.dark .ui-scroller-wrap:before {
+background-image:none
+}
+
 /* New Server Setting */
 
 .theme-dark .guild-settings-base-section .avatar-uploader .avatar-uploader-inner {
@@ -7856,7 +7865,7 @@ box-shadow:inset 0 -.8px 0 0 #303030
 
 /* Keybinds */
 
-.ghost-pill.cursor-default.ui-flex-child {
+.user-settings-keybinds .ghost-pill {
 background-color:#383838;
 border-radius:0;
 color:#e5e5e5
@@ -8297,7 +8306,7 @@ background-color:#191919
 }
 
 .private-channel-recipients-invite .ui-scroller-wrap .scroller::-webkit-scrollbar-thumb {
-border:22px solid #383838!important
+border:20px solid #383838!important
 }
 
 .private-channel-recipients-invite .friend .checkbox .checkbox-inner span {
