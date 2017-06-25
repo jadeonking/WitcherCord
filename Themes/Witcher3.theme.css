@@ -1,4 +1,4 @@
-//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5.9"}*//{}
+//META{"name":"Witcher3","description":"The Witcher 3 Dark Theme","author":"Jadeonking","version":"3.5.9.1"}*//{}
 /* **DISCLAIMER** Switches and Small User List Designed by Beard Design */
 
 /* if you wish to hide blocked messages change display: to display:none */
@@ -515,13 +515,6 @@ color:#e5e5e5
 .private-channels .search-bar input {
 background:#232323!important;
 color:#e5e5e5
-}
-
-.guild-channels .channel.selected,.private-channels .channel.selected,.private-channels .search-result.selected,.private-channels .search-result:hover {
-background:#191919!important;
-width:90%;
-border-radius:0px;
-padding-right:10px
 }
 
 .guild-channels .channel:not(.selected):hover {
@@ -8686,4 +8679,108 @@ inset 1px -1px 4px #000,1px -1px 4px #000!important
 box-shadow:none!important;
 width:128px!important;
 height:128px!important
+}
+
+/* Bug Fixes */
+
+.container-RYiLUQ {
+background:transparent
+}
+
+.container-iksrDt {
+background-color:#232323;
+height:95px;
+border-top:6px solid #900
+}
+
+.accountDetails-15i-_e .username {
+display:none
+}
+
+.accountDetails-15i-_e .discriminator {
+font-size:16px;
+padding-left:35px;
+top:11px;
+position:relative;
+color:#e5e5e5;
+opacity:1
+}
+
+.container-iksrDt .avatar-small {
+border-radius:0;
+box-shadow:-1px 1px 4px #000,inset -1px 1px 4px #000,
+inset 1px -1px 4px #000,1px -1px 4px #000;
+width:38px;
+height:38px;
+background-size:38px 38px;
+left:90px;
+top:-22px
+}
+
+.container-iksrDt .horizontal-2VE-Fw {
+position:relative;
+top:33px;
+left:-70px
+}
+
+.container-RYiLUQ .contentSelectedText-3j5CXt {
+background-color:#232323;
+border-radius:0
+}
+
+.container-RYiLUQ .contentHoveredText-2HYGIY {
+background:none
+}
+
+.nameHoveredText-2FFqiz {
+color:#e5e5e5;
+opacity:.5
+}
+
+.container-RYiLUQ .nameDefaultText-QoumjC {
+color:#b2b2b2
+}
+
+.nameDefault-Lnjrwm {
+color:#e5e5e5
+}
+
+.nameDefaultVoice-1swZoh {
+color:#b2b2b2
+}
+
+.nameHoveredVoice-TIoHRJ {
+color:#e5e5e5;
+opacity:.5
+}
+
+.container-RYiLUQ .iconSpacing-5GIHkT {
+display:none
+}
+
+.container-3lnMWU {
+background:transparent
+}
+
+.inner-ptMwR- .channel-3YGMy1 {
+color:#ccc;
+opacity:1
+}
+
+.container-RYiLUQ .icon-3tVJnl {
+opacity:1
+}
+
+.nameLockedVoice-wNOMNa {
+color:#b2b2b2
+}
+
+.private-channels .channel.selected a {
+background-color:#191919;
+border-radius:0;
+width:90%
+}
+
+.private-channels .channel:not(.selected):hover a {
+background:none
 }
